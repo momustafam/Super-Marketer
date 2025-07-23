@@ -43,7 +43,7 @@ const Sidebar = () => {
   return (
     <Box
       sx={{
-        height: "100%",
+        height: "100vh",
         zIndex: 1000,
         "& .ps-sidebar-root": {
           border: "none",
@@ -95,7 +95,7 @@ const Sidebar = () => {
           {/* USER PROFILE */}
           {!isCollapsed && (
             <Box sx={{mb: "25px"}}>
-                <Box 
+                <Box
                 sx={{
                     display: "flex",
                     justifyContent: "center",
