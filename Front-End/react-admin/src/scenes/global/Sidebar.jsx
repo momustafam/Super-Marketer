@@ -7,7 +7,6 @@ import HomeOutlinedIcon from "@mui/icons-material/HomeOutlined";
 import PeopleOutlinedIcon from "@mui/icons-material/PeopleOutlined";
 import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 import RateReviewOutlinedIcon from "@mui/icons-material/RateReviewOutlined";
-import AnalyticsOutlinedIcon from "@mui/icons-material/AnalyticsOutlined";
 import BarChartOutlinedIcon from "@mui/icons-material/BarChartOutlined";
 import DonutLargeOutlinedIcon from "@mui/icons-material/DonutLargeOutlined";
 import PublicOutlinedIcon from "@mui/icons-material/PublicOutlined";
@@ -44,6 +43,8 @@ const Sidebar = () => {
   return (
     <Box
       sx={{
+        height: "100%",
+        zIndex: 1000,
         "& .ps-sidebar-root": {
           border: "none",
         },
@@ -186,16 +187,16 @@ const Sidebar = () => {
                 Insights
             </Typography>
             <Item
-                title="Statistics"
-                to="/insights/stats"
-                icon={<AnalyticsOutlinedIcon />}
+                title="Age Distribution"
+                to="/insights/age"
+                icon={<AreaChartIcon />}
                 selected={selected}
                 setSelected={setSelected}
             />
             <Item
-                title="Age Distribution"
-                to="/insights/age"
-                icon={<AreaChartIcon />}
+                title="Transactions by Day"
+                to="/insights/transactions"
+                icon={<TimelineOutlinedIcon />}
                 selected={selected}
                 setSelected={setSelected}
             />
@@ -210,13 +211,6 @@ const Sidebar = () => {
                 title="Density Map"
                 to="/insights/map"
                 icon={<PublicOutlinedIcon />}
-                selected={selected}
-                setSelected={setSelected}
-            />
-            <Item
-                title="Transactions by Day"
-                to="/insights/transactions"
-                icon={<TimelineOutlinedIcon />}
                 selected={selected}
                 setSelected={setSelected}
             />

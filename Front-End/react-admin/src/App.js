@@ -8,6 +8,8 @@ import AddTeamMember from './scenes/addTeamMember';
 import Bar from "./scenes/barChart";
 import Pie from "./scenes/pieChart";
 import Line from "./scenes/lineChart";
+import TransLine from "./scenes/transLineChart";
+import Geography from "./scenes/geographyChart";
 import { ColorModeContext, useMode } from './theme';
 import { CssBaseline, ThemeProvider } from '@mui/material';
 
@@ -28,8 +30,10 @@ function App() {
               <Route path="/auth/team-members" element={<TeamMembers />} />
               <Route path="/auth/add-team-member" element={<AddTeamMember />} />
               <Route path="/insights/age" element={<Line />} />
+              <Route path="/insights/transactions" element={<TransLine />} />
               <Route path="/insights/services" element={<Bar />} />
               <Route path="/insights/gender" element={<Pie />} />
+              <Route path="/insights/map" element={<Geography />} />
             </Routes>
           </main>
         </div>
