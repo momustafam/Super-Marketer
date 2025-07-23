@@ -1,0 +1,2001 @@
+user_id,age,birth_month,birth_year,gender,address,city,state,zipcode,latitude,longitude,yearly_income,num_credit_cards
+0,53,11,1966,Female,462 Rose Lane,La Verne,CA,91750,34.15,-117.76,59696.0,5
+1,53,12,1966,Female,3606 Federal Boulevard,Little Neck,NY,11363,40.76,-73.74,77254.0,5
+2,81,11,1938,Female,766 Third Drive,West Covina,CA,91792,34.02,-117.89,33483.0,5
+3,63,1,1957,Female,3 Madison Street,New York,NY,10069,40.71,-73.99,249925.0,4
+4,43,9,1976,Male,9620 Valley Stream Drive,San Francisco,CA,94117,37.76,-122.44,109687.0,1
+5,42,10,1977,Male,58 Birch Lane,Davenport,IA,52803,41.55,-90.60,41997.0,3
+6,36,12,1983,Female,5695 Fifth Street,Louisville,KY,40299,38.22,-85.74,51500.0,3
+7,26,12,1993,Male,1941 Ninth Street,Portland,OR,97214,45.51,-122.64,54623.0,1
+8,81,7,1938,Female,11 Spruce Avenue,Telford,PA,18969,40.32,-75.32,42509.0,5
+9,34,1,1986,Female,887 Grant Street,Abbeville,LA,70510,29.97,-92.12,38190.0,1
+10,27,6,1992,Male,888 Fifth Lane,Fair Oaks,CA,95628,38.65,-121.25,56164.0,2
+11,29,9,1990,Female,8677 Littlewood Lane,Greeley,CO,80634,40.42,-104.74,45727.0,1
+12,18,1,2002,Female,829 Fourth Boulevard,Cranston,RI,02921,41.76,-71.48,69149.0,1
+13,34,10,1985,Male,74786 Jefferson Drive,Traverse City,MI,49686,44.75,-85.60,41442.0,3
+14,48,5,1971,Female,781 East Street,San Antonio,TX,78207,29.45,-98.50,20513.0,1
+15,41,4,1978,Female,40 Washington Drive,Boise City,OK,73933,36.73,-102.51,23123.0,6
+16,54,1,1966,Male,3994 Hillside Drive,Henderson,TX,75652,32.15,-94.79,36497.0,6
+17,76,8,1943,Female,172 Birch Street,Flagstaff,AZ,86004,35.29,-111.32,27484.0,4
+18,22,11,1997,Male,8145 Spruce Boulevard,Charlotte,NC,28269,35.19,-80.83,53995.0,3
+19,66,10,1953,Male,153 Tenth Lane,Tucson,AZ,85711,32.21,-110.88,35602.0,5
+20,28,8,1991,Male,2473 Lake Avenue,Helena,GA,31037,32.07,-82.91,25122.0,3
+21,18,1,2002,Male,970 Essex Drive,Portola Valley,CA,94028,37.37,-122.21,216740.0,2
+22,76,6,1943,Male,9186 Washington Avenue,Cleveland,OH,44134,41.47,-81.67,41109.0,2
+23,70,4,1949,Male,5073 Wessex Avenue,Tyronza,AR,72386,35.49,-90.35,26858.0,2
+24,45,1,1975,Male,195 Eighth Boulevard,Central Point,OR,97502,42.39,-122.93,34929.0,1
+25,36,8,1983,Female,801 Mill Boulevard,Mesa,AZ,85201,33.44,-111.85,34317.0,3
+26,40,4,1979,Female,6914 Wessex Avenue,Houston,TX,77061,29.76,-95.38,31377.0,2
+27,37,9,1982,Male,776 Norfolk Boulevard,Van Nuys,CA,91411,34.17,-118.46,43638.0,1
+28,41,11,1978,Male,2015 Bayview Avenue,Cookeville,TN,38501,36.15,-85.50,32531.0,2
+29,37,2,1983,Female,108 Washington Street,Whites Creek,TN,37189,36.28,-86.83,42120.0,4
+30,18,5,2001,Male,660 Seventh Drive,Columbus,OH,43230,39.98,-82.98,57281.0,1
+31,49,9,1970,Male,7505 Tenth Boulevard,Miami,FL,33175,25.77,-80.20,38390.0,4
+32,33,9,1986,Female,4930 Birch Drive,Southport,NC,28461,33.92,-78.02,35670.0,2
+33,21,9,1998,Female,93 Plum Lane,Old Saybrook,CT,06475,41.29,-72.36,61746.0,2
+34,47,11,1972,Female,837 Lincoln Avenue,Mobile,AL,36693,30.68,-88.04,43496.0,3
+35,41,8,1978,Male,7467 Spruce Drive,Sacramento,CA,95829,38.48,-121.34,51854.0,2
+36,51,4,1968,Female,6323 Sussex Boulevard,Chula Vista,CA,91911,32.61,-117.03,34540.0,5
+37,46,11,1973,Male,8738 Fourth Street,Hanover Park,IL,60133,41.97,-88.14,41287.0,1
+38,46,10,1973,Male,9344 Mill Drive,Seaside,CA,93955,36.62,-121.82,38054.0,1
+39,59,2,1961,Female,299 11th Street,Northborough,MA,01532,42.31,-71.64,80371.0,1
+40,91,2,1929,Female,5492 Maple Drive,Overland Park,KS,66221,38.90,-94.68,84694.0,7
+41,79,2,1941,Male,829 Birch Boulevard,Corpus Christi,TX,78410,27.80,-97.39,37503.0,5
+42,57,12,1962,Male,41011 Seventh Boulevard,Chandler,AZ,85226,33.27,-111.94,65357.0,4
+43,26,1,1994,Female,613 Little Creek Lane,Immokalee,FL,34142,26.41,-81.42,22066.0,1
+44,42,11,1977,Male,1942 Rose Avenue,Port Orange,FL,32128,29.10,-81.00,44681.0,3
+45,26,2,1994,Male,5101 Birch Lane,Maryland Heights,MO,63043,38.72,-90.47,51306.0,1
+46,18,2,2002,Female,7 11th Drive,San Antonio,TX,78210,29.45,-98.50,25847.0,1
+47,60,11,1959,Female,2468 Spruce Drive,Longwood,FL,32750,28.70,-81.34,46683.0,5
+48,61,11,1958,Male,8001 Essex Boulevard,Milwaukee,WI,53210,43.06,-87.96,31579.0,3
+49,47,10,1972,Male,708 George Street,Camilla,GA,31730,31.22,-84.21,28055.0,3
+50,42,12,1977,Female,28 Hillside Boulevard,Canton,MI,48188,42.30,-83.48,65403.0,4
+51,55,11,1964,Female,446 Birch Drive,La Follette,TN,37766,36.37,-84.12,27572.0,1
+52,48,12,1971,Female,578 Maple Avenue,Inman,SC,29349,35.05,-82.09,38539.0,3
+53,41,7,1978,Female,14 Valley Drive,Poca,WV,25159,38.47,-81.81,38059.0,2
+54,59,11,1960,Female,2475 Little Creek Boulevard,Leander,TX,78641,30.56,-97.86,52754.0,5
+55,45,2,1975,Male,9604 Catherine Drive,Rego Park,NY,11374,40.72,-73.86,51196.0,4
+56,26,7,1993,Male,349 First Drive,Atlanta,GA,30318,33.78,-84.44,49713.0,1
+57,21,4,1998,Female,7914 Essex Boulevard,Toledo,OH,43623,41.66,-83.58,44160.0,3
+58,46,5,1973,Female,524 Ocean Drive,Houston,TX,77056,29.76,-95.38,193773.0,1
+59,41,2,1979,Female,2079 Maple Drive,Mount Union,PA,17066,40.38,-77.88,29864.0,2
+60,22,7,1997,Male,295 Valley Drive,San Antonio,TX,78232,29.45,-98.50,57367.0,2
+61,63,2,1957,Female,2883 Ocean View Boulevard,Black Diamond,WA,98010,47.32,-121.99,56635.0,8
+62,44,3,1975,Male,5125 Elm Drive,Ogden,UT,84414,41.31,-111.96,47227.0,4
+63,22,10,1997,Male,4098 Park Drive,Fort Worth,TX,76115,32.75,-97.33,24574.0,3
+64,29,1,1991,Female,892 Spruce Street,Saint Albans,NY,11412,40.69,-73.75,43397.0,2
+65,28,6,1991,Female,9977 Oak Avenue,Oxford,MD,21654,38.68,-76.17,58105.0,3
+66,82,6,1937,Male,79 South Boulevard,Gonzales,TX,78629,29.50,-97.44,10869.0,2
+67,90,6,1929,Female,145 River Drive,Allentown,PA,18102,40.59,-75.47,19893.0,3
+68,63,8,1956,Male,7605 Essex Boulevard,Mount Vernon,OH,43050,40.39,-82.47,36743.0,2
+69,49,7,1970,Female,480 Seventh Lane,Trenton,NJ,08610,40.22,-74.76,46377.0,3
+70,36,10,1983,Female,5506 Fifth Boulevard,Gardena,CA,90248,33.88,-118.27,50179.0,1
+71,30,11,1989,Male,136 Spruce Street,Petaluma,CA,94955,38.22,-122.55,54537.0,4
+72,23,12,1996,Male,306 First Drive,Apopka,FL,32712,28.68,-81.51,49255.0,2
+73,42,10,1977,Male,272 Burns Boulevard,Summit Argo,IL,60501,41.77,-87.82,31031.0,7
+74,65,1,1955,Male,190 Sixth Drive,Rockwall,TX,75032,32.92,-96.45,70673.0,4
+75,87,10,1932,Female,8569 Wessex Boulevard,Birmingham,AL,35211,33.52,-86.79,16342.0,5
+76,22,9,1997,Male,385 Lexington Boulevard,Seminole,TX,79360,32.71,-102.65,30961.0,1
+77,58,3,1961,Female,407 Park Lane,Islandton,SC,29929,32.90,-80.93,30305.0,3
+78,30,3,1989,Male,5142 Little Creek Street,Edmond,OK,73034,35.67,-97.41,68784.0,4
+79,25,8,1994,Female,224 Mountain View Boulevard,Kalispell,MT,59901,48.19,-114.38,34745.0,4
+80,18,11,2001,Female,4735 Fifth Avenue,Baton Rouge,LA,70808,30.44,-91.12,64715.0,3
+81,59,2,1961,Female,4793 North Street,Mars,PA,16046,40.69,-80.01,80464.0,3
+82,18,2,2002,Female,72 El Camino Boulevard,Pittsburgh,PA,15220,40.43,-79.97,49748.0,1
+83,61,11,1958,Male,381 Fifth Lane,Ontario,CA,91764,34.07,-117.62,41904.0,4
+84,54,9,1965,Female,393 Mountain View Lane,Newport Coast,CA,92657,33.60,-117.82,196784.0,3
+85,27,3,1992,Female,293 Wessex Street,Northville,MI,48168,42.40,-83.60,100837.0,2
+86,32,6,1987,Male,7276 Fourth Drive,Fenton,MI,48430,42.80,-83.71,51654.0,4
+87,64,6,1955,Female,327 Lafayette Boulevard,Lancaster,OH,43130,39.72,-82.59,38088.0,2
+88,18,8,2001,Male,2846 Lake Avenue,Welsh,LA,70591,30.23,-92.81,36866.0,2
+89,52,9,1967,Male,2093 Ocean Street,Oakland,CA,94606,37.78,-122.24,37607.0,5
+90,49,10,1970,Female,981 Fifth Boulevard,Fort Morgan,CO,80701,40.26,-103.79,34480.0,1
+91,43,1,1977,Male,18 Norfolk Boulevard,Madison,WI,53716,43.07,-89.38,48279.0,2
+92,36,7,1983,Male,977 Littlewood Avenue,Panama City,FL,32401,30.17,-85.67,32896.0,2
+93,18,6,2001,Male,993 Mountain View Avenue,Perris,CA,92570,33.78,-117.33,29909.0,2
+94,37,12,1982,Female,896 Rose Street,Minneapolis,MN,55433,44.96,-93.26,47464.0,1
+95,23,5,1996,Female,2418 Mill Drive,San Jose,CA,95129,37.30,-122.00,85128.0,1
+96,54,9,1965,Male,3683 Fifth Street,Mount Holly,NC,28120,35.30,-81.03,45852.0,2
+97,33,7,1986,Female,0 Elm Street,Glendale,AZ,85301,33.53,-112.18,26556.0,2
+98,63,11,1956,Female,2302 Catherine Lane,Hollywood,FL,33024,26.02,-80.16,40194.0,6
+99,22,2,1998,Male,213 Rose Drive,Irving,TX,75038,32.85,-96.96,62135.0,2
+100,48,1,1972,Male,8975 Littlewood Boulevard,Cape Coral,FL,33914,26.63,-81.99,39303.0,7
+101,63,3,1956,Female,1389 Park Lane,Waldorf,MD,20603,38.64,-76.90,71593.0,3
+102,75,12,1944,Male,2890 Eighth Lane,Maywood,IL,60153,41.88,-87.84,22158.0,5
+103,62,6,1957,Male,20 Littlewood Boulevard,Howard Beach,NY,11414,40.66,-73.84,53996.0,4
+104,28,10,1991,Female,6413 Second Street,Pensacola,FL,32505,30.44,-87.18,26025.0,4
+105,25,11,1994,Female,611 Elm Lane,Yonkers,NY,10710,40.94,-73.86,63816.0,1
+106,56,1,1964,Female,889 Martin Luther King Avenue,Apex,NC,27502,35.72,-78.84,66230.0,3
+107,56,10,1963,Male,336 Rose Avenue,Chicago,IL,60616,41.83,-87.68,36335.0,2
+108,59,2,1961,Female,4254 Plum Lane,Westminster,CA,92683,33.74,-117.99,39633.0,3
+109,43,8,1976,Female,825 Sussex Avenue,Dyer,IN,46311,41.50,-87.50,57185.0,3
+110,37,11,1982,Male,185 Forest Drive,Marietta,GA,30068,33.95,-84.54,82637.0,2
+111,60,1,1960,Female,561 Martin Luther King Avenue,Novi,MI,48375,42.47,-83.49,31121.0,5
+112,47,11,1972,Male,335 Valley Stream Boulevard,Gonzales,TX,78629,29.50,-97.44,30774.0,3
+113,48,12,1971,Male,1773 Hill Street,Shelbyville,IL,62565,39.40,-88.80,33236.0,1
+114,35,10,1984,Male,55 Ocean View Street,Amarillo,TX,79110,35.20,-101.81,37947.0,3
+115,24,11,1995,Male,8245 El Camino Lane,Wichita,KS,67207,37.68,-97.34,43875.0,1
+116,26,5,1993,Female,9530 Washington Street,Novato,CA,94947,38.10,-122.63,61850.0,9
+117,28,5,1991,Male,221 Lexington Avenue,Savannah,GA,31420,32.08,-81.10,40314.0,4
+118,26,8,1993,Male,2484 Norfolk Drive,Milford,DE,19963,38.91,-75.43,37968.0,3
+119,41,11,1978,Male,133 Grant Lane,Fremont,MI,49412,43.46,-85.95,34954.0,3
+120,40,9,1979,Male,1977 Lake Avenue,Woodland Hills,CA,91364,34.15,-118.60,95945.0,2
+121,18,2,2002,Female,352 George Street,Fort Gratiot,MI,48059,43.07,-82.49,33844.0,2
+122,66,4,1953,Male,554 Grant Boulevard,Andover,KS,67002,37.69,-97.13,65573.0,4
+123,40,7,1979,Male,631 Ocean View Street,Madison,WI,53704,43.07,-89.38,48609.0,3
+124,45,5,1974,Female,31 Jefferson Boulevard,Fernwood,ID,83830,47.09,-116.46,25723.0,3
+125,19,3,2000,Female,973 Federal Avenue,Daphne,AL,36526,30.62,-87.89,51984.0,3
+126,34,2,1986,Male,95266 Bayview Drive,Oakland,CA,94611,37.83,-122.22,107683.0,3
+127,24,2,1996,Female,932 Essex Street,Perris,CA,92571,33.83,-117.20,32847.0,2
+128,57,1,1963,Male,126 Valley Drive,Jackson,MS,39213,32.32,-90.20,22556.0,4
+129,35,9,1984,Female,239 South Drive,Aberdeen,MD,21001,39.51,-76.17,46063.0,1
+130,19,9,2000,Female,1134 Valley Drive,Farmington,CT,06032,41.71,-72.83,95348.0,3
+131,28,1,1992,Female,5863 Grant Avenue,Wellsville,KS,66092,38.71,-95.08,45180.0,2
+132,37,4,1982,Male,3472 11th Avenue,Orlando,FL,32822,28.50,-81.37,30865.0,1
+133,20,11,1999,Male,5590 Bayview Avenue,Avoca,MI,48006,43.05,-82.67,41543.0,4
+134,53,9,1966,Male,94 Jefferson Drive,Tyler,TX,75706,32.32,-95.30,30198.0,6
+135,45,12,1974,Female,582 Birch Boulevard,Fort Myers,FL,33901,26.63,-81.85,40006.0,1
+136,53,5,1966,Male,809 Mountain View Boulevard,Olathe,KS,66062,38.88,-94.81,61646.0,3
+137,39,10,1980,Female,6339 Fourth Street,Reisterstown,MD,21136,39.45,-76.81,67643.0,6
+138,86,5,1933,Female,81 Hill Avenue,Detroit,MI,48235,42.38,-83.10,22650.0,6
+139,63,10,1956,Male,28136 Wessex Street,Brooklyn,NY,11212,40.64,-73.94,30288.0,4
+140,67,10,1952,Male,8787 Rose Avenue,San Francisco,CA,94112,37.72,-122.44,47213.0,5
+141,76,10,1943,Female,96 Ninth Lane,Konawa,OK,74849,34.95,-96.75,28215.0,2
+142,32,4,1987,Male,3249 12th Drive,Woodinville,WA,98077,47.75,-122.04,105515.0,4
+143,36,12,1983,Male,9340 Valley Street,Bradenton,FL,34207,27.48,-82.57,28489.0,4
+144,63,9,1956,Female,6429 Fifth Avenue,Charlotte,NC,28226,35.19,-80.83,81048.0,4
+145,19,12,2000,Female,849 George Avenue,Easton,MD,21601,38.77,-76.06,47263.0,2
+146,19,7,2000,Male,804 Seventh Boulevard,Redding,CA,96002,40.52,-122.32,33816.0,1
+147,25,9,1994,Female,76009 Valley Stream Boulevard,Waukegan,IL,60085,42.37,-87.86,32160.0,1
+148,83,8,1936,Female,387 Third Boulevard,Rio Rico,AZ,85648,31.50,-111.06,29494.0,5
+149,68,3,1951,Female,6398 Lake Lane,Franklin,TN,37067,35.92,-86.84,70554.0,5
+150,63,9,1956,Male,786 12th Drive,Wheeling,IL,60090,42.13,-87.92,33686.0,2
+151,92,8,1927,Female,290 Forest Street,Tucson,AZ,85749,32.28,-110.73,57732.0,6
+152,21,3,1998,Male,320 Hillside Lane,Memphis,TN,38106,35.10,-90.00,21879.0,1
+153,28,5,1991,Male,437 Ocean View Drive,State College,PA,16801,40.79,-77.85,51041.0,1
+154,18,1,2002,Male,9850 Birch Drive,West Roxbury,MA,02132,42.28,-71.16,70380.0,2
+155,25,8,1994,Male,55 Third Drive,Elmwood Park,IL,60707,41.92,-87.81,42617.0,5
+156,75,7,1944,Male,177 Mill Boulevard,Manahawkin,NJ,08050,39.69,-74.25,46031.0,5
+157,55,10,1964,Female,886 Little Creek Drive,Delmar,NY,12054,42.62,-73.83,65094.0,3
+158,27,2,1993,Female,327 Seventh Boulevard,Lexington,KY,40517,38.04,-84.45,37268.0,1
+159,53,2,1967,Female,8224 Fourth Drive,Waterbury,CT,06705,41.55,-73.03,38972.0,3
+160,63,2,1957,Female,174 Catherine Boulevard,Compton,CA,90222,33.91,-118.23,26661.0,5
+161,48,9,1971,Male,496 Hill Lane,Minneapolis,MN,55419,44.96,-93.26,82295.0,4
+162,47,9,1972,Male,23068 Park Street,Lansing,NC,28643,36.49,-81.50,25748.0,3
+163,56,11,1963,Male,27019 Madison Lane,Bean Station,TN,37708,36.34,-83.28,27861.0,5
+164,18,12,2001,Male,293 First Boulevard,Redlands,CA,92374,34.06,-117.17,48561.0,1
+165,66,4,1953,Female,8929 Essex Drive,Bloomington,IN,47403,39.16,-86.52,38999.0,4
+166,62,4,1957,Male,1569 George Boulevard,Bailey,NC,27807,35.78,-78.11,33112.0,2
+167,34,10,1985,Female,326 Elm Lane,Charlotte,NC,28211,35.19,-80.83,100880.0,1
+168,22,11,1997,Male,32 Valley Drive,Oxnard,CA,93031,34.21,-119.18,37058.0,2
+169,24,3,1995,Male,4132 Norfolk Boulevard,Hyattsville,MD,20785,38.95,-76.95,47234.0,3
+170,45,5,1974,Female,819 El Camino Boulevard,Cushing,OK,74023,35.97,-96.76,35142.0,4
+171,43,3,1976,Female,742 Lake Street,Coos Bay,OR,97420,43.37,-124.14,30721.0,3
+172,56,12,1963,Female,607 George Boulevard,Acworth,GA,30101,34.05,-84.67,58846.0,3
+173,29,6,1990,Male,704 Eighth Avenue,Waterville,NY,13480,42.93,-75.38,39069.0,2
+174,20,2,2000,Female,8643 Lafayette Boulevard,Lawrenceville,GA,30043,33.94,-83.99,49449.0,3
+175,39,3,1980,Female,63 Plum Street,Stearns,KY,42647,36.69,-84.47,22312.0,5
+176,32,4,1987,Male,5381 12th Boulevard,Miami,OK,74355,36.88,-94.87,36388.0,4
+177,52,8,1967,Female,65 Fifth Boulevard,Saint Cloud,FL,34771,28.24,-81.28,45037.0,3
+178,47,10,1972,Female,2614 Eighth Lane,Waupaca,WI,54981,44.35,-89.07,38615.0,4
+179,40,7,1979,Male,196 Plum Lane,Bronx,NY,10458,40.84,-73.87,28229.0,5
+180,58,11,1961,Female,444 Maple Avenue,Noblesville,IN,46060,40.05,-86.03,50232.0,4
+181,59,5,1960,Male,868 Maple Drive,Greenville,KY,42345,37.20,-87.17,34350.0,3
+182,47,11,1972,Male,6009 River Avenue,Canton,GA,30114,34.24,-84.49,52308.0,1
+183,27,8,1992,Female,2058 Spruce Street,Saint Petersburg,FL,33709,27.75,-82.64,32061.0,1
+184,75,2,1945,Male,6930 East Lane,Tooele,UT,84074,40.57,-112.33,21154.0,6
+185,52,10,1967,Female,31204 El Camino Lane,Austin,TX,78728,30.26,-97.74,52186.0,4
+186,43,5,1976,Female,967 First Avenue,Pierceton,IN,46562,41.19,-85.70,35264.0,2
+187,84,9,1935,Female,136 Hillside Avenue,Walnut Creek,CA,94598,37.91,-122.01,79870.0,2
+188,70,12,1949,Female,669 South Street,Barnstable,MA,02630,41.70,-70.30,41902.0,5
+189,24,8,1995,Female,66992 Second Street,Las Vegas,NV,89131,36.30,-115.24,63969.0,1
+190,47,7,1972,Male,208 Park Avenue,Lyndonville,VT,05851,44.53,-72.00,34606.0,5
+191,32,11,1987,Male,335 Main Street,Atlanta,GA,30310,33.72,-84.42,26631.0,1
+192,39,11,1980,Male,532 12th Drive,Palm Bay,FL,32907,27.98,-80.66,35978.0,3
+193,64,10,1955,Male,1350 Lake Drive,Van Alstyne,TX,75495,33.41,-96.57,49756.0,4
+194,37,6,1982,Male,691 First Lane,Nashville,TN,37221,36.17,-86.78,60897.0,3
+195,58,3,1961,Female,511 Grant Avenue,Dawsonville,GA,30534,34.42,-84.11,41963.0,1
+196,37,7,1982,Female,3510 Mountain View Street,Minneapolis,MN,55432,44.96,-93.26,44976.0,1
+197,27,9,1992,Male,9264 Lake Avenue,Grand Prairie,TX,75052,32.69,-97.01,46733.0,2
+198,26,4,1993,Female,596 Mountain View Lane,Centerville,MA,02632,41.66,-70.34,47160.0,1
+199,23,7,1996,Male,374 East Lane,West Lafayette,IN,47906,40.44,-86.91,50433.0,3
+200,20,8,1999,Male,51 George Avenue,Federal Way,WA,98023,47.30,-122.37,51713.0,1
+201,45,8,1974,Male,3916 Tenth Boulevard,Fort Worth,TX,76106,32.75,-97.33,24215.0,6
+202,49,9,1970,Male,813 Fifth Boulevard,Caledonia,OH,43314,40.63,-82.96,37298.0,1
+203,25,12,1994,Male,8931 Norfolk Drive,Mesa,AZ,85203,33.44,-111.80,40457.0,1
+204,58,6,1961,Male,8996 Third Street,Arlington,MA,02476,42.41,-71.16,82974.0,2
+205,46,7,1973,Female,33 Tenth Street,Huntington Station,NY,11746,40.84,-73.40,71103.0,4
+206,43,5,1976,Female,5528 Lake Lane,Muse,PA,15350,40.32,-80.21,29194.0,2
+207,52,10,1967,Male,8824 Hillside Avenue,Hendersonville,NC,28739,35.32,-82.46,33465.0,3
+208,20,6,1999,Female,69 Norfolk Avenue,Warren,OH,44483,41.23,-80.81,31314.0,4
+209,36,7,1983,Male,57 Pine Boulevard,Tulsa,OK,74110,36.12,-95.91,23718.0,2
+210,46,6,1973,Female,9528 Hill Street,Arnold,MD,21012,39.04,-76.49,72670.0,3
+211,24,4,1995,Female,8251 Park Lane,Dublin,OH,43016,40.11,-83.13,77972.0,3
+212,38,10,1981,Female,177 Maple Boulevard,Van Buren,AR,72956,35.44,-94.35,34854.0,5
+213,25,12,1994,Female,299 Oak Boulevard,Mcminnville,OR,97128,45.19,-123.24,36902.0,1
+214,28,12,1991,Female,7087 Plum Street,Saint Petersburg,FL,33706,27.75,-82.64,53984.0,1
+215,80,3,1939,Male,614 Spruce Avenue,Whitehouse Station,NJ,08889,40.60,-74.76,104692.0,2
+216,24,5,1995,Female,625 Washington Lane,Kirkland,WA,98033,47.67,-122.18,101191.0,1
+217,38,10,1981,Male,311 Fifth Drive,Ann Arbor,MI,48103,42.27,-83.73,69566.0,4
+218,21,4,1998,Male,966 Sussex Boulevard,Villa Park,IL,60181,41.88,-87.97,49382.0,1
+219,41,1,1979,Female,9059 Eighth Avenue,Bakersville,NC,28705,36.01,-82.15,28733.0,3
+220,87,8,1932,Male,4713 First Boulevard,Columbia City,IN,46725,41.15,-85.48,30349.0,4
+221,31,3,1988,Male,4165 Valley Avenue,Glen Carbon,IL,62034,38.76,-89.97,58538.0,1
+222,32,8,1987,Female,38 Catherine Boulevard,Saint Petersburg,FL,33705,27.75,-82.64,36901.0,4
+223,70,1,1950,Male,3485 Federal Avenue,Cochranville,PA,19330,39.87,-75.92,49531.0,6
+224,68,8,1951,Male,198 Main Boulevard,Chicago,IL,60653,41.83,-87.68,35370.0,1
+225,45,1,1975,Female,891 Fourth Avenue,Wooster,OH,44691,40.81,-81.93,38666.0,1
+226,24,12,1995,Female,8094 Catherine Lane,Lowell,MA,01851,42.63,-71.32,41714.0,3
+227,32,8,1987,Male,41 Plum Boulevard,Lottsburg,VA,22511,37.96,-76.51,24505.0,1
+228,43,1,1977,Male,2974 Grant Avenue,Valley Stream,NY,11580,40.66,-73.70,56640.0,4
+229,53,10,1966,Female,456 Lincoln Boulevard,Orchard Park,NY,14127,42.76,-78.74,61578.0,2
+230,53,11,1966,Female,1959 Forest Street,Rockford,IL,61107,42.27,-89.06,50139.0,3
+231,21,12,1998,Male,74 Hill Avenue,Minneapolis,KS,67467,39.12,-97.70,34646.0,1
+232,22,1,1998,Male,5274 Martin Luther King Lane,Fort Worth,TX,76164,32.75,-97.33,25024.0,2
+233,41,1,1979,Female,136 South Street,Chicago,IL,60619,41.83,-87.68,32856.0,3
+234,41,10,1978,Female,560 Summit Street,Hillsboro,IL,62049,39.16,-89.48,36080.0,3
+235,32,11,1987,Female,593 Washington Drive,Garland,TX,75042,32.91,-96.62,29637.0,3
+236,56,2,1964,Male,281 Martin Luther King Avenue,Wewoka,OK,74884,35.14,-96.49,28553.0,3
+237,18,9,2001,Male,1335 Norfolk Drive,East Falmouth,MA,02536,41.56,-70.55,43499.0,4
+238,35,6,1984,Female,47428 First Boulevard,Solon,IA,52333,41.80,-91.49,59248.0,5
+239,44,6,1975,Male,6995 North Drive,Indianapolis,IN,46236,39.77,-86.14,67008.0,8
+240,31,10,1988,Female,5857 12th Avenue,Sherman Oaks,CA,91403,34.14,-118.46,105963.0,4
+241,30,4,1989,Male,4096 Sussex Avenue,Montgomery,AL,36117,32.35,-86.28,56383.0,4
+242,38,8,1981,Male,2867 Federal Drive,Campbell,TX,75422,33.14,-95.95,38609.0,3
+243,48,9,1971,Male,96 11th Street,Pensacola,FL,32507,30.44,-87.18,36671.0,3
+244,28,10,1991,Male,654 Elm Drive,Atlanta,GA,30331,33.71,-84.53,39860.0,1
+245,18,2,2002,Female,345 George Avenue,Waynesboro,VA,22980,38.06,-78.90,37785.0,1
+246,50,6,1969,Male,35 Hillside Drive,Chicago,IL,60657,41.83,-87.68,2466.0,2
+247,68,8,1951,Female,318 Spruce Boulevard,Lynn,MA,01902,42.47,-70.96,27358.0,2
+248,26,1,1994,Female,118 12th Avenue,Powder Springs,GA,30127,33.86,-84.68,51024.0,1
+249,40,5,1979,Female,1752 Martin Luther King Avenue,Oklahoma City,OK,73151,35.46,-97.51,101679.0,1
+250,20,6,1999,Male,982 Plum Boulevard,Lynwood,CA,90262,33.92,-118.20,27801.0,1
+251,61,11,1958,Female,49 Bayview Lane,Las Vegas,NV,89122,36.10,-115.02,38536.0,1
+252,43,5,1976,Female,5194 Grant Street,Greenville,SC,29607,34.83,-82.37,49577.0,3
+253,24,11,1995,Male,9713 Fourth Lane,Fresno,CA,93710,36.81,-119.75,36672.0,2
+254,43,11,1976,Male,857 Jefferson Avenue,New Braunfels,TX,78130,29.70,-98.11,39404.0,5
+255,61,5,1958,Female,1861 Fourth Boulevard,Badger,IA,50516,42.61,-94.14,18452.0,6
+256,39,9,1980,Female,7549 Fourth Lane,Lombard,IL,60148,41.87,-88.01,56562.0,4
+257,90,11,1929,Female,495 Ocean View Lane,Santa Barbara,CA,93103,34.43,-119.68,48580.0,7
+258,41,4,1978,Female,6946 Park Drive,Hinsdale,NH,03451,42.78,-72.48,41469.0,1
+259,52,6,1967,Female,4222 Ocean View Drive,Fort Knox,KY,40121,37.89,-85.96,32378.0,4
+260,57,1,1963,Male,46 South Street,Reidsville,NC,27320,36.34,-79.67,34437.0,4
+261,83,11,1936,Female,2780 Martin Luther King Drive,Marshall,MN,56258,44.45,-95.78,33897.0,4
+262,38,5,1981,Male,215 Ocean View Drive,Olympia,WA,98516,47.11,-122.76,49023.0,5
+263,24,12,1995,Female,84 Second Lane,Chicago,IL,60641,41.83,-87.68,38609.0,3
+264,18,11,2001,Female,1987 Hillside Lane,Corinth,VT,05039,44.02,-72.23,30712.0,2
+265,22,7,1997,Male,71 Madison Street,El Paso,TX,79938,31.84,-106.43,32645.0,3
+266,81,10,1938,Female,9574 Ocean Drive,Edmonds,WA,98026,47.83,-122.32,31912.0,4
+267,30,1,1990,Male,649 Sussex Street,Watertown,NY,13601,43.97,-75.91,37521.0,2
+268,62,8,1957,Female,102 Seventh Avenue,Jessup,MD,20794,39.14,-76.77,58463.0,4
+269,36,3,1983,Female,28 Second Boulevard,Lordsburg,NM,88045,32.34,-108.70,31414.0,4
+270,32,12,1987,Female,2017 Ninth Drive,Brooktondale,NY,14817,42.38,-76.39,41106.0,3
+271,53,1,1967,Female,595 Valley Stream Drive,Cedar Rapids,IA,52405,41.97,-91.66,45876.0,7
+272,37,10,1982,Female,3748 Mountain View Drive,Roseville,CA,95747,38.78,-121.37,58637.0,6
+273,35,10,1984,Male,626 Federal Drive,Little Rock,AR,72207,34.72,-92.35,96574.0,3
+274,18,2,2002,Male,701 Pine Drive,Jersey City,NJ,07306,40.71,-74.06,44128.0,3
+275,77,8,1942,Female,9 Plum Boulevard,Colorado Springs,CO,80918,38.86,-104.76,31942.0,6
+276,27,6,1992,Male,1039 Bayview Drive,Sterling,VA,20164,39.00,-77.40,57927.0,1
+277,20,6,1999,Male,11162 Oak Drive,Des Moines,IA,50310,41.57,-93.61,45725.0,4
+278,39,12,1980,Male,4784 Park Boulevard,Belgrade,ME,04917,44.44,-69.83,44134.0,4
+279,19,2,2001,Male,751 Birch Avenue,San Diego,CA,92169,32.79,-117.25,56579.0,2
+280,37,2,1983,Male,372 12th Boulevard,Asheville,NC,28804,35.57,-82.54,46864.0,4
+281,44,9,1975,Female,60 Little Creek Avenue,Las Vegas,NV,89145,36.16,-115.28,56605.0,3
+282,31,4,1988,Female,5190 Grant Street,San Jose,CA,95121,37.30,-121.80,51209.0,1
+283,51,4,1968,Male,310 Birch Avenue,Pompano Beach,FL,33076,26.23,-80.13,76305.0,3
+284,18,3,2001,Male,644 Birch Avenue,Canonsburg,PA,15317,40.26,-80.18,61325.0,1
+285,42,3,1977,Male,188 Washington Avenue,San Fernando,CA,91340,34.28,-118.44,31772.0,4
+286,61,10,1958,Female,72 Second Street,West Linn,OR,97068,45.34,-122.66,73383.0,2
+287,55,4,1964,Male,3999 West Lane,Leicester,MA,01524,42.25,-71.90,53287.0,4
+288,88,4,1931,Female,95 Sixth Avenue,Millington,TN,38053,35.33,-89.88,19225.0,8
+289,62,11,1957,Female,58 Federal Lane,Rocky River,OH,44116,41.47,-81.85,60541.0,3
+290,44,12,1975,Female,25 Hill Drive,Battle Creek,MI,49015,42.29,-85.22,44124.0,1
+291,88,1,1932,Female,2947 Lake Lane,Waterford,MI,48329,42.66,-83.38,36764.0,8
+292,47,9,1972,Male,857 Catherine Avenue,Boaz,AL,35957,34.20,-86.15,29597.0,4
+293,37,1,1983,Female,33 Mill Street,Cincinnati,OH,45224,39.09,-84.51,38656.0,1
+294,45,10,1974,Male,41307 Main Lane,Albuquerque,NM,87121,35.11,-106.62,31373.0,2
+295,22,4,1997,Female,751 Fifth Street,Sunbury,PA,17801,40.86,-76.78,33681.0,2
+296,39,10,1980,Male,6889 Summit Lane,Cayucos,CA,93430,35.48,-120.92,38211.0,2
+297,40,7,1979,Female,8100 Hill Avenue,Quincy,FL,32353,30.58,-84.58,26802.0,2
+298,58,1,1962,Female,645 Hillside Lane,Roan Mountain,TN,37687,36.18,-82.07,25334.0,3
+299,34,3,1985,Male,4591 Third Drive,Pittsburgh,PA,15203,40.43,-79.97,61904.0,3
+300,101,5,1918,Female,887 Third Boulevard,Seligman,AZ,86337,35.13,-112.99,15348.0,4
+301,44,11,1975,Female,33 Pine Lane,Cookeville,TN,38501,36.15,-85.50,32527.0,3
+302,51,2,1969,Male,1246 11th Boulevard,Fort Lauderdale,FL,33318,26.14,-80.13,44170.0,7
+303,28,6,1991,Female,233 Oak Drive,Gresham,OR,97080,45.47,-122.37,46077.0,1
+304,58,3,1961,Male,4988 Ocean View Lane,Fort Polk,LA,71459,31.13,-93.27,23092.0,4
+305,19,11,2000,Male,74 Birch Avenue,Iliff,CO,80736,40.75,-103.06,30710.0,2
+306,22,11,1997,Female,415 Madison Boulevard,Mounds,OK,74047,35.87,-96.05,40491.0,2
+307,44,5,1975,Male,6308 Maple Avenue,West Sacramento,CA,95691,38.66,-121.62,51454.0,4
+308,47,1,1973,Female,430 Sixth Avenue,Ardsley,NY,10502,41.01,-73.84,94133.0,1
+309,58,8,1961,Male,860 Seventh Avenue,Fort Walton Beach,FL,32547,30.42,-86.61,36710.0,5
+310,62,8,1957,Male,313 Martin Luther King Boulevard,Somerville,AL,35670,34.47,-86.80,37785.0,3
+311,58,6,1961,Female,2200 Third Drive,Oak Harbor,WA,98278,48.28,-122.62,33717.0,6
+312,50,2,1970,Male,5154 Sixth Avenue,Stockton,CA,95210,38.02,-121.30,29994.0,1
+313,42,6,1977,Female,53789 Bayview Street,Fort Lauderdale,FL,33313,26.14,-80.13,29422.0,1
+314,40,1,1980,Male,42 Martin Luther King Drive,Saint Thomas,PA,17252,39.92,-77.80,35489.0,5
+315,28,1,1992,Female,769 Madison Drive,Tucson,AZ,85756,32.07,-110.92,33106.0,2
+316,26,2,1994,Female,3716 North Boulevard,Yorkville,IL,60560,41.64,-88.44,59699.0,1
+317,58,7,1961,Male,610 Oak Street,Portland,OR,97212,45.54,-122.64,68787.0,1
+318,65,11,1954,Female,727 Eighth Lane,Plymouth,MI,48170,42.37,-83.46,67344.0,4
+319,68,1,1952,Female,651 Fourth Avenue,San Francisco,CA,94131,37.74,-122.44,88432.0,6
+320,36,7,1983,Male,895 Lexington Lane,Woodway,TX,76712,31.49,-97.23,53138.0,4
+321,88,4,1931,Female,9192 Birch Lane,Fargo,ND,58103,46.87,-96.81,38523.0,5
+322,76,2,1944,Male,3031 Essex Street,Odessa,FL,33556,28.20,-82.59,26660.0,4
+323,53,10,1966,Female,709 River Lane,Huntingdon Valley,PA,19006,40.13,-75.06,69412.0,1
+324,26,5,1993,Male,91 Lake Street,New Orleans,LA,70130,30.06,-89.93,65888.0,2
+325,37,1,1983,Male,5320 Mountain View Street,Los Angeles,CA,90044,33.95,-118.29,25205.0,1
+326,38,4,1981,Female,17 Tenth Avenue,Tonawanda,NY,14150,43.00,-78.87,39627.0,4
+327,42,1,1978,Female,12150 Mill Boulevard,Jackson,MS,39282,32.32,-90.20,27967.0,2
+328,50,11,1969,Female,373 Sussex Drive,Florien,LA,71429,31.44,-93.45,38142.0,4
+329,36,2,1984,Female,28 Lexington Drive,Kent,WA,98042,47.36,-122.10,58964.0,1
+330,74,11,1945,Male,41 Rose Lane,West Newton,MA,02465,42.35,-71.22,58378.0,1
+331,53,8,1966,Male,815 Hillside Drive,Houston,TX,77064,29.76,-95.38,53872.0,5
+332,75,6,1944,Female,7854 Plum Avenue,Farmington,MN,55024,44.65,-93.17,41513.0,3
+333,49,7,1970,Female,704 East Drive,Lake Charles,LA,70605,30.21,-93.20,54587.0,6
+334,22,6,1997,Male,9261 Little Creek Lane,Vermilion,OH,44089,41.41,-82.31,41595.0,1
+335,44,4,1975,Male,936 Mill Street,Memphis,NY,13112,43.08,-76.37,44953.0,1
+336,28,5,1991,Male,35 Sixth Boulevard,Fort Wayne,IN,46807,41.07,-85.13,35199.0,2
+337,28,3,1991,Female,8128 Hillside Avenue,Cicero,IL,60804,41.84,-87.75,28324.0,2
+338,38,9,1981,Male,9541 Ocean View Drive,Lewistown,PA,17044,40.59,-77.57,33387.0,3
+339,24,9,1995,Male,9614 Ocean View Drive,Dunlap,TN,37327,35.37,-85.38,31006.0,2
+340,29,4,1990,Male,8016 Norfolk Drive,Cherry Point,NC,28533,34.92,-76.89,32636.0,1
+341,58,7,1961,Male,16 Eighth Lane,Dallas,TX,75253,32.79,-96.76,25883.0,4
+342,26,12,1993,Female,15 Valley Stream Drive,Tecate,CA,91980,32.59,-116.58,19069.0,1
+343,59,12,1960,Female,584 Bayview Street,Phoenix,AZ,85032,33.62,-112.00,44992.0,3
+344,58,8,1961,Male,967 Norfolk Avenue,Melbourne,FL,32901,28.08,-80.60,32295.0,4
+345,57,5,1962,Female,186 First Drive,Hopewell Junction,NY,12533,41.58,-73.80,69159.0,3
+346,42,12,1977,Female,9864 Fifth Lane,Idlewild,MI,49642,43.88,-85.80,12643.0,1
+347,34,9,1985,Female,862 11th Drive,Walnut Creek,CA,94596,37.89,-122.03,87030.0,3
+348,82,6,1937,Female,7236 South Boulevard,Chicago,IL,60616,41.83,-87.68,41793.0,5
+349,39,2,1981,Male,5944 Grant Avenue,Tuscaloosa,AL,35405,33.23,-87.54,41907.0,4
+350,48,11,1971,Male,70 Second Drive,Pittsfield,NH,03263,43.30,-71.33,40336.0,4
+351,19,11,2000,Female,5378 Lafayette Avenue,Columbus,OH,43219,39.98,-82.98,31683.0,4
+352,57,6,1962,Female,839 East Avenue,Las Vegas,NV,89142,36.14,-115.03,39508.0,4
+353,42,2,1978,Male,209 George Avenue,Denmark,SC,29042,33.31,-81.13,24859.0,2
+354,42,6,1977,Male,583 El Camino Boulevard,Marshfield,MA,02050,42.09,-70.70,69440.0,3
+355,25,1,1995,Male,9892 George Drive,Laredo,TX,78046,27.53,-99.48,21666.0,2
+356,30,10,1989,Female,781 Federal Street,North Chili,NY,14514,43.11,-77.80,46599.0,4
+357,22,6,1997,Male,3132 Lake Avenue,Carmichael,CA,95608,38.62,-121.32,50525.0,2
+358,60,9,1959,Female,29 12th Avenue,Byron,IL,61010,42.12,-89.25,52397.0,3
+359,53,8,1966,Male,415 Lafayette Drive,Avilla,IN,46710,41.36,-85.23,39222.0,3
+360,73,7,1946,Male,833 Elm Lane,Houston,TX,77012,29.76,-95.38,18015.0,2
+361,65,3,1954,Female,8437 Sixth Street,Traverse City,MI,49684,44.75,-85.60,42102.0,3
+362,36,10,1983,Male,547 Norfolk Boulevard,Ainsworth,IA,52201,41.29,-91.55,37316.0,2
+363,18,6,2001,Female,255 Bayview Street,Bakersfield,CA,93313,35.15,-119.06,41717.0,5
+364,75,8,1944,Male,5934 Essex Boulevard,Lexington,KY,40508,38.04,-84.45,20797.0,1
+365,76,8,1943,Male,765 Forest Street,Hopkins,MN,55305,44.92,-93.40,38800.0,7
+366,51,3,1968,Male,572 Mountain View Lane,Roanoke,VA,24017,37.27,-79.95,29622.0,3
+367,88,10,1931,Female,42 Fourth Avenue,Shelbyville,KY,40065,38.21,-85.23,31399.0,4
+368,48,5,1971,Female,328 Birch Street,Severn,MD,21144,39.13,-76.69,63355.0,5
+369,19,12,2000,Female,76 Birch Drive,Jefferson,TX,75657,32.76,-94.34,31197.0,2
+370,38,3,1981,Male,683 Washington Street,Huntington,NY,11743,40.87,-73.40,104049.0,2
+371,35,5,1984,Male,215 Plum Boulevard,El Paso,TX,79912,31.84,-106.43,50177.0,4
+372,40,12,1979,Female,5899 Mill Street,Ninety Six,SC,29666,34.17,-82.02,34344.0,1
+373,31,1,1989,Female,9316 Hillside Lane,Harrisburg,PA,17113,40.27,-76.88,34884.0,5
+374,33,3,1986,Female,2552 Forest Avenue,Hampstead,MD,21074,39.61,-76.85,56897.0,5
+375,38,10,1981,Female,89 Washington Boulevard,Wilmington,DE,19803,39.73,-75.53,72647.0,1
+376,49,8,1970,Male,9383 Martin Luther King Street,Mobile,AL,36695,30.68,-88.04,51755.0,1
+377,60,11,1959,Male,175 Valley Drive,Wayland,MA,01778,42.36,-71.36,115465.0,4
+378,18,1,2002,Male,729 Wessex Drive,Fort Myers,FL,33907,26.63,-81.85,35731.0,2
+379,18,2,2002,Female,5263 Little Creek Drive,Lake Mary,FL,32746,28.75,-81.33,64936.0,2
+380,24,3,1995,Male,4973 Martin Luther King Lane,Reno,NV,89521,39.38,-119.67,62711.0,3
+381,41,7,1978,Female,26 Valley Stream Drive,Pleasantville,NJ,08232,39.39,-74.51,30910.0,4
+382,27,11,1992,Male,79 Sixth Avenue,Port Orchard,WA,98366,47.54,-122.58,43264.0,1
+383,18,11,2001,Male,13 Main Boulevard,Suisun City,CA,94585,38.16,-121.93,48909.0,2
+384,32,11,1987,Female,670 Tenth Drive,Glen Ellyn,IL,60137,41.86,-88.06,85694.0,2
+385,81,4,1938,Female,864 Main Lane,Fort Gibson,OK,74434,35.78,-95.24,27864.0,6
+386,21,4,1998,Male,5263 Fifth Avenue,Appleton,WI,54914,44.26,-88.39,44513.0,6
+387,27,6,1992,Female,5048 Catherine Drive,Charlottesville,VA,22903,38.03,-78.48,58026.0,1
+388,18,5,2001,Female,9085 West Drive,Boerne,TX,78006,29.80,-98.73,63600.0,1
+389,19,7,2000,Female,640 Bayview Street,Canton,MS,39046,32.61,-90.03,31797.0,2
+390,40,10,1979,Female,3539 Lincoln Boulevard,Richmond,CA,94804,37.92,-122.34,44585.0,5
+391,51,11,1968,Female,6541 Fourth Drive,Nixa,MO,65714,37.04,-93.29,41427.0,3
+392,51,10,1968,Female,4514 Elm Street,West Columbia,SC,29172,33.99,-81.08,34517.0,2
+393,50,2,1970,Female,655 Federal Avenue,Pleasant Grove,UT,84062,40.46,-111.63,43294.0,7
+394,27,9,1992,Female,8440 Park Drive,Lafayette,CO,80026,39.99,-105.09,61317.0,3
+395,68,12,1951,Male,46 Lincoln Lane,Long Beach,CA,90808,33.82,-118.11,50184.0,4
+396,47,10,1972,Male,130 Lincoln Drive,Nashport,OH,43830,40.04,-82.12,43133.0,3
+397,23,12,1996,Female,359 Tenth Avenue,Sioux City,IA,51104,42.50,-96.39,44361.0,1
+398,57,9,1962,Female,381 Catherine Avenue,Compton,CA,90222,33.91,-118.23,26664.0,4
+399,85,6,1934,Female,23 11th Avenue,Virginia Beach,VA,23451,36.73,-76.04,41843.0,3
+400,22,2,1998,Male,440 Littlewood Drive,Melbourne,FL,32940,28.08,-80.60,49952.0,1
+401,26,3,1993,Male,118 Mountain View Lane,Lake Zurich,IL,60047,42.19,-88.08,99883.0,1
+402,40,3,1979,Female,57 West Boulevard,Ferdinand,IN,47532,38.22,-86.86,38527.0,2
+403,32,1,1988,Female,7096 Park Street,Springfield,VT,05156,43.28,-72.47,36729.0,3
+404,63,2,1957,Female,861 Martin Luther King Boulevard,Buffalo,NY,14215,42.88,-78.85,29477.0,4
+405,52,9,1967,Male,123 Ocean View Street,Rancho Cordova,CA,95742,38.57,-121.17,71645.0,3
+406,62,9,1957,Female,956 Lincoln Boulevard,Brooklyn,NY,11235,40.64,-73.94,46232.0,4
+407,20,5,1999,Female,489 Fourth Drive,Michigan City,IN,46360,41.71,-86.87,36775.0,3
+408,41,12,1978,Male,6515 Hillside Drive,Challis,ID,83226,44.65,-114.15,38812.0,4
+409,20,11,1999,Female,5789 Ninth Drive,Ozone Park,NY,11417,40.69,-73.85,40130.0,1
+410,38,11,1981,Female,1583 Grant Lane,Brentwood,NY,11717,40.78,-73.24,36045.0,3
+411,52,2,1968,Female,292 Maple Drive,Somerset,NJ,08873,40.49,-74.48,66489.0,2
+412,31,2,1989,Female,5065 Catherine Drive,Estacada,OR,97023,45.20,-122.06,41475.0,2
+413,56,7,1963,Male,273 Ocean Street,Ridgefield,WA,98642,45.79,-122.69,55682.0,4
+414,51,5,1968,Female,23 12th Boulevard,Osprey,FL,34229,27.19,-82.49,57646.0,4
+415,19,9,2000,Female,1464 Bayview Street,Odessa,TX,79764,31.85,-102.36,39556.0,1
+416,36,12,1983,Male,83 Sixth Drive,San Diego,CA,92102,32.72,-117.09,34330.0,4
+417,82,4,1937,Male,62696 Norfolk Drive,Quincy,FL,32352,30.65,-84.69,10142.0,7
+418,30,10,1989,Male,105 Seventh Street,Columbia,MD,21044,39.20,-76.85,76867.0,1
+419,22,6,1997,Female,5138 Park Drive,Homewood,IL,60430,41.55,-87.66,52379.0,3
+420,39,10,1980,Male,2411 Hillside Lane,Newburgh,IN,47630,37.94,-87.40,57348.0,3
+421,49,3,1970,Male,2248 Third Avenue,Chattanooga,TN,37416,35.06,-85.25,38041.0,4
+422,28,3,1991,Female,19 El Camino Drive,Phoenix,AZ,85022,33.62,-112.05,53053.0,2
+423,35,5,1984,Male,5094 Lafayette Boulevard,Celina,OH,45822,40.55,-84.57,36857.0,3
+424,54,3,1965,Female,6016 Little Creek Boulevard,Seattle,WA,98122,47.61,-122.30,76431.0,5
+425,78,7,1941,Male,34533 Ninth Avenue,Bloomington,CA,92316,34.06,-117.39,18100.0,6
+426,45,5,1974,Female,94936 Elm Drive,Lady Lake,FL,32159,28.92,-81.92,16628.0,1
+427,79,2,1941,Male,132 Lexington Drive,Bullock,NC,27507,36.50,-78.55,29041.0,4
+428,47,12,1972,Female,27 Summit Street,Monroe,NC,28112,34.98,-80.54,35876.0,3
+429,19,3,2000,Male,32 First Lane,Verona,NJ,07044,40.83,-74.24,81995.0,2
+430,50,9,1969,Female,671 West Drive,Minneapolis,MN,55419,44.96,-93.26,82298.0,4
+431,30,8,1989,Male,71682 Catherine Street,Ft Mitchell,KY,41017,39.02,-84.56,61916.0,4
+432,56,2,1964,Female,7728 Oak Drive,Little Rock,AR,72204,34.72,-92.35,30042.0,4
+433,55,9,1964,Female,1513 Valley Boulevard,Fairfield,OH,45014,39.33,-84.54,44839.0,3
+434,25,12,1994,Male,972 Spruce Avenue,Fort Lauderdale,FL,33324,26.14,-80.13,60638.0,1
+435,26,1,1994,Female,4631 Plum Avenue,Cleveland,OH,44102,41.47,-81.67,30049.0,1
+436,54,8,1965,Female,7561 Littlewood Street,Waterloo,IA,50703,42.49,-92.35,29699.0,3
+437,29,5,1990,Male,1598 Elm Street,Anchorage,AK,99508,61.20,-149.82,41836.0,2
+438,55,11,1964,Male,541 Tenth Street,Los Angeles,CA,90037,34.00,-118.28,23103.0,3
+439,72,5,1947,Male,4388 Hillside Street,Ellicott City,MD,21043,39.27,-76.83,57513.0,5
+440,66,3,1953,Female,644 South Drive,Memphis,TN,38134,35.10,-90.00,38249.0,4
+441,41,3,1978,Female,858 Jefferson Avenue,Suffolk,VA,23434,36.70,-76.63,41496.0,2
+442,24,8,1995,Female,229 River Avenue,Butler,NJ,07405,40.99,-74.34,90812.0,3
+443,35,6,1984,Male,7794 Ocean Street,Mesilla Park,NM,88047,32.27,-106.61,30217.0,4
+444,29,11,1990,Female,828 Little Creek Boulevard,O Fallon,MO,63368,38.78,-90.70,61581.0,2
+445,53,6,1966,Male,817 Forest Street,Jacksonville,AR,72076,34.86,-92.12,33566.0,1
+446,66,3,1953,Female,804 Sixth Boulevard,Seguin,TX,78155,29.57,-97.96,35560.0,5
+447,21,11,1998,Female,218 East Street,Glendora,CA,91741,34.14,-117.85,64630.0,2
+448,67,11,1952,Female,563 Birch Drive,Dacula,GA,30019,33.98,-83.88,57705.0,3
+449,58,5,1961,Male,663 Second Boulevard,San Benito,TX,78586,26.13,-97.63,24155.0,3
+450,27,1,1993,Male,5514 Norfolk Boulevard,Huron,TN,38345,35.58,-88.50,35026.0,5
+451,29,3,1990,Female,587 East Lane,Sanford,NC,27332,35.36,-79.13,36404.0,3
+452,50,5,1969,Male,659 Valley Drive,Salisbury,NC,28147,35.66,-80.48,38179.0,2
+453,36,3,1983,Female,4137 Bayview Drive,Bellaire,TX,77401,29.70,-95.46,161276.0,1
+454,31,6,1988,Male,693 Seventh Street,Sherman,TX,75090,33.61,-96.60,32086.0,4
+455,22,3,1997,Female,398 Park Boulevard,Chicago,IL,60637,41.83,-87.68,37505.0,3
+456,69,2,1951,Female,55 El Camino Boulevard,Turlock,CA,95382,37.53,-120.84,46487.0,3
+457,23,7,1996,Female,4343 Mountain View Boulevard,Spearfish,SD,57783,44.48,-103.84,37891.0,1
+458,54,3,1965,Female,401 North Avenue,Lafayette,CO,80026,39.99,-105.09,61312.0,3
+459,46,4,1973,Male,8750 Lake Boulevard,Chardon,OH,44024,41.57,-81.20,52130.0,1
+460,27,1,1993,Female,883 Federal Street,Depew,NY,14043,42.91,-78.70,40744.0,1
+461,86,6,1933,Female,143 Catherine Boulevard,Kaneohe,HI,96744,21.41,-157.79,49529.0,6
+462,76,12,1943,Male,343 Lafayette Drive,Derby,KS,67037,37.54,-97.25,41790.0,5
+463,81,1,1939,Female,482 Grant Street,Baldwin Park,CA,91706,34.09,-117.96,29928.0,4
+464,47,5,1972,Female,3816 Spruce Drive,Copiague,NY,11726,40.67,-73.39,42976.0,3
+465,40,3,1979,Male,9594 Burns Lane,Thomson,GA,30824,33.46,-82.50,32126.0,3
+466,56,4,1963,Male,4966 Grant Street,Canal Fulton,OH,44614,40.89,-81.58,45202.0,4
+467,20,3,1999,Female,7132 Rose Avenue,Cape Coral,FL,33904,26.63,-81.99,34907.0,3
+468,27,4,1992,Male,238 Eighth Avenue,Cambridge Springs,PA,16403,41.80,-80.06,34591.0,2
+469,22,3,1997,Female,7318 Mill Lane,Richlands,NC,28574,34.89,-77.54,31933.0,1
+470,42,2,1978,Male,9566 Tenth Street,Pflugerville,TX,78660,30.44,-97.62,52165.0,4
+471,58,8,1961,Female,416 Madison Street,Uhrichsville,OH,44683,40.40,-81.35,29519.0,3
+472,57,5,1962,Male,5079 Sussex Avenue,Mitchell,IN,47446,38.73,-86.47,32583.0,7
+473,37,7,1982,Male,3914 Mill Street,Prairieville,LA,70769,30.30,-90.97,59139.0,4
+474,44,10,1975,Male,7815 Hillside Avenue,Houston,TX,77058,29.76,-95.38,62185.0,1
+475,22,6,1997,Male,2429 Eighth Avenue,Albany,OR,97322,44.63,-123.00,35800.0,2
+476,26,10,1993,Male,4379 Lake Avenue,Laurel,MD,20723,39.09,-76.85,72485.0,2
+477,24,3,1995,Female,215 Elm Lane,Ventura,CA,93003,34.28,-119.22,52036.0,3
+478,33,7,1986,Male,67424 Tenth Boulevard,Kalamazoo,MI,49048,42.24,-85.48,35499.0,1
+479,44,1,1976,Male,3675 Bayview Drive,Dunlap,TN,37327,35.37,-85.38,31015.0,2
+480,79,11,1940,Male,127 Valley Boulevard,San Diego,CA,92122,32.85,-117.20,53222.0,1
+481,56,6,1963,Female,9603 South Lane,Short Hills,NJ,07078,40.74,-74.33,280199.0,5
+482,48,6,1971,Male,604 Pine Street,Burlington,IA,52601,40.80,-91.12,36853.0,5
+483,22,2,1998,Male,79 Burns Drive,Fairview,NJ,07022,40.81,-74.00,37497.0,1
+484,88,10,1931,Female,41740 First Street,Wayne,NJ,07470,40.94,-74.24,31828.0,3
+485,49,7,1970,Female,530 Main Boulevard,League City,TX,77573,29.48,-95.10,71866.0,1
+486,62,8,1957,Male,702 Elm Drive,Watsonville,CA,95076,36.95,-121.72,34496.0,5
+487,74,1,1946,Female,4 Plum Boulevard,North Richland Hills,TX,76180,32.86,-97.21,39003.0,5
+488,68,3,1951,Male,29 Federal Boulevard,Los Angeles,CA,90033,34.04,-118.21,11566.0,4
+489,45,12,1974,Female,627 Ninth Drive,Atlanta,GA,30317,33.74,-84.31,52172.0,4
+490,91,3,1928,Male,120 Lafayette Boulevard,Pompano Beach,FL,33060,26.23,-80.13,40141.0,6
+491,48,5,1971,Male,2981 Ninth Boulevard,Latrobe,PA,15650,40.31,-79.38,39733.0,4
+492,29,2,1991,Female,8463 Second Street,Waynesville,OH,45068,39.53,-84.08,51651.0,3
+493,22,3,1997,Female,814 Washington Street,Tempe,AZ,85283,33.36,-111.93,49190.0,1
+494,42,11,1977,Male,8580 Valley Stream Avenue,Martinsburg,WV,25401,39.46,-77.96,36711.0,4
+495,22,5,1997,Male,666 Lafayette Lane,Halethorpe,MD,21227,39.21,-76.72,46344.0,3
+496,26,3,1993,Male,4872 Lexington Avenue,Doylestown,PA,18902,40.36,-75.09,100991.0,3
+497,62,6,1957,Female,1305 Spruce Boulevard,Belle Fourche,SD,57717,44.66,-103.85,32819.0,5
+498,30,8,1989,Male,437 Madison Street,Chicago,IL,60626,41.83,-87.68,47803.0,1
+499,44,9,1975,Male,919 Lafayette Drive,Medford,OR,97504,42.33,-122.79,38661.0,3
+500,45,4,1974,Male,3346 Hillside Street,Douglassville,PA,19518,40.26,-75.74,57658.0,5
+501,45,5,1974,Female,9891 Valley Drive,Belzoni,MS,39038,33.17,-90.48,22249.0,3
+502,38,2,1982,Female,731 Lincoln Boulevard,Boca Raton,FL,33486,26.37,-80.10,64647.0,4
+503,32,10,1987,Female,1782 South Boulevard,Beacon Falls,CT,06403,41.44,-73.04,58749.0,6
+504,46,12,1973,Female,8070 Mill Lane,Saint George,UT,84770,37.18,-113.60,29510.0,4
+505,53,3,1966,Female,696 Oak Boulevard,Fresno,CA,93710,36.81,-119.75,36672.0,2
+506,41,1,1979,Female,1063 Federal Boulevard,Canton,MA,02021,42.15,-71.13,79271.0,1
+507,35,1,1985,Female,955 11th Street,High Springs,FL,32643,29.82,-82.59,40156.0,3
+508,30,4,1989,Female,341 Hill Drive,Saint Louis,MO,63129,38.63,-90.24,57853.0,4
+509,73,9,1946,Female,862 Martin Luther King Drive,Germantown,MD,20874,39.17,-77.26,37789.0,3
+510,61,10,1958,Male,9525 First Boulevard,Longview,TX,75604,32.51,-94.76,41865.0,4
+511,66,3,1953,Male,602 First Street,Strongsville,OH,44149,41.31,-81.85,61937.0,7
+512,32,7,1987,Female,698 11th Lane,Washington,NC,27889,35.55,-77.05,32274.0,1
+513,48,3,1971,Male,9570 North Drive,Rutherford,NJ,07070,40.81,-74.10,75785.0,3
+514,50,4,1969,Male,9762 Pine Street,Fletcher,NC,28732,35.43,-82.50,45560.0,3
+515,46,3,1973,Female,778 Main Avenue,Kimberly,WI,54136,44.27,-88.34,40810.0,4
+516,58,11,1961,Male,669 Wessex Lane,Bigelow,AR,72016,34.99,-92.63,38371.0,3
+517,46,10,1973,Female,31 Oak Avenue,Columbia,SC,29229,34.00,-81.03,48762.0,6
+518,26,2,1994,Male,4840 Summit Lane,Rescue,CA,95672,38.72,-121.00,58435.0,2
+519,48,7,1971,Male,1772 Essex Boulevard,Vinton,VA,24179,37.27,-79.88,39124.0,4
+520,50,1,1970,Male,720 Seventh Avenue,Camas,WA,98607,45.64,-122.37,63673.0,4
+521,34,11,1985,Female,5449 Lexington Drive,Garden Grove,CA,92840,33.78,-117.93,38081.0,4
+522,23,11,1996,Female,5459 El Camino Avenue,Blacksburg,SC,29702,35.12,-81.51,29450.0,1
+523,56,12,1963,Female,291 Seventh Drive,Hudson,IL,61748,40.60,-88.98,57576.0,2
+524,31,8,1988,Female,9833 Forest Street,Lawton,OK,73505,34.60,-98.42,34311.0,4
+525,63,11,1956,Female,891 El Camino Lane,Pompano Beach,FL,33062,26.23,-80.13,54095.0,3
+526,24,9,1995,Female,162 Rose Drive,Stockton,CA,95205,37.96,-121.26,24648.0,1
+527,37,8,1982,Female,1059 Elm Avenue,Brighton,CO,80602,39.95,-104.90,66863.0,1
+528,61,1,1959,Female,475 Oak Boulevard,Charlotte,NC,28212,35.19,-80.83,30165.0,2
+529,53,6,1966,Male,822 Ocean Street,Hinsdale,IL,60521,41.80,-87.92,189490.0,3
+530,19,3,2000,Female,671 George Drive,Georgetown,KY,40324,38.20,-84.55,48582.0,1
+531,84,12,1935,Male,6478 Valley Stream Avenue,Levittown,PA,19054,40.15,-74.85,26476.0,5
+532,39,11,1980,Male,6405 Fifth Avenue,Manchester,NH,03104,42.99,-71.45,56486.0,2
+533,59,3,1960,Female,85 Littlewood Avenue,San Antonio,TX,78217,29.45,-98.50,35906.0,3
+534,19,4,2000,Female,528 Spruce Lane,Chesterton,IN,46304,41.60,-87.05,55587.0,2
+535,21,4,1998,Female,100 Seventh Drive,Florence,WI,54121,45.93,-88.25,36733.0,3
+536,48,11,1971,Female,58 Catherine Drive,Omaha,NE,68136,41.26,-96.01,67761.0,4
+537,57,2,1963,Male,919 Lafayette Avenue,Murfreesboro,TN,37129,35.85,-86.39,36282.0,1
+538,46,7,1973,Female,75 Birch Lane,Palm Beach Gardens,FL,33410,26.74,-80.12,56467.0,3
+539,55,2,1965,Female,82 Jefferson Avenue,Republic,OH,44867,41.12,-83.01,37645.0,4
+540,48,11,1971,Male,3034 Third Boulevard,Worcester,MA,01602,42.26,-71.80,49967.0,1
+541,20,11,1999,Male,189 Ninth Lane,Langhorne,PA,19047,40.17,-74.91,64548.0,1
+542,20,9,1999,Male,354 Main Drive,Heathsville,VA,22473,37.91,-76.47,28421.0,1
+543,33,6,1986,Female,689 Littlewood Lane,Moulton,AL,35650,34.48,-87.28,35213.0,3
+544,48,3,1971,Male,1813 Second Lane,Kenner,LA,70062,29.99,-90.24,29962.0,3
+545,49,5,1970,Male,710 North Lane,Bradenton,FL,34203,27.48,-82.57,35868.0,4
+546,31,7,1988,Male,5558 Littlewood Avenue,Lovelock,NV,89419,40.32,-118.20,38193.0,3
+547,48,2,1972,Male,819 Park Boulevard,Terre Haute,IN,47803,39.47,-87.38,43084.0,3
+548,42,4,1977,Female,849 Norfolk Lane,Hubbard,OH,44425,41.16,-80.56,37415.0,1
+549,40,12,1979,Male,390 Tenth Street,Newark,NJ,07103,40.72,-74.17,35418.0,6
+550,18,2,2002,Male,4279 West Boulevard,Parkton,NC,28371,34.90,-79.01,31259.0,2
+551,26,12,1993,Male,6693 George Drive,Seattle,WA,98188,47.44,-122.28,41255.0,2
+552,41,3,1978,Female,8 Tenth Drive,Raleigh,NC,27610,35.82,-78.65,34774.0,5
+553,90,11,1929,Female,6245 River Lane,Poughkeepsie,NY,12603,41.69,-73.92,51717.0,5
+554,52,9,1967,Male,5581 Federal Street,Bastrop,TX,78602,30.11,-97.30,41483.0,1
+555,28,3,1991,Female,99 El Camino Drive,Barton,MD,21521,39.53,-79.01,34825.0,1
+556,51,2,1969,Male,2994 Tenth Lane,Fayetteville,NC,28306,35.05,-78.87,37346.0,5
+557,58,10,1961,Female,927 Ocean View Drive,Miami,FL,33196,25.77,-80.20,44699.0,5
+558,35,10,1984,Male,356 Mill Street,The Villages,FL,32162,28.92,-81.92,17316.0,1
+559,57,3,1962,Male,45 Maple Lane,Holden,ME,04429,44.75,-68.67,49467.0,5
+560,18,11,2001,Female,3395 Spruce Drive,Kansas City,KS,66103,39.10,-94.62,34242.0,1
+561,25,10,1994,Male,2800 Third Drive,Birmingham,AL,35244,33.52,-86.79,70502.0,2
+562,59,9,1960,Female,645 Catherine Lane,Boston,MA,02127,42.35,-71.06,80156.0,4
+563,51,12,1968,Female,1248 Second Drive,Meriden,CT,06450,41.53,-72.79,49737.0,1
+564,60,12,1959,Male,700 Lexington Avenue,Dover,OH,44622,40.52,-81.47,31003.0,3
+565,23,9,1996,Female,9264 Norfolk Lane,Orlando,FL,32811,28.50,-81.37,29376.0,1
+566,56,11,1963,Female,4581 Eighth Boulevard,Eastman,GA,31023,32.19,-83.17,29413.0,2
+567,28,1,1992,Female,146 Lafayette Drive,Ridgefield,WA,98642,45.79,-122.69,55684.0,3
+568,39,10,1980,Male,6757 Eighth Avenue,Staunton,IL,62088,39.01,-89.78,40894.0,1
+569,64,1,1956,Female,599 First Drive,Fontana,CA,92336,34.14,-117.45,47242.0,6
+570,65,12,1954,Male,654 Birch Lane,Omaha,NE,68107,41.26,-96.01,28951.0,2
+571,53,6,1966,Male,6223 Lexington Drive,Allen,TX,75002,33.10,-96.66,66428.0,2
+572,52,2,1968,Female,25622 Lake Street,Pearland,TX,77584,29.55,-95.27,73920.0,1
+573,22,2,1998,Female,5762 River Lane,Salt Lake City,UT,84112,40.76,-111.84,21490.0,2
+574,68,4,1951,Female,315 Norfolk Lane,Somerville,MA,02143,42.39,-71.10,59938.0,1
+575,54,6,1965,Male,758 Sixth Boulevard,Monroe,NY,10950,41.32,-74.18,52062.0,4
+576,58,10,1961,Male,860 Maple Avenue,Union City,CA,94587,37.59,-122.06,59322.0,3
+577,26,9,1993,Female,229 Norfolk Street,Troy,MI,48083,42.58,-83.14,53254.0,1
+578,61,11,1958,Male,4975 Madison Boulevard,Indianapolis,IN,46235,39.77,-86.14,32716.0,3
+579,79,3,1940,Male,5336 Tenth Drive,Muskegon,MI,49441,43.22,-86.25,30977.0,5
+580,67,10,1952,Female,311 Washington Lane,Adrian,MI,49221,41.89,-84.04,34954.0,3
+581,47,2,1973,Female,1342 Hill Lane,Chicago,IL,60623,41.83,-87.68,24372.0,4
+582,51,7,1968,Female,2554 11th Lane,Defiance,OH,43512,41.28,-84.36,37169.0,3
+583,36,8,1983,Male,995 Martin Luther King Street,Houston,TX,77047,29.76,-95.38,39871.0,4
+584,44,2,1976,Female,1450 Rose Drive,Morristown,MN,55052,44.22,-93.44,40026.0,1
+585,19,3,2000,Female,762 Lake Drive,Sugar Land,TX,77478,29.61,-95.61,71740.0,2
+586,21,8,1998,Male,72834 Grant Boulevard,Hempstead,NY,11550,40.70,-73.61,41087.0,2
+587,18,12,2001,Female,892 Third Boulevard,Anchorage,AK,99507,61.14,-149.76,58579.0,1
+588,86,9,1933,Male,90 Lexington Drive,San Antonio,TX,78230,29.45,-98.50,33426.0,4
+589,23,2,1997,Female,98 Mountain View Drive,Lafayette,LA,70506,30.21,-92.02,44862.0,3
+590,34,10,1985,Male,8229 Bayview Avenue,Amherst,OH,44001,41.40,-82.23,45388.0,1
+591,73,9,1946,Male,9355 Ocean View Drive,Tucker,GA,30084,33.85,-84.22,34220.0,5
+592,19,9,2000,Male,616 Catherine Avenue,Devon,PA,19333,40.04,-75.42,118862.0,1
+593,20,9,1999,Female,825 Norfolk Drive,Getzville,NY,14068,43.02,-78.75,60265.0,3
+594,45,3,1974,Male,8385 Mill Boulevard,Vancleve,KY,41385,37.62,-83.41,23740.0,3
+595,39,5,1980,Male,9735 Birch Street,Miami,FL,33175,25.77,-80.20,38386.0,6
+596,46,6,1973,Male,285 Washington Street,Woonsocket,RI,02895,41.99,-71.50,38872.0,1
+597,37,3,1982,Female,49 Tenth Street,Atlanta,GA,30316,33.72,-84.32,49335.0,3
+598,50,9,1969,Female,6695 River Lane,Monroe,MI,48161,41.91,-83.38,40246.0,5
+599,50,1,1970,Male,1012 Hill Drive,Chicago,IL,60622,41.83,-87.68,81122.0,5
+600,18,4,2001,Male,5819 Norfolk Drive,Punta Gorda,FL,33950,26.89,-82.05,29265.0,1
+601,51,4,1968,Male,774 Wessex Lane,Gilbert,AZ,85295,33.30,-111.74,62304.0,4
+602,54,10,1965,Male,6721 Sussex Drive,Carrollton,TX,75006,32.98,-96.89,43598.0,4
+603,54,5,1965,Male,990 West Street,Rosharon,TX,77583,29.37,-95.45,46603.0,1
+604,26,3,1993,Male,7703 Fourth Avenue,Fort Lauderdale,FL,33311,26.14,-80.13,28931.0,4
+605,42,9,1977,Female,338 Bayview Lane,Broad Run,VA,20137,38.81,-77.72,73208.0,6
+606,42,2,1978,Female,794 Lake Street,Township Of Washington,NJ,07676,40.98,-74.06,77288.0,4
+607,30,9,1989,Male,6657 West Street,Lake Worth,FL,33463,26.61,-80.05,37544.0,4
+608,58,11,1961,Male,217 Fifth Lane,Cornell,IL,61319,40.99,-88.72,40628.0,1
+609,24,4,1995,Female,418 Elm Street,Warm Springs,GA,31830,32.88,-84.67,31469.0,1
+610,53,2,1967,Male,9385 Birch Street,Albuquerque,NM,87121,35.11,-106.62,31369.0,3
+611,36,9,1983,Female,7643 Martin Luther King Street,Greenville,OH,45331,40.10,-84.62,33339.0,2
+612,25,11,1994,Male,944 Lexington Boulevard,Cantonment,FL,32533,30.60,-87.34,41338.0,1
+613,54,12,1965,Female,85 Lafayette Boulevard,Carthage,NY,13619,43.98,-75.60,35114.0,5
+614,39,9,1980,Male,5193 East Street,Louisville,KY,40299,38.22,-85.74,51499.0,4
+615,85,10,1934,Female,577 12th Lane,Lakewood,NJ,08701,40.09,-74.21,9795.0,7
+616,19,9,2000,Male,1317 Wessex Lane,Belmont,CA,94002,37.50,-122.30,95045.0,3
+617,66,3,1953,Male,9218 Martin Luther King Avenue,Mulberry,FL,33860,27.90,-81.97,36589.0,3
+618,59,11,1960,Female,4701 Littlewood Drive,Tampa,FL,33618,27.95,-82.48,58959.0,2
+619,61,12,1958,Male,363 Third Drive,Pinole,CA,94564,37.99,-122.27,28210.0,2
+620,39,5,1980,Male,700 Rose Avenue,Laurel,MD,20708,39.09,-76.85,56347.0,3
+621,59,1,1961,Female,704 Summit Drive,Claremont,NC,28610,35.71,-81.15,36760.0,2
+622,38,11,1981,Male,8897 East Street,Carmel,CA,93923,36.46,-121.82,59482.0,4
+623,55,5,1964,Female,4941 Ocean View Drive,Fort Worth,TX,76119,32.75,-97.33,24827.0,1
+624,67,1,1953,Female,9205 Summit Street,San Jose,CA,95134,37.42,-121.94,52929.0,7
+625,52,12,1967,Male,469 Mountain View Boulevard,Indianapolis,IN,46256,39.77,-86.14,63433.0,7
+626,21,11,1998,Male,78596 Birch Drive,Houston,TX,77049,29.76,-95.38,39485.0,1
+627,33,8,1986,Female,142 Valley Drive,Valparaiso,IN,46383,41.47,-87.05,51938.0,2
+628,68,12,1951,Female,6723 Maple Street,Annandale,VA,22003,38.83,-77.21,65298.0,2
+629,58,1,1962,Female,501 Grant Lane,Trenton,GA,30752,34.87,-85.50,32520.0,4
+630,41,8,1978,Male,992 Martin Luther King Avenue,Park Forest,IL,60466,41.48,-87.68,39472.0,1
+631,37,5,1982,Female,4189 Birch Street,Kilauea,HI,96754,22.21,-159.41,34457.0,2
+632,48,12,1971,Male,2193 Sixth Avenue,Highland,NY,12528,41.71,-73.96,53478.0,3
+633,39,10,1980,Male,952 Mountain View Boulevard,Ludington,MI,49431,43.95,-86.44,32343.0,3
+634,83,1,1937,Male,637 Seventh Street,Westminster,SC,29693,34.66,-83.09,31943.0,6
+635,41,10,1978,Female,9413 12th Boulevard,Manly,IA,50456,43.28,-93.20,32789.0,2
+636,29,8,1990,Male,1734 George Drive,San Francisco,CA,94134,37.72,-122.41,41873.0,1
+637,44,1,1976,Male,9900 Ninth Avenue,Bloomfield,IN,47424,39.02,-86.93,37115.0,3
+638,40,12,1979,Female,613 George Boulevard,Stanford,KY,40484,37.53,-84.66,30997.0,2
+639,25,8,1994,Female,157 Eighth Street,Bellevue,WA,98005,47.62,-122.16,88554.0,2
+640,29,3,1990,Male,32595 River Drive,Shafter,CA,93263,35.49,-119.30,29682.0,2
+641,61,1,1959,Male,6762 Second Street,Bennett,CO,80102,39.75,-104.42,53762.0,8
+642,19,1,2001,Female,534 Norfolk Lane,New York,NY,10026,40.71,-73.99,54477.0,2
+643,30,7,1989,Female,385 Grant Street,Independence,MO,64050,39.08,-94.35,33076.0,3
+644,58,5,1961,Male,1034 Pine Boulevard,Erie,PA,16505,42.12,-80.08,49595.0,1
+645,31,12,1988,Male,8803 Washington Boulevard,Scituate,MA,02066,42.18,-70.73,82019.0,3
+646,76,5,1943,Male,3462 Ocean Boulevard,Sacramento,CA,95831,38.49,-121.53,51942.0,4
+647,74,3,1945,Female,54 Lafayette Street,Chula Vista,CA,91910,32.63,-117.05,29130.0,5
+648,71,8,1948,Female,5822 Fourth Boulevard,Charleston,WV,25312,38.35,-81.63,13937.0,4
+649,20,3,1999,Male,592 Hillside Drive,Berwyn,IL,60402,41.84,-87.79,38158.0,1
+650,47,7,1972,Female,45 Ocean Lane,Batavia,IL,60510,41.85,-88.30,68710.0,3
+651,37,1,1983,Female,94 Ocean Avenue,Naperville,IL,60564,41.76,-88.15,100303.0,2
+652,58,11,1961,Female,9191 Main Avenue,Epping,NH,03042,43.03,-71.07,50980.0,1
+653,18,1,2002,Male,5504 Spruce Drive,Sergeant Bluff,IA,51054,42.40,-96.35,46810.0,2
+654,61,2,1959,Male,945 Third Avenue,Sammamish,WA,98075,47.58,-122.03,103185.0,1
+655,23,4,1996,Male,938 Maple Boulevard,North Las Vegas,NV,89081,36.25,-115.08,46704.0,1
+656,35,1,1985,Male,583 Seventh Street,Wynnewood,PA,19096,39.99,-75.27,103126.0,1
+657,48,6,1971,Male,8993 Madison Avenue,Fayetteville,NC,28312,34.93,-78.72,37468.0,3
+658,51,7,1968,Female,6840 North Lane,Mount Kisco,NY,10549,41.20,-73.73,112695.0,6
+659,23,5,1996,Male,512 Tenth Street,Holland,MI,49424,42.77,-86.10,44181.0,1
+660,26,5,1993,Female,388 Third Street,Mohegan Lake,NY,10547,41.31,-73.84,67820.0,2
+661,80,4,1939,Female,499 Lafayette Lane,Frankfort,IN,46041,40.28,-86.51,24884.0,6
+662,41,8,1978,Female,165 Fourth Street,San Diego,CA,92130,32.95,-117.19,553.0,3
+663,40,11,1979,Male,83302 Valley Stream Lane,Foxboro,MA,02035,42.06,-71.24,72470.0,2
+664,35,11,1984,Female,610 Lake Drive,Hillsboro,IL,62049,39.16,-89.48,36081.0,2
+665,37,6,1982,Male,13 Federal Street,Woburn,MA,01801,42.48,-71.15,59375.0,2
+666,18,2,2002,Male,18 Bayview Avenue,Hernando,MS,38632,34.82,-89.98,48491.0,1
+667,60,4,1959,Female,89075 Spruce Drive,West Baden Springs,IN,47469,38.56,-86.61,30867.0,3
+668,33,5,1986,Female,906 Little Creek Drive,Monroe,NC,28110,34.98,-80.54,39974.0,2
+669,39,2,1981,Male,1105 Wessex Avenue,Arlington,TX,76002,32.69,-97.12,49611.0,4
+670,24,10,1995,Male,841 Spruce Drive,Hammond,LA,70401,30.50,-90.46,35856.0,4
+671,35,9,1984,Female,707 Elm Boulevard,Covington,VA,24426,37.77,-79.99,35760.0,1
+672,40,6,1979,Male,2336 George Drive,Greenville,SC,29611,34.83,-82.37,27013.0,3
+673,63,4,1956,Male,690 Catherine Street,Aurora,CO,80013,39.69,-104.81,58006.0,1
+674,80,1,1940,Female,305 Pine Avenue,Kent,WA,98032,47.39,-122.26,39110.0,5
+675,38,12,1981,Female,422 Burns Street,Shepherdsville,KY,40165,37.98,-85.71,40087.0,2
+676,46,10,1973,Male,12067 Federal Boulevard,Philadelphia,PA,19135,39.95,-75.16,35891.0,3
+677,83,3,1936,Female,480 Catherine Drive,Stamford,CT,06902,41.09,-73.55,74753.0,5
+678,31,5,1988,Male,1495 Elm Boulevard,Banning,CA,92220,33.92,-116.83,26511.0,6
+679,76,4,1943,Male,2609 Plum Drive,Olathe,KS,66061,38.88,-94.81,19682.0,4
+680,81,9,1938,Female,678 Park Drive,Miami,FL,33179,25.77,-80.20,23217.0,3
+681,30,5,1989,Male,323 Eighth Drive,Boulder,CO,80302,40.02,-105.25,67589.0,3
+682,30,8,1989,Male,4262 Madison Drive,South Hamilton,MA,01982,42.62,-70.86,92960.0,3
+683,52,4,1967,Female,2332 Elm Lane,Walnut Creek,CA,94596,37.89,-122.03,87030.0,5
+684,72,2,1948,Male,493 South Street,Ridgewood,NY,11385,40.70,-73.89,22918.0,5
+685,29,9,1990,Female,8958 Catherine Street,Stockton,UT,84071,40.30,-112.30,49842.0,1
+686,36,4,1983,Female,3194 Norfolk Street,Seaford,DE,19973,38.64,-75.61,35933.0,2
+687,42,2,1978,Male,376 Fourth Drive,Waimanalo,HI,96795,21.34,-157.72,36860.0,3
+688,53,2,1967,Male,302 Park Boulevard,Cordele,GA,31015,31.96,-83.77,28269.0,6
+689,20,11,1999,Male,135 Spruce Lane,Ottawa,OH,45875,41.02,-84.04,40426.0,1
+690,43,8,1976,Female,93 11th Avenue,Anaheim,CA,92804,33.81,-117.97,37371.0,4
+691,33,9,1986,Female,212 Ocean View Avenue,San Rafael,CA,94903,38.02,-122.54,67589.0,2
+692,55,4,1964,Male,455 Little Creek Boulevard,Williston Park,NY,11596,40.75,-73.64,80957.0,6
+693,64,7,1955,Female,729 Littlewood Avenue,Wilton,CT,06897,41.18,-73.42,192269.0,6
+694,34,8,1985,Male,6444 Madison Drive,Tucson,AZ,85710,32.22,-110.82,35641.0,2
+695,33,8,1986,Female,850 Birch Avenue,Lobelville,TN,37097,35.75,-87.79,28696.0,4
+696,30,4,1989,Male,7350 Fourth Lane,Rome,NY,13440,43.21,-75.47,38153.0,1
+697,51,8,1968,Female,2897 West Street,Lorton,VA,22079,38.70,-77.24,71490.0,3
+698,20,12,1999,Female,3183 Burns Boulevard,Woodland,WA,98674,45.94,-122.67,43006.0,2
+699,44,6,1975,Male,41043 Lincoln Lane,Saint Amant,LA,70774,30.19,-90.78,49523.0,4
+700,31,11,1988,Male,7948 Martin Luther King Avenue,Memphis,TN,38106,35.10,-90.00,21876.0,2
+701,27,8,1992,Female,8893 Valley Drive,Griffith,IN,46319,41.52,-87.42,44843.0,2
+702,43,3,1976,Female,41332 Lincoln Avenue,Durham,NC,27704,35.98,-78.91,35938.0,3
+703,73,10,1946,Female,518 Main Street,Danville,VA,24541,36.58,-79.40,28553.0,5
+704,18,12,2001,Female,753 East Avenue,Fayetteville,NC,28311,35.05,-78.87,39803.0,1
+705,50,9,1969,Female,9982 Summit Boulevard,Murrieta,CA,92563,33.57,-117.14,49076.0,4
+706,41,10,1978,Male,8425 East Lane,Cleveland,OH,44143,41.47,-81.67,56368.0,3
+707,35,6,1984,Female,9006 Ocean Boulevard,Philadelphia,PA,19138,39.95,-75.16,32855.0,2
+708,65,2,1955,Male,364 Eighth Drive,Fort Worth,TX,76148,32.75,-97.33,18149.0,2
+709,44,11,1975,Male,8349 Valley Avenue,Wellington,OH,44090,41.16,-82.22,40407.0,3
+710,19,6,2000,Male,57285 Jefferson Avenue,Surprise,AZ,85388,33.61,-112.46,48418.0,2
+711,61,7,1958,Male,9888 Washington Boulevard,Levittown,NY,11756,40.72,-73.51,59815.0,2
+712,23,8,1996,Female,9392 Fifth Avenue,Chicago,IL,60612,41.83,-87.68,42454.0,4
+713,43,5,1976,Female,580 Fifth Boulevard,Bessemer City,NC,28016,35.28,-81.28,32775.0,1
+714,36,12,1983,Male,42720 East Drive,Mukwonago,WI,53149,42.86,-88.33,57532.0,4
+715,34,11,1985,Female,97 Fourth Drive,Mena,AR,71953,34.58,-94.23,26325.0,1
+716,70,1,1950,Male,20382 Park Drive,Fremont,CA,94536,37.56,-121.98,68765.0,5
+717,26,4,1993,Male,7344 Oak Drive,Saint Marys,PA,15857,41.42,-78.55,38670.0,1
+718,57,11,1962,Female,4940 Ocean View Drive,Prichard,WV,25555,38.21,-82.56,36528.0,3
+719,28,4,1991,Male,54 Burns Avenue,Broken Bow,OK,74728,34.02,-94.73,28163.0,4
+720,56,8,1963,Female,212 Mountain View Lane,Marietta,GA,30008,33.95,-84.54,36652.0,3
+721,18,12,2001,Male,65690 Bayview Lane,Attleboro,MA,02703,41.93,-71.29,54427.0,2
+722,27,6,1992,Female,563 Jefferson Boulevard,Poway,CA,92064,32.97,-117.02,74198.0,3
+723,18,1,2002,Male,6295 Norfolk Boulevard,Greenville,NC,27834,35.59,-77.37,34904.0,2
+724,55,12,1964,Male,905 West Avenue,Memphis,TN,38103,35.10,-90.00,97455.0,2
+725,37,1,1983,Female,911 Ocean Boulevard,Fullerton,CA,92831,33.87,-117.89,52181.0,2
+726,68,6,1951,Male,8199 Park Boulevard,Claypool,IN,46510,41.12,-85.87,27939.0,5
+727,54,5,1965,Female,1444 Plum Boulevard,Colorado Springs,CO,80903,38.86,-104.76,41957.0,3
+728,26,11,1993,Female,9129 Lexington Lane,Richmond,KY,40475,37.74,-84.29,40102.0,6
+729,61,9,1958,Female,7945 Fourth Avenue,Honolulu,HI,96825,21.30,-157.85,62005.0,9
+730,18,1,2002,Male,36 First Drive,Spokane,WA,99208,47.78,-117.45,44061.0,4
+731,49,5,1970,Male,3225 Lexington Street,Rocky Point,NY,11778,40.92,-72.92,58503.0,4
+732,28,5,1991,Female,34542 Ninth Drive,Buffalo,NY,14215,42.88,-78.85,29478.0,2
+733,29,8,1990,Female,933 Sussex Drive,Laurel,MT,59044,45.60,-108.68,40005.0,2
+734,70,5,1949,Male,111 Hillside Avenue,Delavan,WI,53115,42.62,-88.63,31901.0,4
+735,28,8,1991,Female,5671 Sussex Drive,Miami,FL,33194,25.77,-80.20,44046.0,3
+736,61,5,1958,Male,206 Pine Lane,Joliet,IL,60436,41.52,-88.12,35823.0,3
+737,29,5,1990,Female,637 Littlewood Drive,Prince George,VA,23875,37.22,-77.28,44976.0,2
+738,28,2,1992,Male,768 Valley Stream Drive,Portage,WI,53901,43.54,-89.46,40035.0,2
+739,31,5,1988,Female,551 Essex Drive,North Little Rock,AR,72116,34.78,-92.25,50978.0,2
+740,76,6,1943,Male,93374 11th Street,Clinton Township,MI,48036,42.58,-82.91,34408.0,4
+741,22,9,1997,Female,6054 Main Avenue,Chicago,IL,60614,41.83,-87.68,2026.0,1
+742,59,5,1960,Male,756 El Camino Avenue,Oviedo,FL,32765,28.65,-81.18,55571.0,3
+743,26,12,1993,Male,6222 Sixth Lane,Weare,NH,03281,43.10,-71.73,53182.0,1
+744,33,2,1987,Male,6785 Valley Stream Boulevard,Wellsburg,WV,26070,40.28,-80.60,33944.0,4
+745,54,7,1965,Male,275 Tenth Street,Bethesda,MD,20814,38.98,-77.12,114318.0,3
+746,67,12,1952,Male,9385 Lincoln Drive,Detroit,MI,48202,42.38,-83.10,28714.0,2
+747,41,2,1979,Male,7061 Littlewood Street,Henderson,NV,89002,36.00,-114.96,59093.0,5
+748,39,3,1980,Female,95 12th Avenue,Whittier,CA,90601,34.00,-118.03,51465.0,2
+749,20,8,1999,Male,1177 Elm Avenue,Waterford,NY,12188,42.79,-73.67,50776.0,1
+750,28,9,1991,Female,3615 Lafayette Boulevard,Quakertown,PA,18951,40.43,-75.34,51391.0,1
+751,53,12,1966,Male,353 South Boulevard,Princeton,NJ,08540,40.35,-74.65,920.0,3
+752,50,10,1969,Female,24 River Avenue,Stuart,FL,34997,27.19,-80.24,41420.0,5
+753,52,4,1967,Female,6467 Birch Street,David City,NE,68632,41.25,-97.12,34460.0,2
+754,41,2,1979,Male,9684 Grant Drive,Waynesboro,VA,22980,38.06,-78.90,37786.0,5
+755,21,4,1998,Female,5259 Lake Drive,Virginia Beach,VA,23453,36.78,-76.08,42161.0,1
+756,30,3,1989,Male,3636 El Camino Avenue,Cincinnati,OH,45245,39.09,-84.51,51998.0,1
+757,22,12,1997,Female,5941 South Lane,Central,SC,29630,34.72,-82.78,37253.0,1
+758,49,12,1970,Male,840 Elm Avenue,Wichita Falls,TX,76301,33.89,-98.51,27943.0,4
+759,76,3,1943,Female,15 Elm Lane,Myrtle Beach,SC,29579,33.69,-78.89,32817.0,6
+760,62,8,1957,Male,7378 Park Lane,Bristol,NH,03222,43.60,-71.74,38681.0,5
+761,48,7,1971,Male,671 Little Creek Street,Luverne,AL,36049,31.70,-86.26,31553.0,3
+762,36,8,1983,Male,97 Little Creek Boulevard,Puyallup,WA,98373,47.14,-122.32,49993.0,3
+763,63,4,1956,Male,716 Lafayette Street,New Marshfield,OH,45766,39.33,-82.23,28828.0,4
+764,77,3,1942,Female,2073 South Avenue,New York,NY,10003,40.71,-73.99,1.0,3
+765,31,3,1988,Male,557 Catherine Drive,Houston,TX,77096,29.76,-95.38,63356.0,5
+766,33,12,1986,Female,1884 Lake Avenue,Carrollton,TX,75007,32.98,-96.89,57526.0,1
+767,36,7,1983,Male,1531 North Lane,Cherry Hill,NJ,08003,39.90,-74.99,80794.0,2
+768,57,12,1962,Female,442 Burns Boulevard,Mansfield,MA,02048,42.02,-71.21,76274.0,2
+769,29,5,1990,Female,8265 Mountain View Drive,Berlin,WI,54923,43.97,-88.95,38861.0,1
+770,32,4,1987,Male,549 Rose Drive,Thibodaux,LA,70301,29.79,-90.82,45312.0,4
+771,63,12,1956,Male,39126 El Camino Boulevard,Alhambra,CA,91801,34.09,-118.13,43180.0,5
+772,25,10,1994,Female,79 Hill Avenue,Andover,MN,55304,45.25,-93.33,60310.0,6
+773,64,11,1955,Female,6606 Jefferson Avenue,Moreno Valley,CA,92553,33.92,-117.24,30747.0,4
+774,21,9,1998,Male,740 Burns Lane,Pueblo,CO,81007,38.27,-104.62,43617.0,3
+775,51,7,1968,Female,32299 Federal Street,Janesville,WI,53546,42.68,-89.01,43386.0,3
+776,62,2,1958,Female,690 Oak Street,Milwaukee,WI,53224,43.06,-87.96,36465.0,1
+777,72,1,1948,Male,5138 North Drive,San Francisco,CA,94131,37.74,-122.44,65055.0,6
+778,21,6,1998,Male,2537 Forest Boulevard,Ennis,TX,75119,32.33,-96.62,36924.0,3
+779,34,11,1985,Male,860 George Avenue,Calistoga,CA,94515,38.62,-122.61,43579.0,3
+780,54,12,1965,Male,498 Littlewood Avenue,Rochester,MN,55901,44.01,-92.47,53986.0,4
+781,21,9,1998,Female,95 Burns Drive,Cambridge,MA,02138,42.37,-71.11,97127.0,2
+782,52,4,1967,Male,514 Pine Boulevard,Stamford,CT,06906,41.09,-73.55,69604.0,4
+783,49,1,1971,Female,97536 Summit Street,Cedar Park,TX,78613,30.51,-97.83,62019.0,4
+784,19,11,2000,Male,723 Summit Drive,Inglewood,CA,90301,33.95,-118.36,32550.0,6
+785,30,4,1989,Male,445 Fifth Avenue,Lost Creek,WV,26385,39.15,-80.35,36092.0,1
+786,55,7,1964,Male,287 Pine Lane,Mountlake Terrace,WA,98043,47.79,-122.30,48259.0,3
+787,42,11,1977,Male,3835 Norfolk Street,Paragould,AR,72450,36.05,-90.51,31499.0,4
+788,36,7,1983,Female,65 Fifth Lane,Abbeville,SC,29620,34.17,-82.37,31079.0,2
+789,46,8,1973,Male,1833 George Drive,Miami,FL,33186,25.77,-80.20,47395.0,2
+790,42,10,1977,Male,663 Summit Boulevard,Brooklyn,NY,11210,40.64,-73.94,47542.0,3
+791,58,1,1962,Male,3385 Hill Lane,Burke,VA,22015,38.78,-77.27,72510.0,4
+792,48,2,1972,Male,8849 West Drive,Shelton,CT,06484,41.30,-73.13,65736.0,3
+793,71,3,1948,Female,557 Burns Boulevard,Weatherford,TX,76086,32.75,-97.77,19581.0,3
+794,57,6,1962,Male,2288 Pine Lane,Auburn,ME,04210,44.08,-70.24,42411.0,2
+795,87,4,1932,Female,115 Bayview Lane,Seattle,WA,98122,47.61,-122.30,55902.0,1
+796,38,10,1981,Male,182 Valley Street,Lancaster,PA,17601,40.04,-76.30,52844.0,3
+797,46,9,1973,Male,189 Forest Street,Winder,GA,30680,33.99,-83.72,37056.0,4
+798,44,1,1976,Male,48 Fourth Avenue,Citrus Heights,CA,95621,38.69,-121.31,40220.0,3
+799,81,9,1938,Male,84497 Valley Stream Drive,North Hollywood,CA,91605,34.20,-118.39,28644.0,7
+800,52,2,1968,Female,401 Bayview Lane,Los Angeles,CA,90018,34.02,-118.31,29673.0,3
+801,61,12,1958,Male,649 Spruce Boulevard,Rincon,GA,31326,32.29,-81.23,46954.0,4
+802,33,7,1986,Male,239 Sussex Drive,Huntington,WV,25705,38.41,-82.43,44534.0,4
+803,51,6,1968,Male,691 Ocean View Street,Riverside,CA,92505,33.93,-117.49,37963.0,4
+804,40,5,1979,Female,8799 Elm Avenue,Mckinney,TX,75069,33.20,-96.65,50329.0,4
+805,44,6,1975,Male,9414 Summit Boulevard,Philadelphia,PA,19145,39.95,-75.16,36715.0,4
+806,60,7,1959,Male,1583 Grant Avenue,Jacksonville,FL,32218,30.33,-81.65,39521.0,3
+807,78,5,1941,Female,245 Martin Luther King Drive,Fort Mill,SC,29715,35.00,-80.94,51014.0,4
+808,41,10,1978,Male,439 George Avenue,Alpine,UT,84004,40.50,-111.70,73067.0,3
+809,63,12,1956,Female,560 Eighth Boulevard,San Leandro,CA,94578,37.70,-122.12,44183.0,4
+810,21,10,1998,Male,979 Fifth Avenue,Columbus,OH,43211,39.98,-82.98,22922.0,1
+811,28,1,1992,Female,441 Rose Lane,Powell,OH,43065,40.16,-83.06,84987.0,2
+812,63,3,1956,Female,292 First Avenue,Rosebush,MI,48878,43.69,-84.76,33728.0,3
+813,81,1,1939,Female,374 Lexington Street,Warren,OH,44485,41.23,-80.81,11613.0,8
+814,47,8,1972,Male,801 12th Drive,Barnhart,MO,63012,38.33,-90.40,48600.0,5
+815,58,7,1961,Male,9212 Plum Avenue,Cordova,TN,38018,35.15,-89.75,60292.0,1
+816,42,3,1977,Female,215 Main Drive,Oxford,MI,48371,42.82,-83.25,58034.0,2
+817,68,7,1951,Male,5828 Wessex Drive,Orlando,FL,32818,28.50,-81.37,43004.0,6
+818,51,7,1968,Female,2699 Littlewood Avenue,Okmulgee,OK,74447,35.63,-95.95,29144.0,1
+819,46,8,1973,Male,7677 Little Creek Drive,San Antonio,TX,78210,29.45,-98.50,25850.0,1
+820,28,2,1992,Female,4633 Sixth Avenue,Wyoming,MI,49519,42.89,-85.72,37583.0,2
+821,20,11,1999,Female,88 George Street,Kent,OH,44240,41.14,-81.36,41403.0,1
+822,61,7,1958,Male,386 11th Lane,Mamaroneck,NY,10543,40.93,-73.72,101018.0,6
+823,30,4,1989,Male,989 Hill Lane,Thomson,GA,30824,33.46,-82.50,32125.0,2
+824,80,12,1939,Female,80471 Eighth Street,Tampa,FL,33610,27.95,-82.48,13596.0,4
+825,51,11,1968,Male,2003 Ninth Avenue,Morrisville,PA,19067,40.20,-74.78,80526.0,1
+826,36,8,1983,Male,99 Mill Lane,Loganville,GA,30052,33.83,-83.89,43953.0,1
+827,56,12,1963,Female,407 Seventh Lane,Birmingham,AL,35212,33.52,-86.79,31533.0,3
+828,23,9,1996,Female,871 Second Street,El Cajon,CA,92020,32.79,-116.96,42711.0,1
+829,74,11,1945,Female,951 11th Avenue,North Myrtle Beach,SC,29598,33.82,-78.67,23137.0,5
+830,18,1,2002,Male,631 Elm Drive,Sylmar,CA,91342,34.32,-118.38,39778.0,1
+831,42,8,1977,Male,78 Lexington Street,Lake Hopatcong,NJ,07849,40.96,-74.61,69747.0,4
+832,54,10,1965,Male,600 Grant Lane,Cape Coral,FL,33909,26.63,-81.99,34947.0,3
+833,63,4,1956,Male,3283 Park Lane,Mokena,IL,60448,41.53,-87.87,77961.0,3
+834,22,4,1997,Female,37 Norfolk Boulevard,Little Silver,NJ,07739,40.33,-74.03,114692.0,2
+835,47,9,1972,Male,523 Federal Drive,Bronx,NY,10456,40.84,-73.87,25434.0,4
+836,56,2,1964,Female,532 Sixth Drive,Columbus,OH,43228,39.98,-82.98,37558.0,3
+837,30,12,1989,Female,714 North Drive,Columbus,OH,43206,39.98,-82.98,47110.0,2
+838,52,2,1968,Male,531 Pine Avenue,Eaton,IN,47338,40.34,-85.35,30681.0,4
+839,20,8,1999,Female,5342 Valley Stream Avenue,The Colony,TX,75056,33.09,-96.88,65051.0,2
+840,49,5,1970,Female,7499 Lake Boulevard,Eight Mile,AL,36613,30.76,-88.12,31008.0,4
+841,62,11,1957,Male,878 Forest Street,Columbus,OH,43228,39.98,-82.98,37556.0,6
+842,76,2,1944,Male,359 Valley Street,Indianapolis,IN,46221,39.77,-86.14,21547.0,5
+843,20,4,1999,Male,176 River Boulevard,Osceola,AR,72370,35.70,-89.99,29051.0,2
+844,19,5,2000,Female,700 Madison Lane,Aurora,IL,60505,41.76,-88.29,28953.0,2
+845,39,7,1980,Female,3 Main Street,Fort Lauderdale,FL,33326,26.11,-80.39,58774.0,2
+846,46,7,1973,Male,671 Essex Street,Twin Falls,ID,83301,42.41,-114.59,33395.0,2
+847,87,1,1933,Female,7736 Eighth Boulevard,Venice,FL,34293,27.09,-82.43,22894.0,5
+848,45,6,1974,Female,95 12th Drive,Yonkers,NY,10710,40.94,-73.86,63815.0,6
+849,57,2,1963,Female,339 Little Creek Lane,Chula Vista,CA,91913,32.64,-116.98,54963.0,4
+850,28,9,1991,Male,18 Lake Avenue,New York,NY,10039,40.71,-73.99,35940.0,3
+851,62,5,1957,Male,75540 Valley Street,Palmdale,CA,93552,34.50,-118.01,36911.0,4
+852,34,12,1985,Female,232 Jefferson Boulevard,Jasper,IN,47546,38.39,-86.93,44838.0,1
+853,59,3,1960,Female,963 11th Drive,Sunnyvale,CA,94087,37.35,-122.03,92785.0,6
+854,67,1,1953,Male,127 Grant Street,Butler,OH,44822,40.58,-82.42,34985.0,6
+855,39,11,1980,Male,2773 El Camino Lane,Muncie,IN,47304,40.19,-85.39,42086.0,4
+856,45,11,1974,Female,535 Hill Boulevard,Sarasota,FL,34232,27.33,-82.54,38872.0,4
+857,50,2,1970,Female,2516 Essex Drive,Beaverton,OR,97008,45.45,-122.79,48295.0,3
+858,28,6,1991,Female,5367 Pine Avenue,Gadsden,AL,35902,34.01,-86.01,39708.0,3
+859,56,6,1963,Female,3248 Hill Drive,Queensbury,NY,12804,43.34,-73.67,45416.0,1
+860,36,7,1983,Female,2062 Fourth Street,Fontana,CA,92335,34.08,-117.46,28007.0,4
+861,48,11,1971,Female,55378 Burns Avenue,Rockford,IL,61109,42.27,-89.06,38554.0,1
+862,27,8,1992,Female,9354 Lafayette Street,Elkton,VA,22827,38.41,-78.61,37384.0,2
+863,29,11,1990,Female,6595 Ocean Drive,North Brunswick,NJ,08902,40.45,-74.48,63684.0,5
+864,92,12,1927,Female,34 Bayview Drive,Rialto,CA,92376,34.10,-117.38,26546.0,6
+865,35,11,1984,Female,800 Ninth Boulevard,Lebanon,MO,65536,37.67,-92.66,28472.0,1
+866,49,4,1970,Male,6829 Main Boulevard,Pana,IL,62557,39.38,-89.07,31957.0,6
+867,61,8,1958,Male,8823 South Drive,North Highlands,CA,95660,38.66,-121.37,29195.0,3
+868,36,10,1983,Male,151 Lafayette Drive,Eureka,CA,95503,40.71,-124.11,36372.0,2
+869,48,7,1971,Female,9243 Oak Street,Atlanta,GA,30307,33.76,-84.33,93417.0,3
+870,40,2,1980,Female,466 Pine Drive,Silver City,NM,88061,32.78,-108.26,29854.0,3
+871,43,11,1976,Female,480 First Lane,Los Angeles,CA,90044,33.95,-118.29,25207.0,1
+872,25,1,1995,Male,3357 Hill Lane,Freeland,PA,18224,41.01,-75.89,32966.0,1
+873,66,7,1953,Male,23 El Camino Street,Clearwater,FL,33761,27.97,-82.76,47972.0,5
+874,50,2,1970,Male,421 Essex Street,Pinehurst,NC,28374,35.18,-79.46,49350.0,6
+875,39,12,1980,Female,31 Lincoln Avenue,Miami,FL,33126,25.77,-80.29,30383.0,2
+876,44,3,1975,Female,45682 Washington Lane,Ashland,KY,41102,38.45,-82.64,38568.0,4
+877,35,5,1984,Female,350 Third Avenue,Alexandria,MN,56308,45.87,-95.37,41141.0,3
+878,24,2,1996,Male,5573 Sixth Lane,Fort Dodge,IA,50501,42.50,-94.17,38526.0,1
+879,35,12,1984,Female,834 Tenth Lane,Fort Wayne,IN,46809,41.07,-85.13,34181.0,2
+880,83,3,1936,Male,588 Lincoln Street,Durham,NC,27713,35.98,-78.91,41763.0,5
+881,50,11,1969,Male,749 Oak Street,Walnut Creek,CA,94598,37.91,-122.01,86113.0,6
+882,52,2,1968,Male,29 Martin Luther King Lane,Sherwood,AR,72120,34.83,-92.20,45625.0,1
+883,62,9,1957,Female,314 Fourth Street,Kirkland,WA,98033,47.67,-122.18,101193.0,3
+884,64,2,1956,Male,690 Jefferson Lane,Rochelle,IL,61068,41.91,-89.06,37898.0,5
+885,82,9,1937,Female,7336 First Avenue,Greensburg,PA,15601,40.31,-79.54,52315.0,4
+886,28,10,1991,Female,207 Washington Lane,Medford,NJ,08055,39.86,-74.82,80060.0,2
+887,89,10,1930,Female,711 South Boulevard,Glenview,IL,60025,42.07,-87.81,50341.0,5
+888,47,7,1972,Female,69590 Rose Drive,Williamstown,NJ,08094,39.68,-74.98,50790.0,4
+889,33,11,1986,Female,2043 Mill Street,Grand Prairie,TX,75050,32.69,-97.01,37384.0,3
+890,58,6,1961,Male,55 Fourth Drive,Honesdale,PA,18431,41.57,-75.25,35274.0,3
+891,30,7,1989,Male,498 Mountain View Avenue,Mackinaw,IL,61755,40.53,-89.35,47300.0,1
+892,35,9,1984,Male,600 River Lane,Compton,CA,90221,33.87,-118.21,26201.0,1
+893,62,2,1958,Female,1563 Summit Boulevard,Glendale,CA,91205,34.13,-118.24,20783.0,3
+894,33,10,1986,Male,514 Sixth Boulevard,San Antonio,TX,78240,29.45,-98.50,43968.0,1
+895,27,7,1992,Male,5222 Valley Stream Avenue,Harlem,GA,30814,33.41,-82.31,33778.0,1
+896,48,3,1971,Female,7554 Sixth Street,Louisville,OH,44641,40.83,-81.26,38611.0,5
+897,68,3,1951,Female,7276 Valley Drive,Sioux Falls,SD,57107,43.54,-96.73,39082.0,4
+898,29,6,1990,Female,5544 Grant Avenue,Ypsilanti,MI,48197,42.24,-83.62,47891.0,1
+899,47,5,1972,Female,4191 Maple Avenue,Bronx,NY,10463,40.84,-73.87,52063.0,2
+900,23,1,1997,Male,28 Madison Lane,Cambria Heights,NY,11411,40.69,-73.73,49342.0,1
+901,49,12,1970,Female,7406 Mill Avenue,Somerset,CA,95684,38.62,-120.62,39700.0,3
+902,23,12,1996,Male,1430 Elm Avenue,Fremont,CA,94536,37.56,-121.98,68767.0,3
+903,65,1,1955,Male,54 George Avenue,Carson City,NV,89701,39.14,-119.71,39543.0,3
+904,41,4,1978,Female,40 River Boulevard,Tucson,AZ,85745,32.25,-111.08,46209.0,4
+905,36,2,1984,Male,271 Sixth Drive,Lansdale,PA,19446,40.24,-75.28,64419.0,1
+906,50,11,1969,Female,687 Fifth Boulevard,Vero Beach,FL,32960,27.64,-80.39,33098.0,3
+907,57,12,1962,Female,545 Eighth Avenue,Houston,TX,77086,29.76,-95.38,30495.0,4
+908,45,1,1975,Male,2270 Sixth Lane,Humble,TX,77346,29.99,-95.26,67170.0,3
+909,39,10,1980,Female,675 Fifth Avenue,Baton Rouge,LA,70815,30.44,-91.12,35501.0,4
+910,46,6,1973,Female,9846 Second Lane,Colmar,PA,18915,40.27,-75.26,54124.0,2
+911,65,12,1954,Male,696 George Lane,Hartsdale,NY,10530,41.02,-73.80,40957.0,4
+912,42,5,1977,Female,939 Main Lane,Laurel,MD,20723,39.09,-76.85,72478.0,2
+913,70,1,1950,Female,867 Valley Stream Boulevard,Sanford,FL,32773,28.78,-81.27,26574.0,3
+914,78,8,1941,Female,3553 Mountain View Drive,Brandon,MS,39042,32.28,-90.00,23821.0,8
+915,55,9,1964,Female,1392 Plum Avenue,Brooklyn,NY,11214,40.64,-73.94,38165.0,1
+916,68,7,1951,Female,267 Birch Boulevard,Iron Mountain,MI,49801,45.82,-88.06,39238.0,4
+917,19,2,2001,Female,939 Lake Drive,North Dartmouth,MA,02747,41.64,-71.00,51601.0,1
+918,44,4,1975,Female,5810 Sixth Drive,Lucama,NC,27851,35.64,-78.00,32491.0,3
+919,19,10,2000,Female,2481 Hillside Street,Hyde Park,MA,02136,42.26,-71.11,48308.0,4
+920,49,6,1970,Female,620 12th Avenue,Miami,FL,33155,25.77,-80.20,41800.0,6
+921,27,2,1993,Female,31919 Summit Boulevard,Ankeny,IA,50021,41.72,-93.60,60510.0,3
+922,24,7,1995,Female,7454 12th Lane,Pleasant Prairie,WI,53158,42.52,-87.88,61760.0,2
+923,85,8,1934,Female,726 Oak Avenue,Silver City,NM,88062,32.78,-108.26,25066.0,7
+924,78,2,1942,Female,3601 Catherine Boulevard,Knoxville,TN,37931,35.97,-83.94,44469.0,5
+925,21,8,1998,Female,729 Wessex Avenue,Griffith,IN,46319,41.52,-87.42,44842.0,4
+926,18,1,2002,Male,66 Birch Lane,Okatie,SC,29909,32.30,-80.92,29169.0,1
+927,21,7,1998,Female,5995 Valley Stream Avenue,Portland,OR,97210,45.55,-122.73,87372.0,3
+928,46,4,1973,Male,574 Norfolk Street,Chesterfield,VA,23832,37.37,-77.50,54881.0,4
+929,49,3,1970,Female,732 Lincoln Drive,Tampa,FL,33607,27.95,-82.48,31497.0,3
+930,24,7,1995,Male,7043 Ocean Avenue,Oxnard,CA,93033,34.14,-119.10,28703.0,1
+931,35,4,1984,Female,334 Birch Drive,Thompsons Station,TN,37179,35.82,-87.01,56350.0,4
+932,31,12,1988,Male,3487 Bayview Drive,Upper Marlboro,MD,20774,38.81,-76.75,67886.0,4
+933,54,4,1965,Male,377 Lake Lane,Philadelphia,PA,19145,39.95,-75.16,36711.0,4
+934,61,1,1959,Female,96 Lake Lane,Maywood,IL,60153,41.88,-87.84,31505.0,4
+935,46,11,1973,Male,298 Federal Avenue,Phoenix,AZ,85023,33.63,-112.09,49068.0,2
+936,41,11,1978,Female,37 Sixth Lane,Albuquerque,NM,87105,35.11,-106.62,28704.0,2
+937,82,6,1937,Male,996 Valley Drive,Fresno,CA,93650,36.83,-119.79,26126.0,5
+938,50,7,1969,Male,2040 Washington Boulevard,Versailles,KY,40383,38.05,-84.72,44587.0,6
+939,25,10,1994,Male,7091 Lexington Lane,Fayetteville,AR,72701,36.07,-94.15,46822.0,4
+940,40,4,1979,Male,5468 Little Creek Drive,Skokie,IL,60077,42.03,-87.73,44452.0,5
+941,37,2,1983,Male,169 Oak Street,Seneca,PA,16346,41.37,-79.70,33108.0,2
+942,25,6,1994,Male,9804 Third Street,Morganton,NC,28655,35.74,-81.69,33534.0,3
+943,47,2,1973,Female,54 Valley Lane,Chicago,IL,60629,41.83,-87.68,29564.0,2
+944,67,3,1952,Female,488 Bayview Boulevard,Placentia,CA,92870,33.88,-117.85,46945.0,4
+945,48,1,1972,Male,73 Essex Lane,Morrisville,NC,27560,35.83,-78.83,75682.0,5
+946,61,10,1958,Female,7561 Valley Avenue,Greensboro,NC,27407,36.07,-79.82,39661.0,4
+947,20,6,1999,Male,8460 Oak Lane,Portland,ME,04103,43.66,-70.25,48495.0,3
+948,67,3,1952,Female,816 El Camino Drive,Paradise,CA,95967,39.74,-121.60,19199.0,3
+949,75,7,1944,Male,1222 First Drive,Rochester,MN,55903,44.01,-92.47,40696.0,6
+950,31,7,1988,Female,95410 Pine Boulevard,Arlington,VA,22203,38.87,-77.10,96661.0,2
+951,55,11,1964,Female,4329 El Camino Boulevard,Newland,NC,28657,36.08,-81.92,26546.0,5
+952,34,10,1985,Female,316 Valley Stream Avenue,North Fork,CA,93643,37.23,-119.49,33934.0,3
+953,50,9,1969,Female,64 Mill Street,Franklin,WI,53132,42.88,-88.00,61008.0,4
+954,33,11,1986,Male,27934 11th Street,Fort Lauderdale,FL,33312,26.14,-80.13,42808.0,1
+955,21,2,1999,Male,92196 Tenth Drive,Leesburg,VA,20176,39.10,-77.55,90104.0,2
+956,55,12,1964,Female,292 Tenth Street,Sacramento,CA,95820,38.53,-121.44,35553.0,1
+957,26,2,1994,Male,225 Ocean View Avenue,Richmond,VA,23235,37.55,-77.46,53554.0,2
+958,33,3,1986,Male,858 Plum Avenue,Scarborough,ME,04074,43.59,-70.33,59613.0,4
+959,91,9,1928,Female,984 Little Creek Lane,Flushing,NY,11355,40.77,-73.84,17150.0,6
+960,67,11,1952,Male,391 Martin Luther King Boulevard,San Leandro,CA,94577,37.71,-122.16,30962.0,5
+961,59,6,1960,Male,485 Birch Boulevard,Napoleon,OH,43545,41.39,-84.12,37927.0,1
+962,33,11,1986,Female,776 Bayview Avenue,Commack,NY,11725,40.84,-73.28,69706.0,2
+963,18,8,2001,Female,8026 East Drive,Katy,TX,77449,29.79,-95.82,43253.0,1
+964,18,2,2002,Male,188 Ninth Boulevard,Farmington,MO,63640,37.78,-90.42,36101.0,2
+965,53,11,1966,Female,864 Jefferson Drive,Duson,LA,70529,30.23,-92.19,40363.0,4
+966,83,11,1936,Male,7994 Maple Lane,East Hampton,NY,11937,40.95,-72.19,80493.0,5
+967,78,11,1941,Female,939 Mill Street,Chino,CA,91710,33.98,-117.65,39263.0,4
+968,67,4,1952,Female,7927 Plum Lane,Allen,TX,75002,33.10,-96.66,78329.0,3
+969,42,5,1977,Male,260 Spruce Avenue,San Antonio,TX,78221,29.45,-98.50,25585.0,4
+970,62,8,1957,Male,3776 Bayview Lane,Garner,NC,27529,35.69,-78.62,46256.0,3
+971,28,3,1991,Male,231 Littlewood Avenue,Lynden,WA,98264,48.95,-122.43,39354.0,2
+972,35,8,1984,Male,33 Second Boulevard,Plano,TX,75023,33.04,-96.74,60746.0,4
+973,51,11,1968,Female,375 Hillside Drive,Round Rock,TX,78665,30.54,-97.64,61901.0,7
+974,26,2,1994,Female,4726 Third Street,Borden,IN,47106,38.46,-85.95,43454.0,2
+975,43,1,1977,Male,2479 Valley Avenue,Brooklyn,NY,11211,40.64,-73.94,45789.0,4
+976,56,1,1964,Male,2742 El Camino Boulevard,Lake View,NY,14085,42.71,-78.93,52841.0,5
+977,23,10,1996,Female,5883 Sixth Street,Lugoff,SC,29078,34.22,-80.68,37717.0,3
+978,22,8,1997,Female,3269 River Street,Marysville,OH,43040,40.23,-83.37,51613.0,2
+979,42,9,1977,Female,6777 First Drive,Rialto,CA,92376,34.10,-117.38,29835.0,7
+980,78,7,1941,Male,22 East Avenue,Novi,MI,48375,42.47,-83.49,62103.0,4
+981,51,2,1969,Female,733 Maple Drive,Columbia,MO,65201,38.95,-92.32,42749.0,4
+982,38,7,1981,Female,6022 Mill Street,Houston,TX,77095,29.76,-95.38,69171.0,1
+983,98,11,1921,Female,412 Burns Drive,Ewa Beach,HI,96706,21.31,-158.01,42306.0,5
+984,29,10,1990,Female,645 Tenth Boulevard,El Cajon,CA,92021,32.84,-116.88,42150.0,3
+985,23,11,1996,Female,994 Second Lane,Suitland,MD,20746,38.83,-76.92,47589.0,4
+986,68,2,1952,Male,69 Spruce Avenue,Hendersonville,NC,28792,35.32,-82.46,23993.0,5
+987,52,8,1967,Female,23 Sussex Lane,Allenton,MI,48002,42.92,-82.88,42701.0,4
+988,41,8,1978,Female,6157 Washington Drive,Capistrano Beach,CA,92624,33.45,-117.66,56320.0,3
+989,59,6,1960,Male,4728 George Drive,Grand Rapids,MI,49548,42.96,-85.65,31550.0,3
+990,56,9,1963,Male,1184 Essex Lane,Highlands,NC,28741,35.05,-83.19,32418.0,4
+991,47,10,1972,Male,6232 Second Avenue,Perris,CA,92571,33.83,-117.20,32847.0,3
+992,40,2,1980,Male,663 Third Drive,The Colony,TX,75056,33.09,-96.88,65053.0,2
+993,72,6,1947,Male,527 Federal Avenue,San Ramon,CA,94583,37.78,-121.99,2422.0,2
+994,36,2,1984,Female,4350 Valley Boulevard,Caldwell,OH,43724,39.74,-81.51,32522.0,2
+995,43,9,1976,Female,5180 Burns Boulevard,Griffin,GA,30224,33.24,-84.27,36315.0,3
+996,64,7,1955,Female,28 First Lane,Chambersburg,PA,17202,39.92,-77.71,39206.0,4
+997,27,7,1992,Female,8555 Eighth Avenue,North Tazewell,VA,24630,37.16,-81.50,33641.0,1
+998,56,3,1963,Female,900 Littlewood Street,Barnegat,NJ,08005,39.75,-74.22,40848.0,2
+999,47,2,1973,Female,96 Jefferson Street,Daytona Beach,FL,32118,29.19,-81.05,34112.0,4
+1000,26,2,1994,Female,682 Martin Luther King Avenue,Dallas,TX,75230,32.79,-96.76,128775.0,1
+1001,50,10,1969,Male,517 Eighth Drive,Huntington,NY,11743,40.87,-73.40,104045.0,3
+1002,58,6,1961,Female,385 Jefferson Avenue,Hendersonville,TN,37075,36.29,-86.60,51316.0,6
+1003,66,1,1954,Female,1105 Second Drive,Dearborn,MI,48124,42.31,-83.21,48690.0,6
+1004,18,2,2002,Female,1358 Plum Avenue,Lucinda,PA,16235,41.31,-79.38,35311.0,5
+1005,42,8,1977,Female,800 Madison Street,Orlando,FL,32808,28.50,-81.37,27354.0,1
+1006,56,4,1963,Female,13 Rose Boulevard,Pawling,NY,12564,41.56,-73.59,63796.0,3
+1007,28,5,1991,Male,104 First Boulevard,Apex,NC,27502,35.72,-78.84,66237.0,1
+1008,58,7,1961,Female,427 Essex Lane,Matthews,NC,28105,35.12,-80.71,55569.0,6
+1009,40,5,1979,Male,855 Sussex Avenue,Saint Paul,MN,55116,44.94,-93.10,67226.0,3
+1010,43,11,1976,Female,689 Valley Stream Lane,Boxford,MA,01921,42.67,-70.98,106159.0,5
+1011,68,8,1951,Female,222 Lafayette Lane,Elma,NY,14059,42.83,-78.63,50258.0,3
+1012,44,5,1975,Female,4868 Lake Lane,Huntington Beach,CA,92647,33.72,-118.00,54981.0,1
+1013,59,8,1960,Male,60396 Elm Street,Naples,FL,34104,26.14,-81.79,35590.0,4
+1014,41,5,1978,Male,469 Pine Street,Belleville,IL,62221,38.53,-90.00,49967.0,4
+1015,30,7,1989,Female,4788 Jefferson Boulevard,Springfield,OR,97478,44.10,-122.80,37610.0,1
+1016,31,11,1988,Female,4947 Sussex Boulevard,Bensalem,PA,19020,40.10,-74.93,50599.0,2
+1017,64,10,1955,Male,8999 Washington Drive,Oceanside,NY,11572,40.63,-73.63,66885.0,7
+1018,61,1,1959,Female,9473 Mill Street,Clifton,NJ,07012,40.86,-74.15,63781.0,1
+1019,49,7,1970,Female,836 Bayview Avenue,Tulsa,OK,74137,36.12,-95.91,94733.0,5
+1020,49,5,1970,Male,4882 Mountain View Lane,Kansas City,MO,64124,39.09,-94.58,24598.0,4
+1021,46,1,1974,Male,434 Bayview Avenue,Cowansville,PA,16218,40.93,-79.59,36440.0,2
+1022,24,1,1996,Male,716 Bayview Avenue,Hamptonville,NC,27020,36.11,-80.81,31693.0,1
+1023,19,3,2000,Female,39 Park Lane,Los Angeles,CA,90022,34.02,-118.15,27494.0,1
+1024,65,2,1955,Male,1032 Second Lane,Clifton Springs,NY,14432,42.95,-77.13,20614.0,2
+1025,82,1,1938,Female,1437 Madison Lane,Dallas,TX,75238,32.79,-96.76,66999.0,5
+1026,41,4,1978,Male,4693 Elm Lane,Crestview,FL,32536,30.75,-86.57,38874.0,3
+1027,25,1,1995,Female,834 Elm Avenue,Woodland Park,CO,80863,38.99,-105.05,48017.0,1
+1028,47,8,1972,Female,5647 Burns Boulevard,Galliano,LA,70354,29.43,-90.30,44789.0,1
+1029,35,5,1984,Female,96 Ninth Drive,Atlanta,TX,75551,33.11,-94.16,34143.0,4
+1030,83,7,1936,Male,3241 Park Lane,Albuquerque,NM,87121,35.11,-106.62,16611.0,5
+1031,36,3,1983,Female,620 River Boulevard,Walla Walla,WA,99362,46.11,-118.30,38496.0,2
+1032,78,11,1941,Male,5004 Lake Street,Oklahoma City,OK,73110,35.46,-97.51,31046.0,6
+1033,37,3,1982,Male,7954 Wessex Boulevard,Vienna,VA,22182,38.90,-77.26,123540.0,4
+1034,65,5,1954,Female,9052 River Lane,Alcoa,TN,37701,35.79,-83.97,39809.0,4
+1035,64,1,1956,Male,25521 First Street,Dublin,GA,31021,32.53,-82.92,34576.0,1
+1036,74,7,1945,Female,5064 North Lane,Woodmere,NY,11598,40.63,-73.72,110570.0,8
+1037,28,1,1992,Male,564 Catherine Lane,Green Bay,WI,54302,44.52,-87.98,34262.0,2
+1038,40,12,1979,Male,9466 Essex Street,Bessemer,AL,35023,33.43,-86.99,40473.0,4
+1039,33,4,1986,Female,9761 East Street,Atlanta,GA,30342,33.88,-84.37,96744.0,5
+1040,48,8,1971,Male,884 Tenth Drive,Louisville,MS,39339,33.12,-89.05,31231.0,3
+1041,57,5,1962,Female,992 Forest Street,Allen,TX,75002,33.10,-96.66,66427.0,5
+1042,31,11,1988,Male,237 Hill Lane,Waco,TX,76707,31.56,-97.18,23469.0,3
+1043,30,11,1989,Male,8687 Ninth Drive,Lakewood,NJ,08701,40.09,-74.21,26519.0,3
+1044,40,8,1979,Female,6950 Federal Avenue,Ashville,AL,35953,33.83,-86.26,34799.0,2
+1045,28,12,1991,Female,816 Little Creek Lane,Astoria,OR,97103,46.12,-123.67,35194.0,1
+1046,28,7,1991,Female,7004 Mill Drive,Zion,IL,60099,42.45,-87.84,39679.0,2
+1047,67,3,1952,Male,1 Burns Lane,San Jose,CA,95121,37.30,-121.80,31287.0,4
+1048,26,9,1993,Male,381 Sussex Avenue,Nolanville,TX,76559,31.07,-97.61,38805.0,2
+1049,43,4,1976,Female,4 North Street,Washington,DC,20011,38.89,-77.03,48810.0,3
+1050,62,6,1957,Male,896 Madison Boulevard,Meridian,ID,83646,43.65,-116.43,45450.0,3
+1051,25,7,1994,Female,5338 Fifth Boulevard,Union City,NJ,07087,40.76,-74.03,34201.0,1
+1052,53,3,1966,Female,5773 River Street,Burney,CA,96013,40.94,-121.74,34137.0,4
+1053,67,12,1952,Male,388 Third Avenue,Fresno,CA,93727,36.75,-119.67,28357.0,2
+1054,30,8,1989,Female,9104 Second Avenue,Houston,TX,77081,29.76,-95.38,32343.0,3
+1055,18,1,2002,Female,2108 Spruce Lane,Sacramento,CA,95825,38.58,-121.40,42142.0,2
+1056,30,7,1989,Male,7691 Ocean View Avenue,New Bern,NC,28560,35.11,-77.07,32985.0,2
+1057,82,8,1937,Male,58 River Avenue,New York,NY,10032,40.71,-73.99,23572.0,2
+1058,25,12,1994,Female,142 Rose Drive,Springfield,MA,01107,42.11,-72.53,28862.0,2
+1059,76,10,1943,Female,2760 Forest Drive,Sioux Falls,SD,57106,43.54,-96.73,31145.0,4
+1060,64,2,1956,Female,9505 Martin Luther King Avenue,Modesto,CA,95351,37.63,-121.01,26535.0,5
+1061,58,2,1962,Female,901 Oak Street,New Kensington,PA,15068,40.56,-79.75,39796.0,5
+1062,71,3,1948,Male,3095 Hill Boulevard,Casper,WY,82604,42.83,-106.32,51703.0,7
+1063,66,12,1953,Male,350 North Street,Romulus,MI,48174,42.22,-83.36,31175.0,5
+1064,89,11,1930,Male,89 Wessex Street,Chicago Heights,IL,60411,41.50,-87.63,38761.0,7
+1065,86,11,1933,Male,3899 Seventh Lane,Jacksonville,FL,32218,30.33,-81.65,33291.0,2
+1066,40,2,1980,Female,7476 First Lane,Gainesville,FL,32606,29.67,-82.33,52630.0,4
+1067,73,12,1946,Male,6781 Spruce Boulevard,Pacoima,CA,91331,34.25,-118.41,26481.0,1
+1068,24,7,1995,Male,276 12th Boulevard,Chicago,IL,60614,41.83,-87.68,2370.0,1
+1069,59,3,1960,Male,1362 Norfolk Drive,Montgomery,AL,36111,32.35,-86.28,43021.0,4
+1070,18,1,2002,Male,392 Rose Drive,Dorchester,MA,02125,42.35,-71.06,44466.0,2
+1071,50,3,1969,Male,1559 Tenth Street,Tampa,FL,33613,27.95,-82.48,42886.0,1
+1072,35,5,1984,Male,315 Little Creek Lane,Granite City,IL,62040,38.71,-90.12,37843.0,3
+1073,34,10,1985,Male,539 Maple Drive,Kernersville,NC,27284,36.11,-80.07,48398.0,3
+1074,33,10,1986,Female,26191 George Drive,Detroit,MI,48235,42.38,-83.10,28181.0,2
+1075,48,10,1971,Female,7139 Lake Boulevard,Clinton,TN,37716,36.09,-84.13,37422.0,5
+1076,24,3,1995,Female,5 Hill Avenue,San Diego,CA,92127,33.02,-117.12,91237.0,1
+1077,59,4,1960,Male,9099 Little Creek Drive,Minneapolis,MN,55425,44.96,-93.26,43913.0,4
+1078,37,4,1982,Male,7559 Forest Boulevard,Hobart,IN,46342,41.53,-87.26,44550.0,3
+1079,75,2,1945,Male,2842 Littlewood Avenue,Orlando,FL,32825,28.50,-81.37,42806.0,6
+1080,63,12,1956,Female,4461 Hill Street,Merritt Island,FL,32952,28.32,-80.68,53702.0,1
+1081,86,8,1933,Female,5220 Lincoln Street,Nashville,TN,37211,36.17,-86.78,38273.0,6
+1082,29,2,1991,Female,3260 Hillside Lane,Hendersonville,TN,37075,36.29,-86.60,51303.0,3
+1083,44,5,1975,Female,518 Norfolk Avenue,Jackson,GA,30233,33.29,-83.96,35775.0,1
+1084,71,3,1948,Female,149 Burns Boulevard,Littleton,CO,80122,39.59,-105.01,67186.0,1
+1085,47,7,1972,Male,30 First Lane,Johnstown,OH,43031,40.15,-82.68,46763.0,3
+1086,62,2,1958,Male,142 Catherine Street,Mission,TX,78572,26.21,-98.31,29110.0,3
+1087,90,10,1929,Male,3019 Elm Drive,Vineland,NJ,08360,39.46,-74.99,41831.0,1
+1088,42,1,1978,Female,606 Spruce Boulevard,Reading,PA,19607,40.33,-75.92,49117.0,3
+1089,69,4,1950,Female,128 Main Street,Middleton,WI,53562,43.10,-89.50,68930.0,4
+1090,68,1,1952,Female,44 Ocean Avenue,Little River,SC,29566,33.87,-78.63,20334.0,2
+1091,43,7,1976,Female,57799 Oak Boulevard,Buffalo,NY,14211,42.88,-78.85,24917.0,2
+1092,39,12,1980,Female,1533 Martin Luther King Lane,South Beloit,IL,61080,42.48,-89.03,44344.0,3
+1093,38,1,1982,Female,377 Mountain View Drive,Ava,IL,62907,37.88,-89.49,34311.0,2
+1094,57,3,1962,Male,252 Eighth Lane,Saint Albans,WV,25177,38.37,-81.81,35239.0,1
+1095,55,4,1964,Male,959 Tenth Street,Mokelumne Hill,CA,95245,38.29,-120.58,37147.0,3
+1096,50,2,1970,Female,61674 Elm Drive,Lebanon,OR,97355,44.52,-122.81,34671.0,6
+1097,57,10,1962,Male,936 12th Street,Pasadena,MD,21122,39.11,-76.55,61173.0,3
+1098,55,9,1964,Female,919 Ocean View Lane,Manteca,CA,95337,37.73,-121.24,47643.0,8
+1099,60,6,1959,Female,498 Elm Lane,Kingman,AZ,86401,35.24,-113.76,34895.0,4
+1100,64,2,1956,Female,25 Elm Street,Keller,TX,76248,32.93,-97.22,1785.0,3
+1101,98,11,1921,Male,468 Spruce Street,Vacaville,CA,95687,38.35,-121.93,33869.0,7
+1102,77,1,1943,Female,6864 Norfolk Boulevard,Warner Robins,GA,31088,32.61,-83.63,31066.0,4
+1103,37,5,1982,Female,345 George Street,Garland,TX,75044,32.91,-96.62,55172.0,3
+1104,54,2,1966,Female,72990 Second Drive,Hickman,NE,68372,40.62,-96.63,46956.0,2
+1105,53,7,1966,Male,5886 Ninth Boulevard,Scottsdale,AZ,85260,33.61,-111.89,74012.0,2
+1106,32,3,1987,Male,69080 Spruce Street,Houston,TX,77035,29.76,-95.38,40887.0,4
+1107,32,11,1987,Male,6415 Sussex Lane,Milton,PA,17847,41.00,-76.85,34531.0,4
+1108,18,7,2001,Female,243 Forest Lane,Howard Beach,NY,11414,40.66,-73.84,53995.0,1
+1109,68,6,1951,Female,478 Hill Avenue,Marietta,GA,30067,33.95,-84.54,63502.0,7
+1110,51,2,1969,Male,849 Littlewood Drive,Lubbock,TX,79414,33.57,-101.87,33178.0,2
+1111,84,4,1935,Male,402 El Camino Drive,Bradenton,FL,34212,27.48,-82.57,44690.0,5
+1112,56,3,1963,Female,6134 Littlewood Lane,Gulfport,MS,39503,30.38,-89.06,39409.0,1
+1113,19,5,2000,Male,29894 Martin Luther King Lane,Clearwater,FL,33755,27.97,-82.76,33080.0,3
+1114,54,8,1965,Male,52 Sixth Boulevard,Alpharetta,GA,30005,34.06,-84.27,89152.0,1
+1115,70,2,1950,Female,888 Lincoln Street,Duluth,MN,55807,46.78,-92.11,27772.0,4
+1116,66,1,1954,Male,5238 Plum Street,San Martin,CA,95046,37.10,-121.60,44137.0,2
+1117,66,2,1954,Female,7888 Fourth Street,Vanceboro,NC,28586,35.30,-77.15,30265.0,4
+1118,55,1,1965,Male,2100 Summit Street,Houston,TX,77031,29.76,-95.38,37534.0,3
+1119,21,11,1998,Male,3900 Rose Street,Winslow,AZ,86047,35.10,-110.64,32345.0,3
+1120,38,3,1981,Male,2750 Rose Boulevard,Postville,IA,52162,43.08,-91.56,27183.0,1
+1121,52,8,1967,Female,869 Little Creek Lane,Holland,MI,49423,42.77,-86.10,38487.0,3
+1122,69,4,1950,Female,131 Tenth Avenue,Urbandale,IA,50322,41.63,-93.74,33642.0,5
+1123,51,12,1968,Female,3722 Valley Boulevard,El Paso,TX,79902,31.84,-106.43,34302.0,3
+1124,31,9,1988,Female,775 Lexington Boulevard,Georgetown,TX,78626,30.64,-97.68,42754.0,1
+1125,24,4,1995,Female,4020 Littlewood Street,South Park,PA,15129,40.29,-79.99,51045.0,2
+1126,84,8,1935,Male,463 12th Street,Gwynn Oak,MD,21207,39.32,-76.72,24055.0,7
+1127,28,12,1991,Male,243 Wessex Avenue,San Marcos,CA,92069,33.15,-117.17,45021.0,1
+1128,18,5,2001,Male,2819 Littlewood Lane,York,PA,17406,39.96,-76.73,46878.0,1
+1129,82,9,1937,Female,9952 South Lane,East Hartford,CT,06108,41.76,-72.61,22726.0,6
+1130,49,4,1970,Male,2379 Forest Lane,Oceanside,CA,92058,33.18,-117.29,34449.0,3
+1131,36,12,1983,Male,7121 Fourth Avenue,Cassville,MO,65625,36.67,-93.86,28334.0,3
+1132,31,8,1988,Female,761 Main Avenue,Snohomish,WA,98290,47.94,-122.00,57166.0,2
+1133,59,1,1961,Female,535 Grant Boulevard,Edinburgh,IN,46124,39.35,-85.96,35854.0,2
+1134,39,7,1980,Female,135 Littlewood Avenue,Oceanside,CA,92056,33.20,-117.29,44958.0,1
+1135,62,2,1958,Female,8323 Catherine Boulevard,Jefferson,NC,28640,36.42,-81.46,28988.0,4
+1136,53,5,1966,Male,7571 George Street,Washington Court House,OH,43160,39.53,-83.43,33729.0,4
+1137,31,5,1988,Male,766 Catherine Boulevard,Fredericksburg,VA,22405,38.29,-77.48,59455.0,1
+1138,18,2,2002,Male,76 Grant Lane,Brooklyn,NY,11210,40.64,-73.94,47543.0,1
+1139,39,4,1980,Female,871 12th Lane,Woodbridge,VA,22191,38.63,-77.26,54273.0,4
+1140,77,6,1942,Female,6335 Rose Lane,Carson City,NV,89706,39.21,-119.71,38692.0,5
+1141,54,11,1965,Male,0 Ocean Boulevard,Mckeesport,PA,15132,40.33,-79.83,29898.0,5
+1142,22,1,1998,Female,566 Hillside Street,Holiday,FL,34691,28.18,-82.74,31443.0,1
+1143,43,2,1977,Male,8061 Spruce Drive,Rolla,MO,65401,37.94,-91.76,35538.0,1
+1144,43,12,1976,Male,924 First Drive,El Paso,TX,79912,31.84,-106.43,50174.0,4
+1145,24,6,1995,Male,9226 Tenth Boulevard,Fairfax,VA,22033,38.85,-77.29,87436.0,2
+1146,33,11,1986,Female,3550 Sixth Boulevard,Novato,CA,94947,38.10,-122.63,61846.0,4
+1147,22,7,1997,Female,777 Valley Stream Lane,Chicago,IL,60623,41.83,-87.68,24369.0,4
+1148,26,10,1993,Male,55 Madison Drive,Bridgeport,TX,76426,33.20,-97.75,44470.0,3
+1149,28,12,1991,Male,1963 Summit Lane,Fort Lauderdale,FL,33312,26.14,-80.13,42806.0,3
+1150,69,12,1950,Female,20 Oak Street,Yorba Linda,CA,92886,33.89,-117.78,99825.0,4
+1151,44,5,1975,Female,8659 El Camino Street,Hamilton,OH,45013,39.39,-84.56,39898.0,3
+1152,39,12,1980,Female,470 11th Lane,Indianapolis,IN,46237,39.77,-86.14,49412.0,3
+1153,22,8,1997,Male,6614 Ninth Boulevard,Manchester,TN,37355,35.46,-86.08,33337.0,1
+1154,58,4,1961,Female,9384 Lake Street,Revere,MA,02151,42.41,-70.99,17078.0,4
+1155,28,2,1992,Female,9706 Mountain View Street,Tucson,AZ,85741,32.33,-111.05,43826.0,1
+1156,51,10,1968,Female,29693 Bayview Drive,Ladera Ranch,CA,92694,33.56,-117.63,97845.0,4
+1157,56,2,1964,Male,8943 11th Drive,Bristol,TN,37620,36.56,-82.19,36285.0,5
+1158,31,9,1988,Female,9633 Mill Lane,Aurora,CO,80013,39.69,-104.81,50666.0,3
+1159,51,7,1968,Female,5537 Eighth Street,Minneapolis,MN,55419,44.96,-93.26,82298.0,6
+1160,25,8,1994,Male,99791 12th Boulevard,Round Rock,TX,78681,30.51,-97.67,64917.0,4
+1161,26,7,1993,Female,541 Federal Avenue,Saint Petersburg,FL,33705,27.75,-82.64,36909.0,1
+1162,24,6,1995,Male,5458 Spruce Street,San Diego,CA,92122,32.85,-117.20,71054.0,2
+1163,83,9,1936,Female,7978 Main Lane,Gonzales,LA,70737,30.21,-90.92,16620.0,8
+1164,45,12,1974,Female,238 Ocean View Lane,Whittier,CA,90603,33.94,-117.99,57027.0,4
+1165,18,10,2001,Male,3699 Lafayette Avenue,Omaha,NE,68107,41.26,-96.01,28950.0,1
+1166,50,3,1969,Female,9061 Grant Avenue,Alpharetta,GA,30022,34.06,-84.27,1426.0,3
+1167,55,11,1964,Male,7680 Fourth Street,Batesville,MS,38606,34.31,-89.93,31308.0,7
+1168,26,5,1993,Male,345 Elm Avenue,Palm Coast,FL,32164,29.57,-81.21,29658.0,2
+1169,48,9,1971,Male,9 Fourth Drive,Newburgh,NY,12550,41.50,-74.02,46408.0,7
+1170,39,4,1980,Female,396 Park Street,Glade Valley,NC,28627,36.48,-81.05,23307.0,1
+1171,31,3,1988,Female,4238 Birch Lane,Wildersville,TN,38388,35.78,-88.36,29433.0,3
+1172,27,6,1992,Male,581 Seventh Drive,Henderson,NV,89012,36.00,-115.04,61222.0,1
+1173,46,5,1973,Female,539 Pine Boulevard,Panama City,FL,32405,30.17,-85.67,39770.0,4
+1174,48,9,1971,Female,9716 Third Lane,Reno,NV,89511,39.38,-119.87,78180.0,3
+1175,29,1,1991,Male,202 Washington Drive,Pierre Part,LA,70339,29.95,-91.20,47317.0,2
+1176,41,1,1979,Male,1036 Spruce Street,Gooding,ID,83330,43.01,-114.70,30432.0,1
+1177,39,5,1980,Male,546 First Avenue,Maryville,MO,64468,40.34,-94.87,37165.0,3
+1178,46,12,1973,Male,5659 Park Avenue,Barberton,OH,44203,41.01,-81.60,36405.0,2
+1179,30,12,1989,Male,334 Rose Boulevard,Lanham,MD,20706,38.96,-76.85,47916.0,1
+1180,52,5,1967,Male,262 First Lane,Merrill,WI,54452,45.18,-89.70,40177.0,4
+1181,49,2,1971,Female,253 West Drive,Burlington,WA,98233,48.53,-122.31,39969.0,3
+1182,44,9,1975,Male,33 Seventh Boulevard,Alachua,FL,32615,29.77,-82.48,44816.0,1
+1183,32,1,1988,Male,835 Main Avenue,La Mirada,CA,90638,33.90,-118.00,50658.0,2
+1184,21,8,1998,Male,125 First Avenue,Antioch,TN,37013,36.04,-86.64,41260.0,2
+1185,54,3,1965,Male,90 Sussex Drive,Jamaica,NY,11434,40.68,-73.78,42332.0,6
+1186,74,1,1946,Female,528 Lake Drive,Belleville,IL,62226,38.53,-90.00,23011.0,3
+1187,64,4,1955,Male,66 Grant Lane,Morrisville,PA,19067,40.20,-74.78,87317.0,1
+1188,72,9,1947,Female,521 Main Lane,Colorado Springs,CO,80913,38.86,-104.76,25243.0,6
+1189,24,2,1996,Female,18360 Valley Avenue,Orange,CA,92867,33.81,-117.79,58893.0,3
+1190,24,7,1995,Male,3221 Tenth Lane,Sewell,NJ,08080,39.75,-75.09,64319.0,3
+1191,47,8,1972,Male,16893 Fifth Avenue,Mesquite,TX,75149,32.76,-96.59,36319.0,4
+1192,39,9,1980,Male,253 Lexington Avenue,Newport News,VA,23602,37.07,-76.51,43192.0,3
+1193,46,2,1974,Male,95612 South Street,Brandon,MS,39042,32.28,-90.00,45476.0,1
+1194,31,8,1988,Male,6606 Sixth Drive,Cheyenne,WY,82001,41.14,-104.79,41297.0,2
+1195,45,1,1975,Female,96493 Valley Stream Avenue,Bethlehem,CT,06751,41.63,-73.21,54384.0,3
+1196,43,2,1977,Female,754 South Avenue,Marion Center,PA,15759,40.77,-79.04,32770.0,4
+1197,26,8,1993,Female,5594 12th Drive,Culver City,CA,90230,33.99,-118.39,61104.0,4
+1198,55,9,1964,Male,203 Valley Lane,Mosinee,WI,54455,44.78,-89.68,47334.0,3
+1199,67,7,1952,Female,5456 Ninth Avenue,Philadelphia,PA,19116,39.95,-75.16,43828.0,3
+1200,47,7,1972,Female,646 South Lane,Reedsville,OH,45772,39.14,-81.78,33883.0,1
+1201,44,9,1975,Male,5521 Spruce Avenue,Montgomery,AL,36106,32.35,-86.28,50993.0,5
+1202,48,9,1971,Male,829 Grant Boulevard,Oswego,NY,13126,43.45,-76.50,41690.0,2
+1203,29,1,1991,Female,331 Essex Drive,Schaumburg,IL,60194,42.03,-88.08,54122.0,4
+1204,56,3,1963,Male,5651 North Boulevard,Greenbelt,MD,20770,38.99,-76.88,53966.0,1
+1205,20,1,2000,Female,599 Hillside Drive,Telford,PA,18969,40.32,-75.32,53569.0,1
+1206,67,5,1952,Male,172 Third Lane,Chandler,AZ,85226,33.27,-111.94,65362.0,6
+1207,58,11,1961,Male,250 Hillside Drive,Millersburg,OH,44654,40.55,-81.91,27035.0,2
+1208,38,6,1981,Male,190 Burns Avenue,Wooster,OH,44691,40.81,-81.93,38663.0,3
+1209,22,2,1998,Female,637 Main Avenue,Lakewood,CA,90715,33.84,-118.07,44740.0,1
+1210,43,9,1976,Female,534 Sixth Boulevard,Harvey,LA,70058,29.88,-90.06,38994.0,4
+1211,54,10,1965,Female,3067 First Street,Dover,OH,44622,40.52,-81.47,38318.0,6
+1212,42,11,1977,Female,8027 Main Drive,Mesquite,TX,75150,32.76,-96.59,37623.0,6
+1213,32,10,1987,Male,702 Grant Drive,San Ramon,CA,94583,37.78,-121.99,2365.0,3
+1214,50,12,1969,Female,477 Madison Lane,Daly City,CA,94014,37.68,-122.43,48428.0,1
+1215,58,11,1961,Male,50 Spruce Street,Sacramento,CA,95823,38.47,-121.44,31177.0,5
+1216,38,10,1981,Male,4232 Grant Drive,Leakesville,MS,39451,31.15,-88.55,38223.0,4
+1217,53,9,1966,Female,634 Grant Boulevard,Atlanta,GA,30312,33.74,-84.37,61490.0,1
+1218,41,10,1978,Female,9872 Lexington Street,Alpharetta,GA,30004,34.06,-84.27,92017.0,3
+1219,43,12,1976,Male,85 East Drive,El Paso,TX,79904,31.84,-106.43,25109.0,3
+1220,44,5,1975,Male,310 Bayview Boulevard,Saint Louis,MO,63112,38.63,-90.24,40522.0,5
+1221,46,4,1973,Male,5692 Jefferson Boulevard,Hurst,TX,76054,32.83,-97.17,63030.0,5
+1222,61,7,1958,Male,8794 Catherine Lane,Shelbyville,IN,46176,39.52,-85.77,37362.0,4
+1223,52,7,1967,Male,9028 Valley Stream Avenue,Albany,NY,12203,42.66,-73.79,55059.0,3
+1224,49,12,1970,Female,676 Bayview Street,Bothell,WA,98021,47.79,-122.20,67743.0,3
+1225,33,7,1986,Female,3177 Oak Avenue,Johnson City,TN,37604,36.33,-82.36,41069.0,3
+1226,34,9,1985,Male,6781 Ocean View Drive,Gainesville,GA,30504,34.29,-83.83,32245.0,1
+1227,44,6,1975,Female,8476 Lincoln Street,Charleston,SC,29492,32.78,-79.99,84365.0,5
+1228,55,2,1965,Male,7035 River Boulevard,Silver Spring,MD,20901,39.01,-77.02,62791.0,4
+1229,31,4,1988,Male,558 North Street,Poland,ME,04274,44.06,-70.39,45433.0,1
+1230,36,2,1984,Male,5867 East Street,Lake George,NY,12845,43.42,-73.71,41537.0,1
+1231,58,10,1961,Male,3817 Martin Luther King Avenue,Palos Verdes Peninsula,CA,90274,33.77,-118.34,119308.0,6
+1232,25,10,1994,Female,6444 Maple Lane,The Villages,FL,32162,28.92,-81.92,17310.0,2
+1233,75,9,1944,Male,239 Third Drive,Dorchester Center,MA,02124,42.35,-71.06,41316.0,1
+1234,52,3,1967,Male,14813 El Camino Drive,Eastpointe,MI,48021,42.46,-82.94,37686.0,4
+1235,62,3,1957,Female,628 Third Avenue,Sterling,NE,68443,40.46,-96.37,35519.0,1
+1236,90,10,1929,Female,350 Main Boulevard,Palm Coast,FL,32137,29.57,-81.21,31805.0,6
+1237,43,2,1977,Female,973 River Street,Seabrook,TX,77586,29.56,-95.02,76288.0,4
+1238,49,6,1970,Female,364 Plum Lane,Green Bay,WI,54302,44.52,-87.98,34255.0,4
+1239,24,1,1996,Male,34 Oak Boulevard,Creswell,OR,97426,43.90,-123.02,37443.0,1
+1240,51,4,1968,Male,822 Martin Luther King Drive,Mesa,AZ,85213,33.44,-111.76,50980.0,4
+1241,70,10,1949,Female,990 North Lane,Navarre,FL,32566,30.36,-87.17,29164.0,4
+1242,77,12,1942,Female,7239 Hill Lane,Lebanon,PA,17042,40.34,-76.42,30457.0,5
+1243,47,1,1973,Female,820 Second Lane,Los Angeles,CA,90062,34.00,-118.30,27763.0,1
+1244,29,12,1990,Male,22 Mill Drive,Chula Vista,CA,91910,32.63,-117.05,40988.0,3
+1245,68,12,1951,Male,973 Federal Drive,Clayton,NC,27520,35.64,-78.45,38637.0,4
+1246,46,10,1973,Male,9232 Mill Drive,Somerset,NJ,08873,40.49,-74.48,66489.0,4
+1247,51,12,1968,Male,919 Martin Luther King Lane,Raymore,MO,64083,38.81,-94.45,50936.0,3
+1248,41,3,1978,Female,98086 Essex Drive,Laurel,MT,59044,45.60,-108.68,40012.0,4
+1249,50,3,1969,Male,772 Fifth Boulevard,Alta,IA,51002,42.67,-95.30,34456.0,4
+1250,59,8,1960,Male,6310 Sixth Street,La Porte,TX,77571,29.66,-95.04,53357.0,5
+1251,28,11,1991,Male,914 George Street,Brooklyn,NY,11232,40.64,-73.94,34629.0,3
+1252,34,9,1985,Male,79948 Sixth Avenue,Purcell,OK,73080,35.01,-97.37,36983.0,4
+1253,49,11,1970,Female,803 Plum Avenue,South Gate,CA,90280,33.94,-118.20,29621.0,3
+1254,64,6,1955,Male,317 Wessex Boulevard,Clinton,MI,49236,42.06,-83.97,41002.0,6
+1255,52,7,1967,Male,7970 Little Creek Drive,Lincolnton,GA,30817,33.79,-82.47,30011.0,1
+1256,32,3,1987,Female,4460 11th Avenue,Rockford,IL,61107,42.27,-89.06,50137.0,1
+1257,21,4,1998,Male,724 Valley Stream Street,Garland,TX,75044,32.91,-96.62,55166.0,1
+1258,84,5,1935,Male,2116 Second Drive,Dinuba,CA,93618,36.52,-119.39,17016.0,4
+1259,22,7,1997,Male,449 Washington Street,Lexington,OK,73051,35.01,-97.33,32557.0,2
+1260,47,6,1972,Male,77931 Lincoln Avenue,Loganville,GA,30052,33.83,-83.89,43954.0,3
+1261,56,2,1964,Male,438 Seventh Avenue,Indianapolis,IN,46256,39.77,-86.14,63439.0,2
+1262,73,1,1947,Male,471 Ocean Boulevard,Farmington,MO,63640,37.78,-90.42,34067.0,1
+1263,47,12,1972,Male,148 Hillside Boulevard,Lincoln,IL,62656,40.15,-89.36,35699.0,5
+1264,28,9,1991,Male,919 Washington Drive,Westlake,OH,44145,41.45,-81.92,74644.0,3
+1265,26,4,1993,Female,8709 Fifth Street,Jenison,MI,49428,42.90,-85.82,42348.0,4
+1266,89,1,1931,Female,796 West Lane,Torrance,CA,90503,33.84,-118.35,68010.0,7
+1267,87,8,1932,Female,673 11th Drive,Saint Paul,MN,55123,44.94,-93.10,60652.0,4
+1268,39,1,1981,Female,6301 Hillside Avenue,Los Angeles,CA,90022,34.02,-118.15,27494.0,3
+1269,31,4,1988,Male,8446 Catherine Drive,Bakersfield,CA,93306,35.43,-118.83,38788.0,1
+1270,57,6,1962,Female,3196 Elm Boulevard,Saint Charles,IL,60174,41.92,-88.30,69007.0,4
+1271,43,4,1976,Male,385 Pine Drive,Newport,RI,02840,41.47,-71.30,49328.0,5
+1272,65,12,1954,Female,35187 West Lane,Santa Barbara,CA,93109,34.40,-119.72,35404.0,3
+1273,34,3,1985,Female,480 Ocean View Boulevard,Lakeside,CA,92040,32.90,-116.89,46361.0,2
+1274,54,4,1965,Male,1416 Bayview Avenue,Gainesville,FL,32608,29.67,-82.33,52538.0,1
+1275,73,1,1947,Female,835 Main Street,Brooklyn,NY,11216,40.64,-73.94,31317.0,4
+1276,28,10,1991,Male,7933 Plum Lane,Pomona,CA,91768,34.06,-117.79,32676.0,1
+1277,33,2,1987,Male,6174 East Street,Portland,OR,97213,45.53,-122.60,54333.0,1
+1278,66,7,1953,Male,338 Littlewood Street,Lawrenceville,GA,30043,33.94,-83.99,57383.0,4
+1279,44,3,1975,Male,704 Third Avenue,Danielsville,GA,30633,34.12,-83.22,32064.0,3
+1280,53,5,1966,Female,810 Summit Lane,Cambridge,MD,21613,38.56,-76.07,34361.0,1
+1281,59,9,1960,Male,350 Jefferson Boulevard,Inglewood,CA,90302,33.97,-118.35,28245.0,1
+1282,26,3,1993,Male,4693 Essex Street,Rapid City,SD,57703,44.07,-103.23,38363.0,3
+1283,93,9,1926,Male,748 Martin Luther King Street,Bronx,NY,10456,40.84,-73.87,10782.0,7
+1284,86,7,1933,Female,406 El Camino Boulevard,Richmond,VT,05477,44.40,-73.00,35685.0,5
+1285,49,2,1971,Female,916 Birch Drive,Naples,FL,34109,26.14,-81.79,50984.0,2
+1286,48,9,1971,Female,76 Lexington Boulevard,Iowa City,IA,52240,41.65,-91.53,47374.0,2
+1287,33,3,1986,Male,632 Pine Drive,Cordova,TN,38016,35.15,-89.75,56018.0,2
+1288,23,6,1996,Female,427 Martin Luther King Street,Spring,TX,77389,30.06,-95.38,73011.0,2
+1289,59,6,1960,Female,1892 Catherine Street,Cave City,KY,42127,37.13,-85.96,27439.0,1
+1290,35,11,1984,Female,4346 El Camino Boulevard,Jacksonville,FL,32222,30.33,-81.65,42229.0,3
+1291,54,9,1965,Female,780 Ocean Avenue,Gloucester,VA,23061,37.43,-76.54,42900.0,6
+1292,60,8,1959,Male,513 Tenth Avenue,Wichita,KS,67204,37.68,-97.34,39191.0,6
+1293,18,6,2001,Male,3033 Maple Lane,Mc Lean,VA,22101,38.94,-77.19,128123.0,1
+1294,68,9,1951,Male,26 El Camino Street,Zion Grove,PA,17985,40.93,-76.25,41473.0,3
+1295,76,8,1943,Male,772 Lexington Street,Delphos,OH,45833,40.84,-84.33,37829.0,4
+1296,21,8,1998,Female,3701 Birch Street,Lansing,MI,48911,42.70,-84.55,34568.0,1
+1297,71,6,1948,Male,2786 Forest Lane,Springfield,OH,45506,39.92,-83.79,29243.0,4
+1298,43,4,1976,Female,113 Burns Lane,Pensacola,FL,32504,30.44,-87.18,45360.0,3
+1299,30,8,1989,Female,387 Plum Avenue,Wenonah,NJ,08090,39.79,-75.14,53407.0,3
+1300,21,9,1998,Female,1241 11th Boulevard,Rosemead,CA,91770,34.06,-118.08,32829.0,1
+1301,68,4,1951,Male,344 Washington Drive,Gretna,LA,70056,29.91,-90.05,39832.0,4
+1302,31,9,1988,Female,256 Jefferson Street,Henrico,VA,23231,37.55,-77.46,44041.0,2
+1303,79,10,1940,Male,1699 West Lane,Mentor,OH,44060,41.69,-81.33,29517.0,4
+1304,50,4,1969,Female,8886 Little Creek Street,Edgerton,WI,53534,42.83,-89.07,43529.0,6
+1305,53,5,1966,Male,852 Tenth Boulevard,Clarksville,IN,47129,38.31,-85.76,32820.0,4
+1306,69,11,1950,Male,385 Maple Street,San Mateo,CA,94404,37.55,-122.26,96901.0,5
+1307,60,11,1959,Male,933 Valley Lane,Murphys,CA,95247,38.14,-120.45,33540.0,5
+1308,26,3,1993,Male,2519 Park Boulevard,Hutchinson,MN,55350,44.88,-94.37,42201.0,5
+1309,40,3,1979,Female,159 Plum Avenue,New Bremen,OH,45869,40.43,-84.38,49396.0,3
+1310,48,9,1971,Male,6606 Oak Drive,Oakdale,LA,71463,30.81,-92.65,34287.0,3
+1311,39,4,1980,Female,251 Main Lane,Kokomo,IN,46901,40.47,-86.13,34241.0,2
+1312,40,2,1980,Male,8475 Essex Lane,Columbus,OH,43204,39.98,-82.98,36247.0,3
+1313,63,11,1956,Male,8414 Tenth Drive,Sioux Falls,SD,57110,43.54,-96.73,52380.0,6
+1314,18,2,2002,Male,4485 Plum Lane,Gloversville,NY,12078,43.05,-74.34,34716.0,3
+1315,85,12,1934,Male,8651 Seventh Street,North Bend,OR,97459,43.48,-124.16,38194.0,3
+1316,64,1,1956,Male,894 Ocean Avenue,Easton,PA,18042,40.68,-75.22,42831.0,3
+1317,80,10,1939,Female,4259 East Lane,Lancaster,PA,17603,40.04,-76.30,34819.0,2
+1318,63,9,1956,Male,4117 Fifth Avenue,Brooklyn,NY,11232,40.64,-73.94,34637.0,4
+1319,50,7,1969,Female,415 Elm Street,Hamtramck,MI,48212,42.39,-83.05,17657.0,2
+1320,79,2,1941,Male,9983 Park Drive,Bluffton,SC,29910,32.23,-80.86,30434.0,7
+1321,23,4,1996,Female,1 Sixth Boulevard,Tacoma,WA,98466,47.22,-122.54,47639.0,2
+1322,32,12,1987,Female,3535 West Drive,Los Angeles,CA,90023,34.01,-118.20,25603.0,2
+1323,56,5,1963,Male,4943 Martin Luther King Lane,Kissimmee,FL,34743,28.30,-81.41,28476.0,3
+1324,66,3,1953,Male,703 West Drive,Alamo,TX,78516,26.18,-98.11,20577.0,4
+1325,64,7,1955,Male,37 River Boulevard,Bowling Green,KY,42101,36.97,-86.44,30252.0,5
+1326,47,8,1972,Female,1532 Birch Drive,Grand Junction,CO,81506,39.08,-108.55,49169.0,2
+1327,92,10,1927,Male,31 Hillside Lane,Tucson,AZ,85711,32.21,-110.88,24960.0,9
+1328,44,8,1975,Female,66 Plum Avenue,Zephyrhills,FL,33540,28.23,-82.17,30967.0,3
+1329,50,4,1969,Male,4480 Hillside Avenue,Round Lake,IL,60073,42.34,-88.11,46039.0,4
+1330,50,12,1969,Female,773 12th Street,Oshkosh,WI,54901,44.01,-88.55,39911.0,7
+1331,22,8,1997,Male,152 Sixth Avenue,Tyler,TX,75703,32.32,-95.30,56984.0,5
+1332,50,2,1970,Male,952 Valley Avenue,Crossville,TN,38555,35.95,-85.03,27952.0,3
+1333,22,6,1997,Female,394 Essex Boulevard,Fort Lauderdale,FL,33327,26.11,-80.39,85954.0,2
+1334,79,8,1940,Female,6337 Spruce Street,Lakeville,MN,55044,44.67,-93.24,57824.0,5
+1335,29,1,1991,Female,21 Lafayette Drive,Campbellsport,WI,53010,43.59,-88.28,43996.0,3
+1336,41,12,1978,Male,7662 Mountain View Boulevard,Roseville,CA,95678,38.76,-121.28,51943.0,3
+1337,34,12,1985,Male,2707 Main Boulevard,Memphis,TN,38117,35.10,-90.00,69270.0,1
+1338,49,8,1970,Female,4480 Essex Drive,Summerville,SC,29485,33.00,-80.17,44383.0,7
+1339,82,3,1937,Male,19176 Grant Drive,Richmond,VA,23226,37.55,-77.46,92368.0,4
+1340,52,11,1967,Female,68 Sixth Avenue,Chandler,TX,75758,32.30,-95.47,36472.0,2
+1341,18,6,2001,Male,876 Main Avenue,Northampton,MA,01060,42.32,-72.67,51873.0,2
+1342,47,11,1972,Male,37845 Main Street,Keller,TX,76248,32.93,-97.22,3.0,2
+1343,44,7,1975,Male,7485 Seventh Street,Saint Johnsbury,VT,05819,44.41,-71.97,36843.0,5
+1344,26,9,1993,Male,9249 Third Lane,Port Saint Lucie,FL,34986,27.27,-80.35,38634.0,2
+1345,29,12,1990,Male,7109 Rose Street,Thomasville,NC,27360,35.88,-80.07,33933.0,6
+1346,27,7,1992,Male,288 North Lane,Fishers,IN,46038,39.95,-86.02,63760.0,1
+1347,53,1,1967,Male,270 Plum Street,Elk Grove,CA,95624,38.44,-121.30,52904.0,4
+1348,18,1,2002,Female,38 Fifth Street,New Baltimore,MI,48051,42.68,-82.73,47501.0,2
+1349,59,9,1960,Female,420 Littlewood Drive,Raceland,LA,70394,29.71,-90.59,41845.0,4
+1350,56,6,1963,Female,6295 Summit Drive,Temple City,CA,91780,34.10,-118.05,44875.0,1
+1351,30,10,1989,Male,32 Fourth Drive,Durham,NC,27712,35.98,-78.91,57969.0,2
+1352,32,5,1987,Male,1867 Bayview Street,Wilmore,KY,40390,37.86,-84.65,32128.0,5
+1353,47,2,1973,Male,4541 Hill Boulevard,Harrison,MI,48625,44.01,-84.80,22505.0,3
+1354,60,7,1959,Female,822 Lake Drive,Miami,FL,33175,25.77,-80.20,38394.0,5
+1355,30,3,1989,Male,640 Spruce Boulevard,Phoenix,AZ,85043,33.42,-112.20,34998.0,1
+1356,58,8,1961,Male,845 Littlewood Boulevard,Harbor City,CA,90710,33.79,-118.29,44924.0,3
+1357,86,12,1933,Female,3631 Plum Boulevard,Venus,TX,76084,32.42,-97.10,23371.0,8
+1358,60,5,1959,Female,378 Fourth Boulevard,New Castle,IN,47362,39.92,-85.36,33178.0,3
+1359,32,8,1987,Female,58221 Main Drive,Norman,OK,73071,35.22,-97.34,42084.0,5
+1360,24,8,1995,Male,39289 Essex Street,Corona,CA,92880,33.90,-117.61,57187.0,2
+1361,46,6,1973,Female,7853 Grant Street,Alvin,TX,77511,29.43,-95.24,44768.0,3
+1362,90,12,1929,Male,73 Summit Street,Kailua,HI,96734,21.40,-157.73,39214.0,5
+1363,73,1,1947,Male,80773 Essex Avenue,Waukesha,WI,53188,43.01,-88.23,38809.0,4
+1364,55,10,1964,Female,4909 Maple Avenue,Pittsburgh,PA,15224,40.43,-79.97,37495.0,3
+1365,49,4,1970,Male,227 Little Creek Street,Bristol,CT,06010,41.68,-72.94,51802.0,1
+1366,65,11,1954,Female,422 Madison Lane,Rockville Centre,NY,11570,40.66,-73.63,103294.0,3
+1367,19,1,2001,Female,95 Main Avenue,Dover,PA,17315,40.00,-76.84,43634.0,1
+1368,50,2,1970,Male,280 Lake Avenue,Morristown,TN,37814,36.21,-83.29,34868.0,3
+1369,61,8,1958,Female,860 Martin Luther King Boulevard,Gunter,TX,75058,33.45,-96.74,49677.0,4
+1370,67,9,1952,Male,486 West Boulevard,Rainsville,AL,35986,34.49,-85.84,11029.0,3
+1371,39,7,1980,Female,2244 Mill Boulevard,Union,NJ,07083,40.69,-74.26,59114.0,2
+1372,43,8,1976,Female,7874 Wessex Street,Owego,NY,13827,42.10,-76.26,40576.0,2
+1373,77,5,1942,Female,8407 Littlewood Street,Bradenton,FL,34207,27.48,-82.57,31555.0,4
+1374,48,8,1971,Male,3248 Summit Lane,Phoenix,AZ,85083,33.73,-112.14,72844.0,1
+1375,24,8,1995,Male,952 Plum Avenue,Mobile,AL,36618,30.68,-88.04,35212.0,2
+1376,47,7,1972,Female,27 Third Avenue,Blue Springs,MO,64015,39.01,-94.28,49045.0,3
+1377,57,12,1962,Female,886 Plum Boulevard,Ukiah,CA,95482,39.12,-123.28,12044.0,3
+1378,38,1,1982,Male,10 Norfolk Boulevard,Wichita,KS,67212,37.68,-97.34,46160.0,4
+1379,46,2,1974,Female,576 Martin Luther King Street,Beaverton,OR,97005,45.49,-122.80,44249.0,5
+1380,76,2,1944,Male,4937 Maple Lane,Port Orchard,WA,98366,47.54,-122.58,30248.0,4
+1381,28,9,1991,Male,96707 East Boulevard,Athens,AL,35614,34.78,-86.95,34487.0,1
+1382,83,12,1936,Female,237 Hill Boulevard,Wilmer,TX,75172,32.59,-96.68,22873.0,5
+1383,50,5,1969,Male,7037 Wessex Avenue,Skiatook,OK,74070,36.36,-96.03,43290.0,4
+1384,28,7,1991,Female,875 Plum Street,De Soto,KS,66018,38.97,-94.95,50934.0,3
+1385,23,12,1996,Male,986 East Avenue,Fairfax,VA,22033,38.85,-77.29,87437.0,2
+1386,25,5,1994,Female,8199 Norfolk Avenue,Edgewood,MD,21040,39.42,-76.29,43178.0,3
+1387,51,3,1968,Male,2227 Federal Lane,Daytona Beach,FL,32117,29.19,-81.05,27372.0,1
+1388,33,8,1986,Female,19 Valley Stream Drive,Circleville,OH,43113,39.60,-82.93,36755.0,2
+1389,70,12,1949,Female,469 Grant Lane,Albuquerque,NM,87120,35.11,-106.62,40189.0,1
+1390,29,1,1991,Male,338 Spruce Lane,Avis,PA,17721,41.18,-77.31,32024.0,1
+1391,34,5,1985,Female,100 Rose Lane,Glen Cove,NY,11542,40.86,-73.63,59999.0,1
+1392,77,5,1942,Female,239 West Drive,Springfield,KY,40069,37.68,-85.22,22540.0,6
+1393,38,4,1981,Female,6561 George Avenue,Foristell,MO,63348,38.81,-90.96,52512.0,2
+1394,44,12,1975,Female,5887 Seventh Lane,Daly City,CA,94014,37.68,-122.43,48430.0,2
+1395,36,1,1984,Male,152 West Drive,Tacoma,WA,98403,47.26,-122.45,64262.0,4
+1396,48,8,1971,Female,716 Lake Avenue,Houston,TX,77087,29.76,-95.38,28267.0,3
+1397,70,9,1949,Female,817 Ocean Avenue,Aurora,CO,80013,39.69,-104.81,45754.0,4
+1398,80,4,1939,Female,7872 Oak Drive,Danville,IL,61832,40.14,-87.61,16646.0,2
+1399,35,3,1984,Female,3963 Essex Drive,Alvin,TX,77511,29.43,-95.24,44766.0,2
+1400,34,11,1985,Female,6427 12th Boulevard,Eastlake,OH,44095,41.65,-81.43,41091.0,6
+1401,43,5,1976,Male,441 River Street,Lake Havasu City,AZ,86404,34.61,-114.30,28983.0,3
+1402,47,7,1972,Male,318 Ninth Lane,Waianae,HI,96792,21.44,-158.18,35016.0,3
+1403,82,2,1938,Female,2303 12th Lane,Lamesa,TX,79331,32.73,-101.95,23175.0,5
+1404,49,3,1970,Female,211 Lexington Drive,Lorain,OH,44052,41.44,-82.18,30340.0,3
+1405,38,9,1981,Female,2182 Martin Luther King Street,Plattsburgh,NY,12901,44.69,-73.45,41141.0,2
+1406,67,10,1952,Female,3667 Washington Avenue,Saint Petersburg,FL,33704,27.75,-82.64,23533.0,1
+1407,24,9,1995,Female,549 Ocean Boulevard,Bronx,NY,10455,40.84,-73.87,26382.0,2
+1408,29,7,1990,Male,7333 George Street,Buckeye,AZ,85396,33.56,-112.57,51891.0,4
+1409,41,6,1978,Male,6389 El Camino Drive,Great Barrington,MA,01230,42.19,-73.35,43560.0,5
+1410,51,7,1968,Female,2920 11th Boulevard,Gulf Shores,AL,36542,30.27,-87.70,31713.0,1
+1411,29,8,1990,Male,506 Washington Lane,Orange,CA,92865,33.83,-117.85,53376.0,3
+1412,58,11,1961,Female,3856 Valley Boulevard,Joplin,MO,64801,37.08,-94.50,33793.0,4
+1413,71,5,1948,Female,391 South Street,Sanford,FL,32771,28.78,-81.27,38009.0,3
+1414,40,12,1979,Male,69 Martin Luther King Street,Monroe,CT,06468,41.36,-73.20,75711.0,1
+1415,55,9,1964,Male,3570 North Boulevard,Lake Forest,CA,92630,33.64,-117.67,61793.0,4
+1416,31,10,1988,Female,7808 Lincoln Drive,Ames,IA,50014,42.02,-93.62,53395.0,3
+1417,61,8,1958,Female,3987 11th Drive,Fayetteville,NC,28306,35.05,-78.87,37342.0,5
+1418,59,5,1960,Female,3179 Seventh Drive,Houston,TX,77015,29.76,-95.38,35397.0,5
+1419,52,4,1967,Male,304 Third Boulevard,Parsippany,NJ,07054,40.85,-74.40,70862.0,5
+1420,63,1,1957,Female,99 Valley Stream Street,Schenectady,NY,12309,42.80,-73.92,49569.0,2
+1421,29,11,1990,Male,556 Fourth Street,Newton,KS,67114,38.04,-97.34,37677.0,2
+1422,50,1,1970,Female,801 Mountain View Street,Federal Way,WA,98003,47.30,-122.31,44355.0,3
+1423,78,11,1941,Female,9911 Rose Street,Trinidad,CA,95570,41.13,-124.04,22290.0,6
+1424,32,4,1987,Female,8121 North Boulevard,Dayton,KY,41074,39.11,-84.46,35227.0,3
+1425,73,9,1946,Female,8258 Jefferson Drive,Camillus,NY,13031,43.03,-76.30,48750.0,8
+1426,65,9,1954,Male,10 Third Avenue,Burlingame,CA,94010,37.56,-122.37,645.0,3
+1427,40,11,1979,Female,2578 Park Boulevard,Hope,IN,47246,39.29,-85.76,37299.0,2
+1428,94,1,1926,Male,93 Lafayette Boulevard,Windsor,CO,80550,40.48,-104.90,60080.0,6
+1429,51,3,1968,Female,5334 11th Avenue,Odenville,AL,35120,33.68,-86.39,41886.0,3
+1430,47,2,1973,Female,892 Elm Street,La Grange,IL,60525,41.80,-87.87,70711.0,2
+1431,49,4,1970,Female,2350 Bayview Street,Fullerton,NE,68638,41.36,-97.97,27691.0,2
+1432,35,5,1984,Female,775 Essex Lane,Newark,DE,19713,39.67,-75.75,45508.0,1
+1433,45,3,1974,Male,13 Lake Drive,Columbia,PA,17512,40.03,-76.49,40093.0,2
+1434,59,2,1961,Male,795 Tenth Street,Garland,TX,75040,32.91,-96.62,37536.0,3
+1435,18,3,2001,Female,94 Lafayette Avenue,Mililani,HI,96789,21.45,-158.01,56222.0,4
+1436,35,1,1985,Male,9853 Sussex Street,Russellton,PA,15076,40.61,-79.83,30172.0,2
+1437,47,2,1973,Female,675 Little Creek Drive,Brooklyn,NY,11222,40.64,-73.94,51330.0,2
+1438,37,5,1982,Female,365 Ocean Lane,Holden,MA,01520,42.35,-71.85,64252.0,2
+1439,45,11,1974,Male,7044 Plum Street,Greenbrier,AR,72058,35.22,-92.38,39942.0,4
+1440,65,3,1954,Female,440 Maple Drive,Orange,NJ,07050,40.76,-74.23,39077.0,1
+1441,49,6,1970,Male,6593 North Avenue,Minneapolis,MN,55429,44.96,-93.26,38039.0,3
+1442,23,8,1996,Female,361 Fourth Street,Lakeland,FL,33813,28.04,-81.96,53675.0,5
+1443,75,2,1945,Male,3095 Eighth Drive,Grand Rapids,MI,49534,42.97,-85.77,42812.0,4
+1444,56,4,1963,Male,942 Lincoln Lane,Los Angeles,CA,90002,33.94,-118.24,23231.0,3
+1445,20,1,2000,Male,58 Bayview Street,Kennett,MO,63857,36.24,-90.04,30229.0,3
+1446,63,10,1956,Male,5159 Wessex Avenue,Little Rock,AR,72209,34.72,-92.35,26600.0,4
+1447,32,11,1987,Female,13 Norfolk Avenue,Warwick,RI,02889,41.70,-71.42,49800.0,2
+1448,63,9,1956,Female,219 Ocean Avenue,Bethlehem,PA,18015,40.62,-75.36,50696.0,5
+1449,30,1,1990,Male,7051 West Drive,Stanton,CA,90680,33.79,-117.99,35813.0,2
+1450,38,9,1981,Male,969 Lexington Lane,Chattanooga,TN,37415,35.06,-85.25,44831.0,3
+1451,39,11,1980,Female,719 Third Lane,Monroe Township,NJ,08831,40.34,-74.44,59313.0,2
+1452,49,8,1970,Female,924 Spruce Street,Los Angeles,CA,90003,33.96,-118.27,22583.0,4
+1453,18,2,2002,Male,283 Rose Lane,Mission Viejo,CA,92691,33.60,-117.66,62316.0,1
+1454,20,8,1999,Male,5310 Hillside Avenue,Brooklyn,NY,11219,40.64,-73.94,25350.0,2
+1455,26,9,1993,Female,3114 East Street,Fort Atkinson,WI,53538,42.92,-88.84,42931.0,3
+1456,19,5,2000,Male,5966 Hill Boulevard,Bensalem,PA,19020,40.10,-74.93,50602.0,2
+1457,32,1,1988,Male,4725 North Street,Toledo,OH,43608,41.66,-83.58,24668.0,1
+1458,63,4,1956,Female,899 Grant Lane,Ambler,PA,19002,40.15,-75.22,56102.0,1
+1459,61,1,1959,Male,4110 Lafayette Boulevard,Charleston,WV,25313,38.35,-81.63,44257.0,2
+1460,68,1,1952,Male,731 Martin Luther King Boulevard,Houston,TX,77096,29.76,-95.38,63355.0,5
+1461,55,8,1964,Male,9604 West Boulevard,Seabrook,NH,03874,42.89,-70.87,45767.0,4
+1462,46,5,1973,Female,136 Tenth Boulevard,Anaheim,CA,92805,33.82,-117.91,33137.0,2
+1463,79,4,1940,Male,760 Tenth Avenue,Washington,IL,61571,40.69,-89.43,37898.0,2
+1464,27,7,1992,Male,9517 Ninth Street,Colchester,VT,05446,44.53,-73.15,53082.0,3
+1465,25,2,1995,Male,4920 Valley Stream Drive,Locust Grove,GA,30248,33.34,-84.10,44204.0,3
+1466,24,5,1995,Male,5653 North Drive,Phoenix,AZ,85022,33.62,-112.05,53061.0,3
+1467,28,7,1991,Female,993 Ninth Street,Prattville,AL,36066,32.46,-86.44,44444.0,1
+1468,67,9,1952,Male,159 Mill Street,Carleton,MI,48117,42.05,-83.38,56542.0,6
+1469,24,4,1995,Female,165 Plum Avenue,Ashland,MS,38603,34.83,-89.17,26839.0,2
+1470,51,5,1968,Male,166 River Drive,Harwood,MD,20776,38.86,-76.60,68362.0,2
+1471,30,6,1989,Male,978 Wessex Avenue,Piney Flats,TN,37686,36.44,-82.34,45649.0,1
+1472,34,11,1985,Female,5411 Madison Avenue,Killeen,TX,76543,31.09,-97.71,29897.0,6
+1473,35,3,1984,Female,3369 Wessex Avenue,Roseville,CA,95661,38.74,-121.25,59872.0,4
+1474,51,4,1968,Male,865 Wessex Lane,Cookeville,TN,38501,36.15,-85.50,32531.0,4
+1475,41,6,1978,Female,608 Washington Drive,Winston,GA,30187,33.65,-84.86,46108.0,1
+1476,54,2,1966,Male,938 Forest Street,Brownsville,TX,78521,25.92,-97.48,22714.0,3
+1477,77,4,1942,Female,456 Birch Lane,Belfair,WA,98528,47.43,-122.92,44807.0,4
+1478,39,5,1980,Female,796 Sussex Avenue,Switz City,IN,47465,39.03,-87.05,31170.0,5
+1479,33,10,1986,Female,928 Bayview Street,Portage,WI,53901,43.54,-89.46,40029.0,3
+1480,38,9,1981,Male,889 Forest Lane,Gainesville,FL,32605,29.67,-82.33,50957.0,2
+1481,26,4,1993,Female,445 Fourth Lane,Edinburg,TX,78542,26.35,-98.11,23987.0,1
+1482,50,1,1970,Male,1504 Lincoln Drive,Wickes,AR,71973,34.29,-94.33,26758.0,5
+1483,69,9,1950,Female,6466 Ninth Drive,Bakersfield,CA,93308,35.54,-118.91,44152.0,5
+1484,21,12,1998,Female,649 Second Avenue,New York,NY,10010,40.71,-73.99,186534.0,1
+1485,18,2,2002,Male,62715 Sixth Avenue,Hamburg,NY,14075,42.72,-78.83,49185.0,2
+1486,30,2,1990,Male,835 George Drive,Miami,FL,33176,25.77,-80.20,58865.0,2
+1487,49,9,1970,Female,791 11th Boulevard,Henrico,VA,23228,37.55,-77.46,42652.0,6
+1488,43,1,1977,Female,7512 South Boulevard,Appleton,WI,54913,44.26,-88.39,75080.0,3
+1489,56,10,1963,Female,7532 Park Boulevard,Kuna,ID,83634,43.43,-116.32,39146.0,3
+1490,75,12,1944,Female,402 Birch Boulevard,Tacoma,WA,98404,47.20,-122.40,11410.0,7
+1491,61,11,1958,Male,186 Forest Avenue,Sterling Heights,MI,48313,42.58,-83.03,46843.0,2
+1492,23,7,1996,Female,473 El Camino Street,Torrance,CA,90504,33.86,-118.33,52815.0,2
+1493,18,1,2002,Female,197 George Drive,Douglas,GA,31535,31.50,-82.85,32014.0,3
+1494,44,7,1975,Female,6624 Valley Street,Saint Simons Island,GA,31522,31.21,-81.37,54659.0,1
+1495,44,7,1975,Male,6882 Forest Drive,Laurel Hill,NC,28351,34.80,-79.54,27896.0,3
+1496,51,1,1969,Male,599 East Lane,Coventry,RI,02816,41.68,-71.66,51196.0,3
+1497,52,5,1967,Female,903 Hill Boulevard,Crown Point,IN,46307,41.42,-87.35,53350.0,5
+1498,44,2,1976,Female,4121 Mountain View Boulevard,West Harrison,NY,10604,41.05,-73.74,93406.0,3
+1499,66,9,1953,Male,900 Catherine Street,San Diego,CA,92129,32.96,-117.12,74059.0,4
+1500,21,3,1998,Male,1848 Mountain View Avenue,Powder Springs,GA,30127,33.86,-84.68,51028.0,2
+1501,21,5,1998,Female,537 Fourth Lane,Amanda,OH,43102,39.65,-82.74,38739.0,3
+1502,41,7,1978,Female,533 Sussex Drive,Hannibal,NY,13074,43.31,-76.57,34690.0,4
+1503,37,8,1982,Male,5608 Hillside Avenue,Holly Springs,MS,38635,34.77,-89.44,29297.0,4
+1504,82,10,1937,Male,635 Sussex Drive,West Plains,MO,65775,36.74,-91.86,33356.0,4
+1505,31,8,1988,Male,168 Sussex Boulevard,Honeoye Falls,NY,14472,42.95,-77.59,67230.0,2
+1506,65,6,1954,Female,5814 Lincoln Lane,Medford,NY,11763,40.82,-72.98,64829.0,3
+1507,29,11,1990,Female,5493 Catherine Drive,Marietta,GA,30062,33.95,-84.54,67473.0,1
+1508,61,1,1959,Male,201 Grant Drive,State College,PA,16801,40.79,-77.85,51039.0,5
+1509,25,8,1994,Male,2484 Essex Avenue,North Haven,CT,06473,41.38,-72.85,59599.0,5
+1510,56,5,1963,Male,593 Valley Stream Drive,Perkins,OK,74059,35.97,-97.02,35468.0,2
+1511,33,12,1986,Male,12 12th Avenue,Kenosha,WI,53144,42.58,-87.85,47023.0,2
+1512,80,12,1939,Female,6328 Forest Street,Houston,TX,77073,29.76,-95.38,22326.0,4
+1513,22,7,1997,Female,919 First Street,Chana,IL,61015,41.99,-89.20,41080.0,1
+1514,56,9,1963,Male,3982 Ocean View Street,High Point,NC,27265,35.98,-79.99,48944.0,7
+1515,44,7,1975,Male,591 South Avenue,Lawrence,KS,66049,38.96,-95.25,55351.0,6
+1516,18,12,2001,Male,6294 Essex Drive,Saint George,UT,84770,37.18,-113.60,29497.0,3
+1517,25,2,1995,Female,940 Plum Boulevard,Tampa,FL,33647,27.95,-82.48,69572.0,2
+1518,37,1,1983,Male,6680 River Avenue,Las Vegas,NV,89118,36.07,-115.21,48710.0,3
+1519,32,6,1987,Male,6106 Norfolk Boulevard,New Orleans,LA,70119,30.06,-89.93,35755.0,4
+1520,67,8,1952,Female,198 Lincoln Street,Norwalk,CT,06854,41.09,-73.42,62669.0,5
+1521,39,5,1980,Male,164 Ocean View Street,Northwood,IA,50459,43.44,-93.21,32801.0,2
+1522,50,2,1970,Female,4492 Grant Drive,Conover,NC,28613,35.70,-81.21,37617.0,3
+1523,33,7,1986,Male,699 Third Avenue,Henderson,TX,75652,32.15,-94.79,36496.0,1
+1524,77,8,1942,Male,8407 Forest Drive,Oswego,NY,13126,43.45,-76.50,47993.0,5
+1525,71,8,1948,Female,5023 11th Avenue,Saint George,UT,84790,37.06,-113.57,23350.0,2
+1526,52,7,1967,Female,4092 El Camino Lane,Oklahoma City,OK,73114,35.46,-97.51,29496.0,5
+1527,59,10,1960,Female,102 Burns Boulevard,Easton,PA,18042,40.68,-75.22,42825.0,5
+1528,47,8,1972,Female,467 Birch Avenue,Sodus,NY,14551,43.23,-77.06,34057.0,4
+1529,42,8,1977,Female,152 El Camino Boulevard,Hitchcock,TX,77563,29.31,-95.01,43181.0,3
+1530,32,8,1987,Male,4063 Burns Boulevard,Florham Park,NJ,07932,40.77,-74.39,97248.0,5
+1531,43,11,1976,Male,582 Essex Street,Sullivan,MO,63080,38.21,-91.16,34869.0,2
+1532,58,4,1961,Female,690 Hill Lane,Barron,WI,54812,45.40,-91.84,31343.0,3
+1533,63,5,1956,Female,440 North Street,Abilene,TX,79605,32.45,-99.73,30399.0,4
+1534,52,9,1967,Female,417 Hill Lane,Lexington,KY,40509,38.04,-84.45,58278.0,6
+1535,62,2,1958,Male,506 Washington Lane,Leitchfield,KY,42754,37.48,-86.29,9445.0,2
+1536,32,10,1987,Female,12960 El Camino Lane,Newark,NJ,07112,40.72,-74.17,34034.0,2
+1537,59,8,1960,Male,763 Essex Avenue,Miami,FL,33156,25.77,-80.20,109440.0,5
+1538,20,2,2000,Female,72 Lexington Avenue,Woodbridge,NJ,07095,40.55,-74.28,62365.0,1
+1539,85,1,1935,Female,872 Lake Avenue,Everett,PA,15537,40.01,-78.36,38499.0,5
+1540,21,9,1998,Female,3208 El Camino Street,Plainfield,IN,46168,39.70,-86.38,47622.0,2
+1541,48,1,1972,Female,940 First Drive,New Bloomfield,MO,65063,38.71,-92.08,40017.0,1
+1542,28,5,1991,Female,672 Grant Lane,Green Cove Springs,FL,32043,29.98,-81.67,40381.0,3
+1543,63,10,1956,Female,881 Ocean View Street,Chicago,IL,60657,41.83,-87.68,4.0,3
+1544,32,12,1987,Female,7012 11th Lane,New York,NY,10025,40.71,-73.99,48676.0,4
+1545,62,9,1957,Male,6076 Bayview Boulevard,Milwaukee,WI,53206,43.06,-87.96,20377.0,4
+1546,53,2,1967,Female,75011 Lafayette Drive,Mira Loma,CA,91752,33.99,-117.53,40470.0,5
+1547,52,3,1967,Male,544 Main Drive,Canton,MA,02021,42.15,-71.13,79272.0,3
+1548,42,1,1978,Male,603 Rose Avenue,Windsor,CT,06095,41.85,-72.65,59663.0,1
+1549,30,2,1990,Male,5737 Washington Boulevard,Huntingdon Valley,PA,19006,40.13,-75.06,69412.0,2
+1550,23,3,1996,Female,989 Hill Avenue,Leesburg,FL,34748,28.80,-81.88,22844.0,1
+1551,69,4,1950,Male,5233 Valley Stream Street,Albuquerque,NM,87106,35.11,-106.62,16542.0,3
+1552,23,10,1996,Female,515 Tenth Lane,Carmel,CA,93923,36.46,-121.82,59479.0,1
+1553,61,5,1958,Female,98 Ninth Street,Ooltewah,TN,37363,35.06,-85.09,52633.0,1
+1554,21,4,1998,Female,4497 Summit Boulevard,Mount Airy,NC,27030,36.50,-80.61,31167.0,3
+1555,25,4,1994,Female,7111 Lexington Avenue,Des Moines,IA,50313,41.57,-93.61,37864.0,1
+1556,18,9,2001,Female,293 South Street,Laneville,TX,75667,31.94,-94.85,32998.0,1
+1557,31,8,1988,Female,1415 Sixth Street,Midland,TX,79701,32.02,-102.10,35331.0,4
+1558,46,2,1974,Male,2292 South Street,Grenada,MS,38901,33.77,-89.81,31739.0,5
+1559,18,4,2001,Female,1692 Hillside Avenue,Gorman,TX,76454,32.21,-98.67,25654.0,1
+1560,35,10,1984,Male,34 Summit Drive,Chula Vista,CA,91911,32.61,-117.03,34542.0,4
+1561,26,5,1993,Male,930 Mill Drive,Herrin,IL,62948,37.80,-89.03,33437.0,1
+1562,53,7,1966,Male,274 Summit Street,Dallas,TX,75227,32.79,-96.76,28134.0,3
+1563,54,9,1965,Male,9939 Mill Lane,Suwanee,GA,30024,34.05,-84.07,72807.0,3
+1564,62,10,1957,Female,24684 Ocean View Boulevard,Gresham,OR,97080,45.47,-122.37,46075.0,3
+1565,35,6,1984,Female,4395 Bayview Lane,Spokane,WA,99216,47.69,-117.19,36213.0,1
+1566,62,7,1957,Female,4823 Lincoln Drive,Denver,CO,80221,39.76,-104.87,33556.0,4
+1567,54,7,1965,Male,456 Sixth Boulevard,Austin,TX,78705,30.26,-97.74,47482.0,5
+1568,52,8,1967,Male,3740 Ocean Lane,Elyria,OH,44035,41.37,-82.10,36927.0,1
+1569,18,1,2002,Female,24 Lafayette Street,Valdosta,GA,31605,30.84,-83.27,40131.0,1
+1570,52,10,1967,Female,549 Tenth Avenue,Chicago,IL,60620,41.83,-87.68,30509.0,2
+1571,87,11,1932,Female,983 George Boulevard,Oceanside,CA,92057,33.27,-117.28,33279.0,6
+1572,61,3,1958,Male,5363 Tenth Lane,Charlotte,TN,37036,36.18,-87.34,35196.0,4
+1573,52,10,1967,Female,445 West Boulevard,Jersey City,NJ,07306,40.71,-74.06,44128.0,3
+1574,20,8,1999,Female,885 Bayview Lane,Fargo,ND,58103,46.87,-96.81,45292.0,4
+1575,42,9,1977,Male,763 Lexington Avenue,College Park,MD,20740,38.99,-76.93,53464.0,4
+1576,40,10,1979,Female,464 Lake Drive,Corona,NY,11368,40.74,-73.85,26865.0,5
+1577,18,2,2002,Female,2668 Lafayette Avenue,Cape Canaveral,FL,32920,28.40,-80.60,41579.0,2
+1578,46,8,1973,Female,9503 South Street,Big Bear Lake,CA,92315,34.23,-116.86,31632.0,3
+1579,30,7,1989,Female,594 Mountain View Street,Bismarck,ND,58504,46.80,-100.76,48277.0,4
+1580,19,10,2000,Male,122 11th Drive,Effingham,SC,29541,34.05,-79.75,33426.0,4
+1581,73,3,1946,Female,3802 Maple Street,Cleveland,OH,44104,41.47,-81.67,13089.0,4
+1582,24,6,1995,Male,7675 Main Boulevard,Allendale,SC,29810,33.00,-81.30,23212.0,3
+1583,18,1,2002,Male,7193 George Boulevard,Canoga Park,CA,91304,34.22,-118.59,49084.0,3
+1584,63,11,1956,Female,412 Spruce Boulevard,Albany,NY,12206,42.66,-73.79,31582.0,4
+1585,74,5,1945,Male,960 Mill Lane,Rush,NY,14543,42.98,-77.67,54013.0,8
+1586,41,12,1978,Male,3536 Burns Street,Texarkana,TX,75501,33.44,-94.07,32387.0,1
+1587,61,2,1959,Female,576 Jefferson Boulevard,De Land,IL,61839,40.12,-88.64,34619.0,5
+1588,52,2,1968,Male,142 First Drive,Dallas,TX,75227,32.79,-96.76,28137.0,6
+1589,56,11,1963,Female,5814 Ocean Street,Fall River Mills,CA,96028,41.01,-121.47,27981.0,3
+1590,65,3,1954,Female,6303 South Boulevard,Patterson,LA,70392,29.69,-91.30,39221.0,4
+1591,25,8,1994,Female,166 Littlewood Lane,Los Angeles,CA,90036,34.06,-118.35,83104.0,5
+1592,59,9,1960,Male,948 Federal Drive,Simpsonville,SC,29680,34.73,-82.25,48867.0,2
+1593,49,4,1970,Female,824 West Drive,Pascoag,RI,02859,41.95,-71.70,49464.0,6
+1594,37,11,1982,Female,4830 Ocean Drive,Parrish,AL,35580,33.73,-87.28,36122.0,2
+1595,20,9,1999,Male,2539 Hill Street,West Warwick,RI,02893,41.69,-71.51,46284.0,1
+1596,49,10,1970,Female,990 Burns Boulevard,Gastonia,NC,28056,35.25,-81.17,48688.0,1
+1597,50,9,1969,Female,9794 Essex Lane,Seattle,WA,98117,47.68,-122.38,71427.0,3
+1598,60,12,1959,Male,53 Madison Street,Kennett Square,PA,19348,39.84,-75.71,70840.0,4
+1599,32,2,1988,Female,8445 11th Lane,Fort Mill,SC,29707,34.99,-80.86,54804.0,2
+1600,88,9,1931,Male,636 Main Avenue,Buchanan Dam,TX,78609,30.79,-98.43,22371.0,4
+1601,51,11,1968,Male,1209 George Drive,Fayetteville,NC,28312,34.93,-78.72,37467.0,4
+1602,32,11,1987,Male,2426 Littlewood Avenue,Saint Paul,MN,55101,44.94,-93.10,62492.0,3
+1603,42,8,1977,Male,9387 Lincoln Boulevard,Clever,MO,65631,37.02,-93.47,35119.0,3
+1604,63,1,1957,Female,13 Sixth Boulevard,San Diego,CA,92105,32.73,-117.08,28147.0,7
+1605,19,1,2001,Male,3804 Ninth Street,Norcross,GA,30092,33.94,-84.20,64585.0,1
+1606,33,6,1986,Male,81 Wessex Drive,Stockton,CA,95210,38.02,-121.30,29996.0,4
+1607,61,1,1959,Female,2111 Burns Street,El Paso,TX,79928,31.65,-106.15,29206.0,6
+1608,51,8,1968,Male,932 Bayview Avenue,Prairie Village,KS,66208,38.90,-94.68,84944.0,3
+1609,21,3,1998,Female,7469 El Camino Street,Dearborn,MI,48126,42.31,-83.21,24006.0,2
+1610,50,11,1969,Male,6669 Burns Street,Torrington,CT,06790,41.83,-73.12,45674.0,1
+1611,48,1,1972,Female,6126 Ocean View Boulevard,Lapel,IN,46051,40.06,-85.84,40392.0,1
+1612,41,5,1978,Female,1071 Lafayette Street,Pittsfield,NH,03263,43.30,-71.33,40334.0,3
+1613,36,1,1984,Male,4172 Federal Drive,Mesa,AZ,85202,33.38,-111.87,42927.0,4
+1614,24,12,1995,Male,652 Maple Street,Dayton,OH,45420,39.77,-84.19,37122.0,4
+1615,36,5,1983,Female,980 Federal Drive,Detroit,MI,48209,42.38,-83.10,19800.0,3
+1616,49,8,1970,Male,468 Park Lane,Grantham,PA,17027,40.23,-77.02,44303.0,1
+1617,61,4,1958,Female,9189 Valley Street,Utica,NY,13501,43.10,-75.23,30984.0,4
+1618,45,1,1975,Female,471 Eighth Lane,Morristown,NJ,07960,40.79,-74.47,112875.0,2
+1619,28,11,1991,Female,5663 Martin Luther King Boulevard,Mosheim,TN,37818,36.19,-82.95,29371.0,2
+1620,35,8,1984,Male,4238 Lexington Lane,Cicero,IL,60804,41.84,-87.75,28325.0,6
+1621,52,2,1968,Female,38688 First Avenue,Chicago,IL,60630,41.83,-87.68,45462.0,5
+1622,32,7,1987,Female,767 Park Drive,Lubbock,TX,79413,33.57,-101.87,35565.0,3
+1623,18,1,2002,Male,3578 Pine Lane,Concord,NC,28025,35.40,-80.59,41940.0,1
+1624,61,3,1958,Female,4155 Spruce Avenue,Thorofare,NJ,08086,39.85,-75.18,58433.0,4
+1625,57,11,1962,Male,1690 Main Avenue,Jackson Center,PA,16133,41.27,-80.13,34272.0,4
+1626,18,9,2001,Male,38 Valley Stream Street,Saint Petersburg,FL,33704,27.75,-82.64,71312.0,4
+1627,49,11,1970,Female,6999 Lexington Lane,Sacramento,CA,95822,38.51,-121.49,37401.0,4
+1628,18,2,2002,Female,303 Lexington Drive,Pompano Beach,FL,33071,26.23,-80.13,56921.0,1
+1629,52,10,1967,Male,146 Plum Avenue,Indianapolis,IN,46203,39.77,-86.14,29957.0,5
+1630,51,1,1969,Male,6310 El Camino Drive,Godfrey,IL,62035,38.96,-90.18,44206.0,1
+1631,47,1,1973,Male,605 Hillside Boulevard,Abbeville,LA,70510,29.97,-92.12,38190.0,1
+1632,37,4,1982,Female,363 Main Lane,Blytheville,AR,72315,35.93,-89.92,34032.0,2
+1633,43,6,1976,Male,33 Bayview Avenue,Fayetteville,NC,28303,35.05,-78.87,36189.0,3
+1634,51,1,1969,Male,1047 Seventh Street,Jackson,MS,39213,32.32,-90.20,22557.0,5
+1635,44,11,1975,Male,4169 Fourth Lane,Camarillo,CA,93010,34.23,-119.07,56163.0,1
+1636,44,10,1975,Male,168 Mill Drive,Vancouver,WA,98684,45.63,-122.52,44963.0,4
+1637,20,11,1999,Male,76089 Grant Boulevard,Sterling Heights,MI,48310,42.58,-83.03,39144.0,1
+1638,82,8,1937,Female,362 Martin Luther King Street,Grover Hill,OH,45849,41.01,-84.47,21815.0,5
+1639,49,2,1971,Female,6661 Mill Lane,Olympia,WA,98516,47.11,-122.76,49026.0,1
+1640,38,1,1982,Male,839 Essex Lane,Great Falls,MT,59404,47.65,-111.38,39882.0,4
+1641,59,12,1960,Female,265 Ocean Drive,Katy,TX,77493,29.79,-95.82,53878.0,4
+1642,18,9,2001,Female,3371 Madison Boulevard,Camp Pendleton,CA,92055,33.29,-117.30,31644.0,1
+1643,30,4,1989,Female,145 Spruce Street,Commerce City,CO,80022,39.86,-104.86,41839.0,4
+1644,54,3,1965,Female,2571 Plum Avenue,Palm Bay,FL,32905,27.98,-80.66,31240.0,5
+1645,80,1,1940,Female,221 Catherine Boulevard,Fleischmanns,NY,12430,42.15,-74.53,9766.0,4
+1646,25,8,1994,Female,355 Burns Boulevard,Sunbury,PA,17801,40.86,-76.78,33682.0,1
+1647,29,5,1990,Male,7135 Ninth Lane,Chestnut Hill,MA,02467,42.31,-71.16,126775.0,2
+1648,45,5,1974,Female,4173 Wessex Avenue,Pennington,AL,36916,32.19,-88.05,34817.0,1
+1649,65,2,1955,Female,674 Elm Boulevard,Blair,NE,68008,41.54,-96.13,16889.0,5
+1650,25,9,1994,Female,212 Lincoln Lane,Jacksonville,FL,32210,30.33,-81.65,40000.0,3
+1651,31,5,1988,Male,913 Mill Boulevard,Alstead,NH,03602,43.15,-72.36,41986.0,1
+1652,23,12,1996,Male,2545 Federal Drive,Jersey City,NJ,07306,40.71,-74.06,44128.0,1
+1653,23,7,1996,Male,16 Jefferson Drive,Mundelein,IL,60060,42.26,-88.00,58721.0,1
+1654,55,5,1964,Male,1587 Rose Lane,Como,MS,38619,34.51,-89.94,25051.0,4
+1655,20,12,1999,Female,12694 Fourth Boulevard,Yuma,CO,80759,40.12,-102.72,29040.0,1
+1656,45,6,1974,Male,955 Seventh Avenue,Auburn,AL,36831,32.59,-85.48,42379.0,1
+1657,59,5,1960,Male,6320 East Avenue,Valley Center,CA,92082,33.25,-116.98,46341.0,6
+1658,20,2,2000,Male,8997 Summit Avenue,Hummelstown,PA,17036,40.26,-76.71,63292.0,1
+1659,37,2,1983,Male,95873 Madison Boulevard,Cosby,TN,37722,35.81,-83.25,23967.0,4
+1660,41,12,1978,Female,691 Valley Drive,Brunswick,OH,44212,41.24,-81.82,48038.0,6
+1661,27,10,1992,Male,311 Little Creek Boulevard,San Francisco,CA,94112,37.72,-122.44,45973.0,2
+1662,75,2,1945,Male,863 Park Drive,Zebulon,NC,27597,35.82,-78.31,22850.0,6
+1663,22,1,1998,Female,7902 Norfolk Drive,Essex,MD,21221,39.30,-76.44,42856.0,1
+1664,22,12,1997,Male,7296 Second Lane,Cynthiana,KY,41031,38.38,-84.29,35635.0,4
+1665,66,5,1953,Female,56 Tenth Boulevard,Los Angeles,CA,90001,33.97,-118.24,24947.0,4
+1666,74,4,1945,Female,826 12th Drive,Santaquin,UT,84655,39.99,-111.81,31792.0,3
+1667,23,8,1996,Female,2478 El Camino Avenue,Joaquin,TX,75954,31.96,-94.05,38983.0,1
+1668,31,4,1988,Female,8862 Ninth Avenue,North Wales,PA,19454,40.21,-75.27,73117.0,2
+1669,59,3,1960,Female,8060 Pine Boulevard,Providence,RI,02903,41.82,-71.41,61991.0,4
+1670,19,3,2000,Female,5709 Little Creek Lane,Detroit,MI,48223,42.38,-83.10,32192.0,2
+1671,36,11,1983,Male,2352 Bayview Boulevard,Orlando,FL,32804,28.50,-81.37,67444.0,1
+1672,22,10,1997,Female,6179 Eighth Boulevard,Standish,ME,04084,43.73,-70.55,45846.0,1
+1673,81,6,1938,Female,7673 Plum Drive,Tampa,FL,33617,27.95,-82.48,28594.0,5
+1674,29,10,1990,Female,412 First Boulevard,Humble,TX,77346,29.99,-95.26,67166.0,2
+1675,47,5,1972,Male,38318 West Drive,Dawsonville,GA,30534,34.42,-84.11,41965.0,2
+1676,47,1,1973,Female,965 Wessex Street,La Habra,CA,90631,33.94,-117.95,48406.0,3
+1677,35,11,1984,Female,5223 Lafayette Drive,Newtown,PA,18940,40.22,-74.93,102369.0,2
+1678,66,11,1953,Female,289 Ocean View Avenue,Miami,FL,33193,25.77,-80.20,36481.0,6
+1679,25,11,1994,Male,225 Seventh Avenue,Osseo,MN,55369,45.11,-93.39,60910.0,2
+1680,49,11,1970,Female,8893 Littlewood Lane,Charleston,SC,29403,32.78,-79.99,34982.0,3
+1681,79,12,1940,Female,2487 Martin Luther King Drive,Waipahu,HI,96797,21.39,-158.01,32232.0,5
+1682,37,1,1983,Male,9550 Jefferson Street,West Bloomfield,MI,48322,42.56,-83.38,66111.0,5
+1683,81,8,1938,Female,97339 Lake Avenue,Irvington,NY,10533,41.03,-73.86,162709.0,3
+1684,46,1,1974,Male,3551 Spruce Boulevard,Des Moines,IA,50313,41.57,-93.61,37857.0,2
+1685,70,7,1949,Male,744 Lafayette Street,Franklin,TX,77856,31.02,-96.48,23082.0,5
+1686,83,6,1936,Male,873 Summit Street,Brooklyn,NY,11215,40.64,-73.94,2.0,6
+1687,37,9,1982,Male,1723 North Lane,Stratford,CT,06614,41.20,-73.13,56248.0,4
+1688,18,3,2001,Female,356 Plum Boulevard,Lone Star,TX,75668,32.93,-94.70,32281.0,2
+1689,85,5,1934,Male,2 11th Avenue,Sumter,SC,29153,33.94,-80.39,30451.0,4
+1690,85,4,1934,Female,7016 Hillside Lane,Canton,NC,28716,35.54,-82.84,28134.0,2
+1691,47,12,1972,Female,14780 Plum Lane,Bronx,NY,10463,40.84,-73.87,52065.0,5
+1692,32,7,1987,Female,2785 Elm Drive,Garden Grove,CA,92844,33.76,-117.97,33212.0,1
+1693,52,9,1967,Male,858 Martin Luther King Drive,North Hollywood,CA,91605,34.20,-118.39,31070.0,4
+1694,18,11,2001,Male,69524 Valley Lane,Marion,KY,42064,37.33,-88.07,29562.0,1
+1695,52,10,1967,Male,6785 Essex Lane,Gaithersburg,MD,20879,39.14,-77.21,61532.0,4
+1696,18,1,2002,Female,91 Essex Lane,Alamogordo,NM,88310,32.88,-105.95,30778.0,1
+1697,66,10,1953,Male,35 Essex Drive,Westfield,NC,27053,36.48,-80.61,27266.0,5
+1698,57,5,1962,Male,241 Hillside Lane,Grand Forks,ND,58201,47.91,-97.07,48750.0,5
+1699,18,2,2002,Male,628 Norfolk Avenue,Arlington,MA,02476,42.41,-71.16,82972.0,1
+1700,21,7,1998,Female,288 North Avenue,New Orleans,LA,70118,30.06,-89.93,56280.0,1
+1701,18,4,2001,Male,6445 Ninth Lane,Lynnwood,WA,98037,47.85,-122.28,50086.0,3
+1702,22,12,1997,Female,8974 West Lane,Oklahoma City,OK,73112,35.46,-97.51,38892.0,2
+1703,47,4,1972,Female,9020 North Street,Decatur,IL,62521,39.85,-88.93,45164.0,3
+1704,38,7,1981,Female,4260 Essex Lane,Quakertown,PA,18951,40.43,-75.34,51391.0,1
+1705,54,1,1966,Male,112 Burns Lane,Massillon,OH,44646,40.78,-81.52,42379.0,3
+1706,49,8,1970,Male,344 Birch Street,Denison,IA,51442,42.01,-95.34,33995.0,1
+1707,18,1,2002,Male,822 Ocean View Lane,Baldwin Park,CA,91706,34.09,-117.96,32165.0,1
+1708,54,5,1965,Female,984 Eighth Avenue,Old Saybrook,CT,06475,41.29,-72.36,61740.0,2
+1709,86,11,1933,Female,235 Fourth Street,Hattiesburg,MS,39401,31.31,-89.30,9678.0,6
+1710,46,2,1974,Female,2794 Seventh Drive,Millington,TN,38053,35.33,-89.88,38971.0,3
+1711,85,7,1934,Male,5993 12th Lane,Lubbock,TX,79403,33.57,-101.87,12826.0,5
+1712,77,6,1942,Male,766 Mountain View Drive,Mission,TX,78572,26.21,-98.31,22104.0,3
+1713,23,10,1996,Female,533 Fourth Street,Fair Oaks,CA,95628,38.65,-121.25,56168.0,3
+1714,18,2,2002,Male,6638 Summit Lane,Asheville,NC,28803,35.57,-82.54,45313.0,2
+1715,53,12,1966,Female,1540 El Camino Avenue,West Palm Beach,FL,33406,26.74,-80.12,37119.0,5
+1716,25,1,1995,Female,8482 Elm Lane,Palmer,TX,75152,32.42,-96.67,42883.0,3
+1717,53,11,1966,Female,6733 Third Boulevard,Elyria,OH,44035,41.37,-82.10,36925.0,5
+1718,32,7,1987,Male,2783 Washington Avenue,East Northport,NY,11731,40.87,-73.32,67976.0,3
+1719,27,2,1993,Female,711 Norfolk Drive,Wellsville,OH,43968,40.60,-80.65,33266.0,5
+1720,25,5,1994,Female,4386 El Camino Boulevard,Jacksonville,FL,32218,30.33,-81.65,39520.0,2
+1721,27,3,1992,Male,900 Norfolk Avenue,Greenwood,IN,46143,39.61,-86.11,52550.0,1
+1722,51,3,1968,Female,54870 Lexington Drive,Miami,FL,33134,25.77,-80.20,64481.0,5
+1723,55,3,1964,Female,1442 Mill Avenue,Fayetteville,NC,28314,35.05,-78.87,36270.0,5
+1724,31,2,1989,Male,35 Rose Boulevard,San Jose,CA,95131,37.38,-121.90,76820.0,2
+1725,65,5,1954,Male,3216 Ninth Drive,Wichita,KS,67212,37.68,-97.34,49817.0,2
+1726,67,8,1952,Female,1429 Summit Drive,Parkville,MD,21234,39.38,-76.55,47087.0,5
+1727,66,7,1953,Female,330 Martin Luther King Lane,Angier,NC,27501,35.51,-78.73,36052.0,4
+1728,29,5,1990,Male,4673 Washington Avenue,Selma,AL,36703,32.41,-87.03,25434.0,2
+1729,41,9,1978,Male,2397 Madison Avenue,Lyman,SC,29365,34.95,-82.12,38450.0,1
+1730,38,3,1981,Male,909 Eighth Street,Milpitas,CA,95035,37.44,-121.87,68827.0,2
+1731,64,2,1956,Male,8146 Third Avenue,Katy,TX,77450,29.79,-95.82,399.0,3
+1732,71,1,1949,Male,793 Norfolk Avenue,Ocala,FL,34476,29.18,-82.13,17775.0,1
+1733,64,11,1955,Male,28 West Lane,Aurora,IL,60505,41.76,-88.29,28954.0,2
+1734,83,3,1936,Male,308 Second Boulevard,Los Altos,CA,94024,37.34,-122.11,82009.0,8
+1735,50,2,1970,Male,9190 Sussex Lane,Gresham,OR,97080,45.47,-122.37,46077.0,3
+1736,36,3,1983,Male,296 Pine Boulevard,Wethersfield,CT,06109,41.70,-72.67,58225.0,3
+1737,20,1,2000,Female,6877 Jefferson Drive,Mays Landing,NJ,08330,39.45,-74.72,47504.0,1
+1738,58,6,1961,Female,91 Jefferson Drive,Bowling Green,KY,42103,36.97,-86.44,54166.0,5
+1739,54,12,1965,Female,294 Bayview Lane,Memphis,TN,38104,35.10,-90.00,58248.0,4
+1740,30,4,1989,Male,4328 Forest Boulevard,Fort Lauderdale,FL,33316,26.14,-80.13,92046.0,2
+1741,53,12,1966,Male,153 Wessex Drive,Sarasota,FL,34243,27.33,-82.54,40745.0,4
+1742,71,7,1948,Female,9854 Park Lane,Burke,VA,22015,38.78,-77.27,87659.0,4
+1743,29,5,1990,Male,5537 Forest Lane,Sacramento,CA,95818,38.55,-121.49,63583.0,1
+1744,58,1,1962,Male,735 Forest Avenue,Alhambra,CA,91803,34.07,-118.14,40900.0,3
+1745,67,7,1952,Female,728 Sixth Avenue,Oakfield,NY,14125,43.06,-78.27,43070.0,4
+1746,54,1,1966,Male,41 Grant Drive,Montgomery,AL,36104,32.35,-86.28,23863.0,2
+1747,92,6,1927,Male,619 North Avenue,Danville,NH,03819,42.91,-71.12,56099.0,6
+1748,32,1,1988,Female,219 Federal Street,Dickinson,TX,77539,29.45,-95.06,49374.0,2
+1749,20,7,1999,Male,3404 Main Lane,Cranberry Twp,PA,16066,40.71,-80.10,71750.0,3
+1750,20,7,1999,Female,75 Third Avenue,West Chester,OH,45069,39.33,-84.40,65082.0,1
+1751,18,1,2002,Male,33 Lafayette Lane,Balch Springs,TX,75180,32.76,-96.59,29047.0,1
+1752,43,6,1976,Male,125 Plum Drive,Hawthorne,CA,90250,33.91,-118.34,39052.0,4
+1753,94,1,1926,Female,4570 Valley Stream Lane,Wauconda,IL,60084,42.26,-88.13,40787.0,6
+1754,22,12,1997,Female,109 El Camino Avenue,Houston,TX,77093,29.76,-95.38,22876.0,2
+1755,61,3,1958,Female,8301 Tenth Drive,Medford,OR,97504,42.33,-122.79,30359.0,2
+1756,47,6,1972,Female,6613 Hill Drive,Williamsburg,KY,40769,36.73,-84.16,26130.0,1
+1757,59,9,1960,Male,910 Eighth Drive,Houston,TX,77056,29.76,-95.38,193768.0,5
+1758,32,8,1987,Male,3525 Second Lane,Lynwood,CA,90262,33.92,-118.20,27795.0,4
+1759,53,2,1967,Female,919 Oak Boulevard,Northport,AL,35476,33.24,-87.59,31688.0,3
+1760,36,8,1983,Male,430 Grant Boulevard,York,NE,68467,40.87,-97.59,36753.0,4
+1761,63,8,1956,Male,9 Mill Drive,Cocoa,FL,32926,28.37,-80.75,12796.0,3
+1762,32,8,1987,Female,635 East Drive,Blackwell,OK,74631,36.80,-97.29,30737.0,2
+1763,30,12,1989,Male,9207 Madison Boulevard,Germantown,MD,20876,39.17,-77.26,64340.0,1
+1764,50,4,1969,Female,818 12th Lane,Vincentown,NJ,08088,39.80,-74.62,57975.0,4
+1765,30,7,1989,Male,774 Park Lane,Chilton,WI,53014,44.02,-88.16,39520.0,1
+1766,59,3,1960,Female,5238 Park Street,Union City,NJ,07087,40.76,-74.03,34190.0,7
+1767,28,10,1991,Female,5225 Bayview Street,Los Angeles,CA,90007,34.02,-118.28,26513.0,1
+1768,78,11,1941,Female,3863 Pine Street,Valdosta,GA,31601,30.84,-83.27,8526.0,3
+1769,40,2,1980,Female,5191 Grant Drive,Mount Pleasant,NC,28124,35.40,-80.43,40867.0,2
+1770,34,10,1985,Male,801 River Street,Summerville,GA,30747,34.47,-85.34,29594.0,1
+1771,35,3,1984,Female,1496 Rose Street,Los Angeles,CA,90006,34.04,-118.29,23238.0,2
+1772,49,12,1970,Female,9639 Third Boulevard,Monaca,PA,15061,40.68,-80.27,41071.0,1
+1773,65,2,1955,Female,230 Plum Avenue,O Fallon,MO,63366,38.78,-90.70,17056.0,5
+1774,36,3,1983,Female,1644 Park Avenue,Newark,DE,19711,39.67,-75.75,64672.0,4
+1775,62,6,1957,Female,171 Catherine Lane,Clovis,CA,93612,36.81,-119.71,26975.0,2
+1776,30,4,1989,Female,2328 Little Creek Avenue,Philadelphia,PA,19133,39.95,-75.16,20424.0,3
+1777,60,10,1959,Female,8179 Valley Stream Drive,Holly,MI,48442,42.79,-83.62,46244.0,5
+1778,38,11,1981,Female,9324 Catherine Street,Arnold,MO,63010,38.42,-90.36,44334.0,5
+1779,63,6,1956,Male,547 West Drive,Port Chester,NY,10573,41.00,-73.66,71909.0,3
+1780,66,5,1953,Female,211 Valley Street,Mendham,NJ,07945,40.76,-74.59,185909.0,5
+1781,76,7,1943,Male,2012 Forest Avenue,Hickory,NC,28602,35.73,-81.32,21867.0,2
+1782,40,12,1979,Female,1943 Birch Street,North Lawrence,OH,44666,40.84,-81.63,43229.0,2
+1783,64,2,1956,Male,106 Littlewood Drive,Houston,TX,77067,29.76,-95.38,24420.0,1
+1784,54,1,1966,Female,2206 South Drive,Brooksville,FL,34601,28.55,-82.39,31655.0,1
+1785,84,1,1936,Female,4819 Martin Luther King Drive,North Andover,MA,01845,42.70,-71.11,66745.0,3
+1786,22,4,1997,Male,4932 South Boulevard,Moorhead,MN,56560,46.86,-96.75,41214.0,1
+1787,49,6,1970,Male,5642 Bayview Avenue,Albuquerque,NM,87114,35.11,-106.62,49756.0,1
+1788,66,6,1953,Male,5807 Lincoln Street,Warner Robins,GA,31093,32.61,-83.63,28104.0,3
+1789,54,3,1965,Female,336 Catherine Lane,Highland,MI,48357,42.63,-83.61,52680.0,5
+1790,61,3,1958,Female,7360 Lexington Drive,Jeffersonville,KY,40337,37.96,-83.82,27733.0,3
+1791,61,2,1959,Male,3270 Grant Avenue,Geneva,IN,46740,40.59,-84.95,21397.0,4
+1792,47,10,1972,Male,9070 West Street,Rancho Cucamonga,CA,91730,34.09,-117.58,50163.0,4
+1793,25,5,1994,Female,309 River Avenue,Hancock,WI,54943,44.13,-89.52,26939.0,1
+1794,52,10,1967,Male,653 Mill Street,Minneapolis,MN,55421,44.96,-93.26,42129.0,4
+1795,48,12,1971,Female,33 North Avenue,Palisades Park,NJ,07650,40.84,-73.99,45422.0,4
+1796,37,12,1982,Male,550 Forest Street,Helena,MT,59601,46.51,-112.12,41401.0,1
+1797,19,6,2000,Female,534 Second Lane,San Diego,CA,92126,32.88,-117.13,55854.0,1
+1798,66,11,1953,Female,1426 Fifth Avenue,Strafford,NH,03884,43.32,-71.18,50523.0,1
+1799,73,3,1946,Male,2834 West Street,Mobile,AL,36695,30.68,-88.04,48060.0,3
+1800,40,10,1979,Male,344 11th Street,Brownsville,TX,78520,25.92,-97.48,25861.0,3
+1801,29,3,1990,Female,685 Jefferson Avenue,Jersey City,NJ,07307,40.71,-74.06,44688.0,3
+1802,41,1,1979,Female,8676 River Avenue,Rosedale,NY,11422,40.66,-73.73,49776.0,3
+1803,21,10,1998,Male,5 Lafayette Avenue,Hudson,OH,44236,41.24,-81.45,86042.0,2
+1804,27,1,1993,Male,2282 Main Drive,Belleville,IL,62223,38.53,-90.00,48484.0,4
+1805,54,5,1965,Male,703 12th Street,Drums,PA,18222,41.01,-75.99,47814.0,2
+1806,20,8,1999,Female,621 Fifth Boulevard,Baker,LA,70714,30.58,-91.15,35559.0,2
+1807,38,7,1981,Male,5661 Forest Avenue,Le Mars,IA,51031,42.78,-96.16,40478.0,3
+1808,45,3,1974,Male,4391 Lexington Lane,Charlotte,NC,28215,35.19,-80.83,36323.0,3
+1809,34,3,1985,Female,404 Main Lane,Billings,MT,59102,45.76,-108.57,41249.0,2
+1810,62,9,1957,Male,641 Martin Luther King Avenue,Bernalillo,NM,87004,35.31,-106.55,29769.0,3
+1811,23,3,1996,Female,459 East Avenue,Atherton,CA,94027,37.44,-122.20,307018.0,2
+1812,20,11,1999,Male,1693 Spruce Street,Jackson,MI,49203,42.24,-84.40,36264.0,1
+1813,36,4,1983,Female,478 East Drive,Scottsdale,AZ,85260,33.61,-111.89,74016.0,2
+1814,46,12,1973,Female,515 South Street,Cleveland,OH,44118,41.47,-81.67,55565.0,2
+1815,31,6,1988,Male,8486 Catherine Street,Blacksburg,VA,24060,37.23,-80.42,50242.0,2
+1816,43,4,1976,Male,881 Plum Street,Woodbine,NJ,08270,39.22,-74.80,46278.0,4
+1817,31,5,1988,Male,6692 Lake Street,Taylorsville,KY,40071,38.03,-85.34,43724.0,1
+1818,18,4,2001,Female,724 Essex Drive,Louisville,KY,40207,38.22,-85.74,64504.0,3
+1819,42,2,1978,Female,66 Norfolk Avenue,Choctaw,OK,73020,35.48,-97.26,44624.0,1
+1820,49,12,1970,Male,469 Catherine Avenue,San Antonio,TX,78209,29.45,-98.50,75137.0,1
+1821,70,3,1949,Male,6339 Lafayette Avenue,Carpinteria,CA,93014,34.39,-119.51,36724.0,4
+1822,61,4,1958,Male,747 Rose Drive,Concord,NC,28027,35.40,-80.59,51581.0,5
+1823,47,11,1972,Male,305 Elm Street,Franconia,NH,03580,44.22,-71.74,43144.0,3
+1824,91,1,1929,Female,365 Mountain View Boulevard,Donaldsonville,LA,70346,30.09,-90.99,27150.0,1
+1825,47,5,1972,Male,166 12th Street,Annandale,VA,22003,38.83,-77.21,62432.0,5
+1826,18,11,2001,Male,62 East Boulevard,Fontana,CA,92335,34.08,-117.46,28006.0,2
+1827,62,10,1957,Male,8915 Sixth Avenue,Marietta,GA,30062,33.95,-84.54,67470.0,6
+1828,18,1,2002,Female,76 Federal Avenue,Manhattan,KS,66503,39.19,-96.59,52315.0,4
+1829,20,8,1999,Female,6030 Third Lane,Attleboro,MA,02703,41.93,-71.29,54424.0,1
+1830,22,7,1997,Male,90072 George Drive,Mulvane,KS,67110,37.48,-97.24,45254.0,2
+1831,34,7,1985,Female,90 El Camino Avenue,Buffalo,NY,14210,42.88,-78.85,31525.0,2
+1832,44,3,1975,Female,5380 12th Boulevard,Hot Springs National Park,AR,71913,34.50,-93.05,32330.0,4
+1833,30,9,1989,Male,7154 Lafayette Drive,Las Cruces,NM,88005,32.33,-106.75,33993.0,4
+1834,40,7,1979,Female,903 Norfolk Boulevard,Mobile,AL,36610,30.68,-88.04,18935.0,3
+1835,73,8,1946,Female,658 Plum Avenue,Fort Lauderdale,FL,33309,26.14,-80.13,42593.0,2
+1836,21,6,1998,Male,21 Birch Drive,Saint Louis,MO,63119,38.63,-90.24,65058.0,1
+1837,50,7,1969,Female,312 Burns Boulevard,Chesapeake,VA,23321,36.67,-76.30,49570.0,5
+1838,47,12,1972,Female,112 Elm Avenue,North Hollywood,CA,91606,34.18,-118.39,34441.0,4
+1839,30,7,1989,Female,352 Hill Lane,Vancouver,WA,98663,45.65,-122.66,42101.0,1
+1840,71,1,1949,Female,836 Summit Boulevard,Candor,NY,13743,42.23,-76.34,40516.0,5
+1841,33,11,1986,Male,87 Ocean Avenue,Dearborn,MI,48126,42.31,-83.21,24009.0,4
+1842,33,2,1987,Male,515 Spruce Boulevard,Wyoming,MI,49519,42.89,-85.72,37579.0,2
+1843,53,2,1967,Female,9458 Park Boulevard,El Cajon,CA,92021,32.84,-116.88,42152.0,1
+1844,63,7,1956,Female,457 Summit Lane,Parma,MO,63870,36.61,-89.81,23725.0,5
+1845,21,9,1998,Female,89 Oak Lane,Buffalo,NY,14215,42.88,-78.85,29475.0,1
+1846,82,5,1937,Female,6577 Catherine Lane,Santa Barbara,CA,93101,34.41,-119.70,34903.0,1
+1847,39,5,1980,Male,9995 Pine Avenue,Middletown,OH,45042,39.50,-84.37,39336.0,3
+1848,32,5,1987,Female,412 Fifth Boulevard,New York,NY,10002,40.71,-73.99,40256.0,2
+1849,18,2,2002,Male,6039 Valley Stream Street,Petaluma,CA,94954,38.23,-122.56,54547.0,1
+1850,54,5,1965,Female,2855 Sixth Avenue,Naperville,IL,60565,41.76,-88.15,85596.0,1
+1851,37,6,1982,Male,300 West Avenue,Cullman,AL,35055,34.17,-86.83,35060.0,2
+1852,69,2,1951,Male,5844 Littlewood Street,Wagoner,OK,74477,35.95,-95.38,30983.0,5
+1853,55,10,1964,Male,22 First Boulevard,East Peoria,IL,61611,40.67,-89.54,45707.0,3
+1854,43,11,1976,Female,429 Grant Boulevard,Elmer,NJ,08318,39.59,-75.17,49788.0,3
+1855,69,12,1950,Female,829 Mill Boulevard,Manassas,VA,20109,38.74,-77.48,50753.0,4
+1856,88,9,1931,Female,336 North Street,Cincinnati,OH,45224,39.09,-84.51,16296.0,7
+1857,21,8,1998,Male,894 Catherine Boulevard,Fort Plain,NY,13339,42.93,-74.62,31077.0,5
+1858,27,6,1992,Female,444 Forest Boulevard,Holland,MI,49423,42.77,-86.10,38487.0,4
+1859,59,12,1960,Female,26 Martin Luther King Drive,Houston,TX,77081,29.76,-95.38,32347.0,7
+1860,37,4,1982,Female,48190 Plum Drive,Lavallette,NJ,08735,39.96,-74.06,40470.0,5
+1861,49,8,1970,Male,6427 Martin Luther King Drive,Syracuse,NY,13210,43.04,-76.14,38028.0,4
+1862,83,4,1936,Female,9915 Burns Lane,Dover,DE,19901,39.15,-75.51,25567.0,3
+1863,33,1,1987,Male,97542 Hillside Lane,Liverpool,NY,13090,43.10,-76.21,51848.0,1
+1864,48,8,1971,Male,7944 Hill Lane,Lagrange,IN,46761,41.64,-85.41,29081.0,3
+1865,34,9,1985,Male,2066 Ninth Lane,Willowbrook,IL,60527,41.80,-87.92,92375.0,5
+1866,31,10,1988,Female,5295 Pine Street,Marietta,GA,30067,33.95,-84.54,62692.0,2
+1867,58,10,1961,Male,2130 Valley Stream Lane,Salt Lake City,UT,84120,40.69,-111.99,35229.0,2
+1868,40,3,1979,Female,73 Oak Street,Dallas,TX,75206,32.79,-96.76,75918.0,2
+1869,39,11,1980,Female,364 12th Drive,Tacoma,WA,98445,47.13,-122.40,41483.0,2
+1870,50,7,1969,Female,4704 Essex Boulevard,Piedmont,CA,94620,37.77,-122.21,53810.0,1
+1871,26,1,1994,Female,189 Washington Street,Trinity,NC,27370,35.88,-80.01,38036.0,3
+1872,20,9,1999,Male,9895 El Camino Boulevard,Buzzards Bay,MA,02532,41.75,-70.61,48747.0,3
+1873,29,8,1990,Female,225 Lake Boulevard,Farmington,MI,48331,42.46,-83.37,75070.0,1
+1874,42,8,1977,Male,331 Oak Lane,Antioch,CA,94531,37.96,-121.76,58584.0,2
+1875,53,10,1966,Female,1132 Hill Street,Boone,NC,28607,36.20,-81.66,39974.0,2
+1876,48,8,1971,Male,6035 Forest Avenue,Bronx,NY,10460,40.84,-73.87,27447.0,5
+1877,32,6,1987,Female,9384 Ocean Avenue,Bartlesville,OK,74003,36.73,-95.94,33548.0,2
+1878,23,7,1996,Male,613 First Boulevard,Saint Clairsville,OH,43950,40.07,-80.89,42200.0,2
+1879,18,9,2001,Female,141 Sixth Boulevard,Cochran,GA,31014,32.38,-83.35,33459.0,3
+1880,78,9,1941,Male,6283 Rose Avenue,Chantilly,VA,20152,38.87,-77.40,113514.0,8
+1881,38,2,1982,Female,8 Hillside Lane,Colcord,OK,74338,36.26,-94.69,25524.0,3
+1882,50,3,1969,Male,655 George Boulevard,Laguna Beach,CA,92651,33.55,-117.78,141161.0,3
+1883,32,5,1987,Female,52292 East Street,Baltimore,MD,21224,39.30,-76.61,53890.0,4
+1884,60,12,1959,Male,575 Bayview Lane,Franklin,TN,37067,35.92,-86.84,74550.0,4
+1885,81,3,1938,Female,44 Valley Boulevard,Pottsboro,TX,75076,33.77,-96.67,32669.0,5
+1886,54,8,1965,Male,420 Oak Drive,Peckville,PA,18452,41.47,-75.57,37579.0,5
+1887,53,12,1966,Male,3512 Forest Street,Mount Vernon,NY,10552,40.91,-73.82,70634.0,4
+1888,51,10,1968,Male,207 Ocean View Street,Berkeley Heights,NJ,07922,40.67,-74.42,109673.0,1
+1889,46,9,1973,Female,3276 Maple Street,Waukegan,IL,60085,42.37,-87.86,32150.0,6
+1890,42,2,1978,Male,9141 Ocean View Lane,Riverside,IA,52327,41.48,-91.57,45475.0,3
+1891,38,12,1981,Female,354 Federal Street,Cleveland,OH,44120,41.47,-81.67,43634.0,3
+1892,23,9,1996,Male,8373 Birch Boulevard,New York,NY,10034,40.71,-73.99,37769.0,2
+1893,74,11,1945,Male,316 Grant Drive,Beaverdam,VA,23015,37.94,-77.65,24545.0,2
+1894,83,5,1936,Female,273 Elm Drive,Oklahoma City,OK,73159,35.46,-97.51,33811.0,7
+1895,61,11,1958,Male,841 Wessex Boulevard,Marion,IA,52302,42.03,-91.58,51528.0,6
+1896,64,1,1956,Female,682 Federal Lane,Dalton,GA,30720,34.76,-84.97,40407.0,3
+1897,57,10,1962,Female,15664 Lafayette Street,Boulder,CO,80301,40.02,-105.25,63974.0,4
+1898,59,11,1960,Female,723 Fourth Drive,Eastford,CT,06242,41.90,-72.08,51788.0,2
+1899,23,4,1996,Female,532 Lake Drive,Waldorf,MD,20603,38.64,-76.90,71590.0,2
+1900,65,5,1954,Male,9079 Second Drive,Blackville,SC,29817,33.36,-81.28,25257.0,6
+1901,24,2,1996,Male,4779 Lafayette Avenue,Ravenna,OH,44266,41.15,-81.24,38549.0,2
+1902,20,6,1999,Male,53 Elm Street,Wailuku,HI,96793,20.88,-156.50,46580.0,2
+1903,61,3,1958,Female,3374 Littlewood Street,Richmond,CA,94804,37.92,-122.34,44583.0,5
+1904,62,1,1958,Female,99 Fifth Street,Elk Grove,CA,95624,38.44,-121.30,52908.0,4
+1905,30,8,1989,Female,847 Martin Luther King Lane,Ray City,GA,31645,31.07,-83.19,26996.0,2
+1906,18,2,2002,Male,878 Summit Avenue,Victoria,TX,77901,28.82,-96.98,32635.0,3
+1907,29,3,1990,Male,73 South Lane,Oriskany Falls,NY,13425,42.93,-75.46,36050.0,3
+1908,34,10,1985,Female,378 West Boulevard,Charlotte,NC,28215,35.19,-80.83,36324.0,4
+1909,44,10,1975,Male,1915 Catherine Boulevard,Milford,DE,19963,38.91,-75.43,37965.0,3
+1910,57,12,1962,Male,2547 El Camino Street,Lincoln Park,MI,48146,42.24,-83.18,34856.0,3
+1911,63,3,1956,Female,642 Ocean View Lane,Kissimmee,FL,34746,28.30,-81.41,32928.0,5
+1912,24,3,1995,Female,6768 Federal Avenue,Fontana,CA,92335,34.08,-117.46,28011.0,4
+1913,59,8,1960,Male,8 Pine Street,Lucasville,OH,45648,38.87,-82.99,33311.0,2
+1914,22,4,1997,Female,655 Mountain View Lane,Logan,UT,84321,41.70,-111.87,34852.0,1
+1915,21,11,1998,Female,1425 Fifth Street,Wallington,NJ,07057,40.85,-74.10,44501.0,2
+1916,53,11,1966,Male,914 Spruce Drive,Maquon,IL,61458,40.79,-90.16,30054.0,1
+1917,62,10,1957,Male,8278 Grant Lane,Delray Beach,FL,33445,26.45,-80.08,40891.0,4
+1918,37,7,1982,Female,6976 Ocean View Avenue,Bothell,WA,98021,47.79,-122.20,67747.0,3
+1919,56,5,1963,Male,603 Lake Avenue,Los Angeles,CA,90007,34.02,-118.28,26510.0,4
+1920,84,1,1936,Male,9 Lafayette Lane,Colfax,WI,54730,44.99,-91.72,26676.0,5
+1921,44,10,1975,Female,68 Rose Boulevard,Corpus Christi,TX,78418,27.80,-97.39,45497.0,3
+1922,87,4,1932,Male,770 Maple Street,Broxton,GA,31519,31.62,-82.88,27971.0,4
+1923,31,9,1988,Female,2725 Jefferson Drive,Louisville,KY,40299,38.22,-85.74,51501.0,3
+1924,21,3,1998,Male,727 Valley Stream Boulevard,Easton,CT,06612,41.24,-73.31,113797.0,1
+1925,19,12,2000,Male,1749 Spruce Street,Lampasas,TX,76550,31.06,-98.18,34134.0,2
+1926,84,9,1935,Female,129 Sussex Street,Concord,NC,28025,35.40,-80.59,16430.0,7
+1927,72,1,1948,Male,9380 Hill Drive,Palm Bay,FL,32905,27.98,-80.66,16302.0,4
+1928,33,6,1986,Female,8740 Lafayette Drive,Lindenhurst,NY,11757,40.68,-73.37,54091.0,1
+1929,51,10,1968,Male,9070 Third Boulevard,Willsboro,NY,12996,44.37,-73.40,29388.0,3
+1930,54,11,1965,Male,6831 Valley Boulevard,San Rafael,CA,94901,37.97,-122.50,62837.0,3
+1931,45,4,1974,Male,70 Tenth Boulevard,Grand Forks,ND,58201,47.91,-97.07,48755.0,8
+1932,39,10,1980,Female,3863 River Avenue,Lincoln,CA,95648,38.93,-121.25,44506.0,3
+1933,64,7,1955,Male,3315 Lake Lane,Miltona,MN,56354,46.04,-95.29,31244.0,4
+1934,58,4,1961,Female,6077 Sixth Avenue,Rockingham,NC,28379,34.93,-79.76,30605.0,5
+1935,34,6,1985,Male,30 Catherine Street,Andrews,SC,29510,33.44,-79.56,29907.0,2
+1936,21,8,1998,Male,41 East Boulevard,Tampa,FL,33617,27.95,-82.48,38497.0,2
+1937,34,4,1985,Male,7401 Seventh Street,Manchester,TN,37355,35.46,-86.08,33336.0,3
+1938,79,5,1940,Female,265 Little Creek Street,Mira Loma,CA,91752,33.99,-117.53,15470.0,7
+1939,54,3,1965,Female,1635 Sussex Lane,Upper Marlboro,MD,20774,38.81,-76.75,67890.0,2
+1940,33,2,1987,Male,338 George Avenue,Renton,WA,98059,47.49,-122.10,68741.0,1
+1941,31,4,1988,Male,5157 Seventh Drive,San Marcos,CA,92069,33.15,-117.17,45025.0,1
+1942,18,2,2002,Female,521 Mountain View Lane,Ridgecrest,CA,93555,35.55,-117.67,45664.0,4
+1943,20,12,1999,Male,1433 Rose Boulevard,Hemet,CA,92545,33.73,-117.05,30882.0,3
+1944,20,10,1999,Male,6223 Maple Lane,Bristol,TN,37620,36.56,-82.19,36283.0,1
+1945,57,8,1962,Female,759 Madison Drive,Iuka,IL,62849,38.61,-88.78,32576.0,4
+1946,54,7,1965,Male,782 Hill Lane,Fresno,CA,93725,36.60,-119.75,26696.0,5
+1947,19,12,2000,Female,4135 Valley Stream Lane,Johnson City,TN,37615,36.33,-82.36,47350.0,1
+1948,59,2,1961,Male,621 Rose Avenue,Pomona,CA,91768,34.06,-117.79,32678.0,3
+1949,19,10,2000,Female,35 Fifth Street,Stockton,CA,95219,38.01,-121.38,64428.0,2
+1950,59,10,1960,Male,1089 Norfolk Avenue,Syracuse,NY,13212,43.04,-76.14,41379.0,2
+1951,64,5,1955,Female,893 Littlewood Lane,Wilson,NC,27896,35.73,-77.92,55418.0,3
+1952,58,9,1961,Male,2687 Burns Avenue,Ridgewood,NJ,07450,40.98,-74.11,153691.0,2
+1953,40,9,1979,Female,7072 Mountain View Avenue,Meeker,OK,74855,35.48,-96.89,36152.0,1
+1954,33,2,1987,Male,3904 Martin Luther King Drive,Monroe,NC,28110,34.98,-80.54,39975.0,1
+1955,42,8,1977,Male,74 Sixth Avenue,Omaha,NE,68164,41.26,-96.01,58223.0,2
+1956,34,11,1985,Female,71858 Mountain View Street,Menasha,WI,54952,44.21,-88.43,45419.0,3
+1957,22,9,1997,Male,675 Norfolk Drive,Houston,TX,77064,29.76,-95.38,53873.0,1
+1958,68,1,1952,Male,530 Federal Drive,Middletown,NY,10940,41.44,-74.42,38689.0,5
+1959,25,8,1994,Male,9181 Elm Avenue,Stockton,CA,95219,38.01,-121.38,64429.0,2
+1960,21,1,1999,Female,6595 Summit Boulevard,Carlisle,IA,50047,41.51,-93.48,47602.0,2
+1961,99,10,1920,Female,596 Ninth Street,Camp Hill,PA,17011,40.24,-76.92,51110.0,8
+1962,42,12,1977,Female,1957 Park Lane,Burley,ID,83318,42.39,-113.78,28738.0,1
+1963,52,9,1967,Female,7508 Grant Street,Seminole,FL,33777,27.90,-82.78,48686.0,3
+1964,49,8,1970,Female,5063 Seventh Avenue,Independence,OH,44131,41.38,-81.64,49079.0,4
+1965,57,1,1963,Male,4 George Lane,Narberth,PA,19072,40.00,-75.26,107075.0,3
+1966,66,10,1953,Female,8651 North Boulevard,Bellbrook,OH,45305,39.64,-84.08,59251.0,1
+1967,20,10,1999,Female,711 Tenth Street,Newnan,GA,30263,33.37,-84.78,40572.0,5
+1968,25,10,1994,Female,3124 Madison Drive,Lincolnton,GA,30817,33.79,-82.47,30004.0,3
+1969,18,2,2002,Female,4949 South Avenue,Rising Sun,MD,21911,39.69,-76.06,47672.0,4
+1970,29,6,1990,Male,323 Mountain View Lane,Kirbyville,TX,75956,30.65,-93.89,37568.0,1
+1971,35,7,1984,Female,316 Lexington Boulevard,Chesapeake,VA,23323,36.67,-76.30,45025.0,2
+1972,23,4,1996,Female,4822 Jefferson Avenue,Charleston,WV,25303,38.35,-81.63,44644.0,3
+1973,22,2,1998,Male,1651 Oak Drive,Anaheim,CA,92805,33.82,-117.91,33140.0,1
+1974,34,6,1985,Male,927 River Street,Gregory,TX,78359,27.92,-97.29,32126.0,2
+1975,74,5,1945,Male,124 Madison Lane,Baltimore,MD,21239,39.30,-76.61,32682.0,3
+1976,60,12,1959,Female,256 Ocean Drive,Dover,AR,72837,35.40,-93.11,34406.0,3
+1977,48,1,1972,Male,4405 Wessex Drive,Chattanooga,TN,37421,35.06,-85.25,48337.0,2
+1978,48,9,1971,Female,6144 Summit Street,Trenton,GA,30752,34.87,-85.50,32522.0,1
+1979,48,8,1971,Male,469 First Lane,Roanoke,TX,76262,33.00,-97.23,94260.0,4
+1980,38,5,1981,Male,679 Bayview Lane,Cedarville,MI,49719,45.99,-84.36,26613.0,2
+1981,50,9,1969,Female,8990 Plum Street,Brewster,MA,02631,41.76,-70.08,39947.0,2
+1982,56,5,1963,Male,9291 Jefferson Drive,Vero Beach,FL,32967,27.64,-80.39,36583.0,6
+1983,78,1,1942,Female,324 Lafayette Drive,Minden,LA,71055,32.61,-93.28,27992.0,6
+1984,19,9,2000,Male,1804 Madison Lane,Columbus,OH,43223,39.98,-82.98,28417.0,3
+1985,50,11,1969,Male,320 Second Street,Southaven,MS,38671,34.97,-89.99,38458.0,3
+1986,69,3,1950,Female,93 Mill Drive,Knoxville,TN,37918,35.97,-83.94,32952.0,1
+1987,51,6,1968,Female,413 East Boulevard,Midlothian,IL,60445,41.62,-87.72,45570.0,3
+1988,37,9,1982,Male,566 Lexington Drive,Phoenix,AZ,85053,33.62,-112.13,42444.0,2
+1989,56,5,1963,Female,899 Maple Street,Coshocton,OH,43812,40.26,-81.84,31814.0,3
+1990,67,2,1953,Male,295 West Avenue,Bienville,LA,71008,32.36,-92.97,34172.0,6
+1991,18,5,2001,Female,512 Second Avenue,Kennewick,WA,99336,46.21,-119.16,38241.0,1
+1992,31,7,1988,Female,27 Birch Avenue,Dinuba,CA,93618,36.52,-119.39,26900.0,2
+1993,85,7,1934,Female,31 Hill Boulevard,Myrtle Beach,SC,29579,33.69,-78.89,35270.0,6
+1994,21,6,1998,Male,2183 Catherine Boulevard,Pacific,MO,63069,38.47,-90.75,47109.0,3
+1995,32,7,1987,Male,6577 Lexington Lane,Freeport,NY,11520,40.65,-73.58,48010.0,3
+1996,62,11,1957,Female,2 Elm Drive,Independence,KY,41051,38.95,-84.54,49378.0,4
+1997,47,1,1973,Female,276 Fifth Boulevard,Elizabeth,NJ,07201,40.66,-74.19,30942.0,3
+1998,66,2,1954,Male,259 Valley Boulevard,Camp Hill,PA,17011,40.24,-76.92,54654.0,1
+1999,21,11,1998,Female,472 Ocean View Street,Merrimack,NH,03054,42.86,-71.48,65909.0,2
