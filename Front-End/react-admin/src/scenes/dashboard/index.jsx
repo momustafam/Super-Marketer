@@ -10,7 +10,7 @@ import LineChart from "../../components/LineChart";
 import GeographyChart from "../../components/GeographyChart";
 import BarChart from "../../components/BarChart";
 import PieChart from "../../components/PieChart";
-// import StatBox from "../../components/StatBox";
+import StatBox from "../../components/StatBox";
 // import ProgressCircle from "../../components/ProgressCircle";
 
 const Dashboard = () => {
@@ -47,7 +47,7 @@ const Dashboard = () => {
         gap="20px"
       >
         {/* ROW 1 */}
-        {/* <Box
+        <Box
           gridColumn="span 3"
           backgroundColor={colors.primary[400]}
           display="flex"
@@ -122,7 +122,7 @@ const Dashboard = () => {
               />
             }
           />
-        </Box> */}
+        </Box>
 
         {/* ROW 2 */}
         <Box
