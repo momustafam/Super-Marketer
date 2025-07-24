@@ -43,8 +43,7 @@ const Sidebar = () => {
   return (
     <Box
       sx={{
-        height: "100vh",
-        zIndex: 1000,
+        height: "100vh", // Full viewport height
         "& .ps-sidebar-root": {
           border: "none",
         },
@@ -62,6 +61,7 @@ const Sidebar = () => {
         },
       }}
     >
+
       <ProSidebar collapsed={isCollapsed}>
         <Menu>
           {/* LOGO AND MENU ICON */}
@@ -82,8 +82,8 @@ const Sidebar = () => {
                     ml: "15px"
                 }}
                 >
-                    <Typography variant="h3" color={colors.gray[100]}>
-                        Super Marketer
+                    <Typography variant="h4" color={colors.gray[100]}>
+                        Control Panel
                     </Typography>
                     <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
                         <MenuOutlinedIcon />
@@ -140,9 +140,15 @@ const Sidebar = () => {
             <Typography
               variant="h6"
               color={colors.gray[300]}
-              sx={{ m: "15px 0 5px 20px" }}
+              noWrap={false}
+              sx={{
+                m: "15px 0 5px 20px",
+                whiteSpace: "normal", // Allow text to wrap
+                overflowWrap: "break-word", // Break long words
+                wordBreak: "break-word",    // Optional: helps with long words/URLs
+              }}
             >
-              Authentication
+              Team
             </Typography>
             <Item
               title="Team Members"
@@ -161,9 +167,15 @@ const Sidebar = () => {
             <Typography
               variant="h6"
               color={colors.gray[300]}
-              sx={{ m: "15px 0 5px 20px" }}
+              noWrap={false}
+              sx={{
+                m: "15px 0 5px 20px",
+                whiteSpace: "normal", // Allow text to wrap
+                overflowWrap: "break-word", // Break long words
+                wordBreak: "break-word",    // Optional: helps with long words/URLs
+              }}
             >
-              Advanced Tools
+              Tools
             </Typography>
             <Item
                 title="Reviews Scrapper"
@@ -180,11 +192,17 @@ const Sidebar = () => {
                 setSelected={setSelected}
             />
             <Typography
-                variant="h6"
-                color={colors.gray[300]}
-                sx={{ m: "15px 0 5px 20px" }}
+              variant="h6"
+              color={colors.gray[300]}
+              noWrap={false}
+              sx={{
+                m: "15px 0 5px 20px",
+                whiteSpace: "normal", // Allow text to wrap
+                overflowWrap: "break-word", // Break long words
+                wordBreak: "break-word",    // Optional: helps with long words/URLs
+              }}
             >
-                Insights
+              Charts
             </Typography>
             <Item
                 title="Age Distribution"
