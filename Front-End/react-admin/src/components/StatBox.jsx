@@ -1,10 +1,21 @@
 import { Box, Typography, useTheme } from "@mui/material";
 import { tokens } from "../theme";
-// import ProgressCircle from "./ProgressCircle";
+import React from 'react';
 
-const StatBox = ({ title, subtitle, icon, progress, increase }) => {
+const StatBox = ({ title, subtitle, icon, trendline, increase }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
+
+  // Convert string to number and check if it's negative
+  const isNegative = typeof increase === "string" && increase.trim().startsWith("-");
+
+  // Decide color based on whether the increase is negative
+  const increaseColor = isNegative ? colors.redAccent[500] : colors.greenAccent[600];
+
+  // Clone the trendline icon with new color if negative
+  const coloredTrendline = trendline && React.cloneElement(trendline, {
+    sx: { color: increaseColor, fontSize: "26px" },
+  });
 
   return (
     <Box width="100%" m="0 30px">
@@ -20,7 +31,7 @@ const StatBox = ({ title, subtitle, icon, progress, increase }) => {
           </Typography>
         </Box>
         <Box>
-          {/* <ProgressCircle progress={progress} /> */}
+          {coloredTrendline}
         </Box>
       </Box>
       <Box display="flex" justifyContent="space-between" mt="2px">
@@ -30,7 +41,7 @@ const StatBox = ({ title, subtitle, icon, progress, increase }) => {
         <Typography
           variant="h5"
           fontStyle="italic"
-          sx={{ color: colors.greenAccent[600] }}
+          sx={{ color: increaseColor }}
         >
           {increase}
         </Typography>

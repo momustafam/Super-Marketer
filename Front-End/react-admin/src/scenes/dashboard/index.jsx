@@ -1,12 +1,11 @@
 import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
 import { tokens } from "../../theme";
-import { mockTransactions } from "../../data/mockData";
-import EmailIcon from "@mui/icons-material/Email";
-import TrendingDownIcon from '@mui/icons-material/TrendingDown';
-import TrendingUpIcon from '@mui/icons-material/TrendingUp';
-import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
+import RepeatIcon  from "@mui/icons-material/Repeat";
+import AttachMoneyIcon  from "@mui/icons-material/AttachMoney";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
-import TrafficIcon from "@mui/icons-material/Traffic";
+import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
+import TrendingUpIcon from "@mui/icons-material/TrendingUp";
+import TrendingDownIcon from "@mui/icons-material/TrendingDown";
 import Header from "../../components/Header";
 import LineChart from "../../components/LineChart";
 import GeographyChart from "../../components/GeographyChart";
@@ -58,16 +57,17 @@ const Dashboard = () => {
         >
           <StatBox
             title="12,361"
-            subtitle="Emails Sent"
-            progress="0.75"
+            subtitle="New Users"
             increase="+14%"
             icon={
-              <TrendingUpIcon
-                sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
-              />
+                <PersonAddIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
+            }
+            trendline={
+                <TrendingUpIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
             }
           />
         </Box>
+
         <Box
           gridColumn="span 3"
           backgroundColor={colors.primary[400]}
@@ -77,16 +77,17 @@ const Dashboard = () => {
         >
           <StatBox
             title="431,225"
-            subtitle="Sales Obtained"
-            progress="0.50"
+            subtitle="Returning Users"
             increase="+21%"
             icon={
-              <TrendingUpIcon
-                sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
-              />
+                <RepeatIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
+            }
+            trendline={
+                <TrendingUpIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
             }
           />
         </Box>
+
         <Box
           gridColumn="span 3"
           backgroundColor={colors.primary[400]}
@@ -96,16 +97,17 @@ const Dashboard = () => {
         >
           <StatBox
             title="32,441"
-            subtitle="New Clients"
-            progress="0.30"
+            subtitle="New Transactions"
             increase="+5%"
             icon={
-              <TrendingUpIcon
-                sx={{ color: colors.greenAccent[600], fontSize: "26px" }}
-              />
+                <PointOfSaleIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
+            }
+            trendline={
+                <TrendingUpIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
             }
           />
         </Box>
+
         <Box
           gridColumn="span 3"
           backgroundColor={colors.primary[400]}
@@ -114,19 +116,17 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="1,325,134"
-            subtitle="Traffic Received"
-            progress="0.80"
+            title="82,300"
+            subtitle="Avg. Lifetime Value"
             increase="-5%"
-            increaseColor="red"
             icon={
-              <TrendingDownIcon
-                sx={{ color: "red", fontSize: "26px" }}
-              />
+              <AttachMoneyIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
+            }
+            trendline={
+              <TrendingDownIcon sx={{ color: colors.redAccent[500], fontSize: "26px" }} />
             }
           />
         </Box>
-
         {/* ROW 2 */}
         <Box
           gridColumn="span 6"
@@ -149,13 +149,13 @@ const Dashboard = () => {
                 Age Distribution
               </Typography>
             </Box>
-            <Box>
+            {/* <Box>
               <IconButton>
-                {/* <DownloadOutlinedIcon
+                <DownloadOutlinedIcon
                   sx={{ fontSize: "26px", color: colors.greenAccent[500] }}
-                /> */}
+                />
               </IconButton>
-            </Box>
+            </Box> */}
           </Box>
           <Box height="250px" m="-20px 0 0 0">
             <LineChart isDashboard={true} />
@@ -182,13 +182,13 @@ const Dashboard = () => {
                 Transactions by Day
               </Typography>
             </Box>
-            <Box>
+            {/* <Box>
               <IconButton>
-                {/* <DownloadOutlinedIcon
+                <DownloadOutlinedIcon
                   sx={{ fontSize: "26px", color: colors.greenAccent[500] }}
-                /> */}
+                />
               </IconButton>
-            </Box>
+            </Box> */}
           </Box>
           <Box height="250px" m="-20px 0 0 0">
             <LineChart isDashboard={true} />

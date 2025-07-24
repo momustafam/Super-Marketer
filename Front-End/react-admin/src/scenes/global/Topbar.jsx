@@ -1,7 +1,6 @@
-import { Box, IconButton, useTheme } from "@mui/material";
+import { Typography, Box, IconButton, useTheme } from "@mui/material";
 import { useContext } from "react";
 import { ColorModeContext, tokens } from "../../theme";
-import InputBase from "@mui/material/Input";
 import LightModeOutlinedIcon from "@mui/icons-material/LightModeOutlined";
 import DarkModeOutlinedIcon from "@mui/icons-material/DarkModeOutlined";
 import NotificationsOutlinedIcon from "@mui/icons-material/NotificationsOutlined";
@@ -10,29 +9,32 @@ import PersonOutlinedIcon from "@mui/icons-material/PersonOutlined";
 
 const Topbar = () => {
     const theme = useTheme();
-    const colors = tokens(theme.palette.mode);
     const colorMode = useContext(ColorModeContext);
 
     return (
-        <Box display="flex" p={2}>
+       <Box display="flex" justifyContent="space-between" alignItems="center" p={2} pb={0}>
+            {/* LEFT SIDE */}
+            <Typography variant="h3" fontWeight="bold" sx={{ mb: 0 }}>
+                Super Marketer
+            </Typography>
 
-            {/* ICONS */}
-            <Box display="flex" justifyContent="flex-end" alignItems="center">
+            {/* RIGHT SIDE ICONS */}
+            <Box display="flex" alignItems="center">
                 <IconButton onClick={colorMode.toggleColorMode}>
-                    {theme.palette.mode === "light" ? (
-                        <DarkModeOutlinedIcon />
-                    ) : (
-                        <LightModeOutlinedIcon />
-                    )}
+                {theme.palette.mode === "light" ? (
+                    <DarkModeOutlinedIcon />
+                ) : (
+                    <LightModeOutlinedIcon />
+                )}
                 </IconButton>
                 <IconButton>
-                    <NotificationsOutlinedIcon />
+                <NotificationsOutlinedIcon />
                 </IconButton>
                 <IconButton>
-                    <SettingsOutlinedIcon />
+                <SettingsOutlinedIcon />
                 </IconButton>
                 <IconButton>
-                    <PersonOutlinedIcon />
+                <PersonOutlinedIcon />
                 </IconButton>
             </Box>
         </Box>
