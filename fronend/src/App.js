@@ -16,14 +16,21 @@ import { CssBaseline, ThemeProvider } from '@mui/material';
 function App() {
   const [theme, colorMode] = useMode();
   const [isSidebar, setIsSidebar] = useState(true);
+  const [isCollapsed, setIsCollapsed] = useState(false);
+
+  // Determine the content class based on sidebar state
+  const getContentClass = () => {
+    if (!isSidebar) return 'content no-sidebar';
+    return `content ${isCollapsed ? 'collapsed' : ''}`;
+  };
 
   return (
     <ColorModeContext.Provider value={colorMode}>
       <ThemeProvider theme={theme}>
         <CssBaseline />
         <div className="app">
-          <Sidebar  isSidebar={isSidebar} />
-          <main className="content">
+          {isSidebar && <Sidebar isSidebar={isSidebar} isCollapsed={isCollapsed} setIsCollapsed={setIsCollapsed} />}
+          <main className={getContentClass()}>
             <Topbar setIsSidebar={setIsSidebar} />
             <Routes>
               <Route path="/" element={<Dashboard />} />

@@ -1,4 +1,10 @@
-import { Box, Button, IconButton, Typography, useTheme } from "@mui/material";
+import {
+  Box,
+  // Button,
+  // IconButton,
+  Typography,
+  useTheme,
+} from "@mui/material";
 import { tokens } from "../../theme";
 import RepeatIcon  from "@mui/icons-material/Repeat";
 import AttachMoneyIcon  from "@mui/icons-material/AttachMoney";
@@ -46,10 +52,42 @@ const Dashboard = () => {
         gridTemplateColumns="repeat(12, 1fr)"
         gridAutoRows="140px"
         gap="20px"
+        sx={{
+          "& > div": {
+            gridColumn: "span 12",
+          },
+          "& > div:nth-of-type(1), & > div:nth-of-type(2), & > div:nth-of-type(3), & > div:nth-of-type(4)":
+            {
+              gridColumn: {
+                xs: "span 12",
+                sm: "span 6",
+                md: "span 3",
+              },
+            },
+          "& > div:nth-of-type(5), & > div:nth-of-type(6)": {
+            gridColumn: {
+              xs: "span 12",
+              md: "span 6",
+            },
+            gridRow: {
+              xs: "span 2",
+              md: "span 2",
+            },
+          },
+          "& > div:nth-of-type(7), & > div:nth-of-type(8), & > div:nth-of-type(9)": {
+            gridColumn: {
+              xs: "span 12",
+              md: "span 4",
+            },
+            gridRow: {
+              xs: "span 2",
+              md: "span 2",
+            },
+          },
+        }}
       >
         {/* ROW 1 */}
         <Box
-          gridColumn="span 3"
           backgroundColor={colors.primary[400]}
           display="flex"
           alignItems="center"
@@ -60,16 +98,15 @@ const Dashboard = () => {
             subtitle="New Users"
             increase="+14%"
             icon={
-                <PersonAddIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
+              <PersonAddIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
             }
             trendline={
-                <TrendingUpIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
+              <TrendingUpIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
             }
           />
         </Box>
 
         <Box
-          gridColumn="span 3"
           backgroundColor={colors.primary[400]}
           display="flex"
           alignItems="center"
@@ -80,16 +117,15 @@ const Dashboard = () => {
             subtitle="Returning Users"
             increase="+21%"
             icon={
-                <RepeatIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
+              <RepeatIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
             }
             trendline={
-                <TrendingUpIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
+              <TrendingUpIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
             }
           />
         </Box>
 
         <Box
-          gridColumn="span 3"
           backgroundColor={colors.primary[400]}
           display="flex"
           alignItems="center"
@@ -100,16 +136,15 @@ const Dashboard = () => {
             subtitle="New Transactions"
             increase="+5%"
             icon={
-                <PointOfSaleIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
+              <PointOfSaleIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
             }
             trendline={
-                <TrendingUpIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
+              <TrendingUpIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
             }
           />
         </Box>
 
         <Box
-          gridColumn="span 3"
           backgroundColor={colors.primary[400]}
           display="flex"
           alignItems="center"
@@ -128,11 +163,7 @@ const Dashboard = () => {
           />
         </Box>
         {/* ROW 2 */}
-        <Box
-          gridColumn="span 6"
-          gridRow="span 2"
-          backgroundColor={colors.primary[400]}
-        >
+        <Box backgroundColor={colors.primary[400]}>
           <Box
             mt="25px"
             p="0 30px"
@@ -161,12 +192,8 @@ const Dashboard = () => {
             <LineChart isDashboard={true} />
           </Box>
         </Box>
-        <Box
-          gridColumn="span 6"
-          gridRow="span 2"
-          backgroundColor={colors.primary[400]}
-        >
-        <Box
+        <Box backgroundColor={colors.primary[400]}>
+          <Box
             mt="25px"
             p="0 30px"
             display="flex "
@@ -195,11 +222,7 @@ const Dashboard = () => {
           </Box>
         </Box>
         {/* ROW 3 */}
-        <Box
-          gridColumn="span 4"
-          gridRow="span 2"
-          backgroundColor={colors.primary[400]}
-        >
+        <Box backgroundColor={colors.primary[400]}>
           <Typography
             variant="h5"
             fontWeight="600"
@@ -211,12 +234,7 @@ const Dashboard = () => {
             <BarChart isDashboard={true} />
           </Box>
         </Box>
-        <Box
-          gridColumn="span 4"
-          gridRow="span 2"
-          backgroundColor={colors.primary[400]}
-          padding="30px"
-        >
+        <Box backgroundColor={colors.primary[400]} padding="30px">
           <Typography
             variant="h5"
             fontWeight="600"
@@ -225,15 +243,10 @@ const Dashboard = () => {
             Users Gender
           </Typography>
           <Box height="200px">
-            <PieChart isDashboard={true}/>
+            <PieChart isDashboard={true} />
           </Box>
         </Box>
-        <Box
-          gridColumn="span 4"
-          gridRow="span 2"
-          backgroundColor={colors.primary[400]}
-          padding="30px"
-        >
+        <Box backgroundColor={colors.primary[400]} padding="30px">
           <Typography
             variant="h5"
             fontWeight="600"
