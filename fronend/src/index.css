@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@400;600;700&display=swap');
+
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  font-family: 'Source Code Pro', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  position: relative;
+  min-height: 100vh;
+  height: 100%;
+}
+
+.content {
+  flex: 1;
+  width: calc(100% - 295px); /* Calculate width accounting for sidebar + gap */
+  font-family: 'Source Code Pro', sans-serif;
+  margin-left: 255px; /* Add 15px gap (280px sidebar + 15px gap) */
+  transition: margin-left 0.3s ease, width 0.3s ease; /* Add width transition */
+  overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+.content.collapsed {
+  margin-left: 95px; /* Add 15px gap (80px sidebar + 15px gap) */
+  width: calc(100% - 95px); /* Calculate width for collapsed state with gap */
+}
+
+.content.no-sidebar {
+  margin-left: 0; /* No margin when sidebar is hidden */
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
