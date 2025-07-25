@@ -34,21 +34,29 @@ const Item = ({ title, to, icon, selected, setSelected }) => {
   );
 };
 
-const Sidebar = () => {
+const Sidebar = ({ isSidebar, isCollapsed, setIsCollapsed }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
-  const [isCollapsed, setIsCollapsed] = useState(false);
   const [selected, setSelected] = useState("Dashboard");
 
   return (
     <Box
       sx={{
+        position: "fixed", // Fix the sidebar position
+        top: 0,
+        left: 0,
         height: "100vh", // Full viewport height
+        overflowY: "auto", // Make it scrollable
+        zIndex: 1000, // Ensure it stays on top
+        width: isCollapsed ? "80px" : "280px", // Dynamic width based on collapse state
+        transition: "width 0.3s ease", // Smooth width transition
         "& .ps-sidebar-root": {
           border: "none",
+          height: "100%",
         },
         "& .ps-sidebar-container": {
           background: `${colors.primary[400]} !important`,
+          height: "100%",
         },
         "& .ps-menu-button": {
           padding: "5px 35px 5px 20px !important",
