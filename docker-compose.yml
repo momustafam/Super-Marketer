@@ -1,0 +1,16 @@
+services:
+  sqlserver:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: sqlagain_container
+    environment:
+      ACCEPT_EULA: "Y"
+      SA_PASSWORD: "YourStrong!Passw0rd"
+    ports:
+      - "1434:1433"
+    volumes:
+      - ./data:/data                     # Mount your local project data directory
+      - sql_data:/var/opt/mssql          # Persist SQL Server data (DB files)
+    restart: unless-stopped
+
+volumes:
+  sql_data:
