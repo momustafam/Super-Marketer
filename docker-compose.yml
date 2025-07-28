@@ -11,7 +11,7 @@ services:
       - "1434:1433"
     volumes:
       - ./data:/data                     # Mount your local project data directory
-      - sql_data:/var/opt/mssql          # Persist SQL Server data (DB files)
+      # - sql_data:/var/opt/mssql          # Persist SQL Server data (DB files)
     healthcheck:
       test: ["CMD", "/opt/mssql-tools/bin/sqlcmd", "-S", "localhost", "-U", "SA", "-P", "YourStrong!Passw0rd", "-Q", "SELECT 1"]
       interval: 10s
@@ -32,5 +32,5 @@ services:
     command: ["python", "load.py"]
 
 
-volumes:
-  sql_data:
+#volumes:
+#  sql_data:
