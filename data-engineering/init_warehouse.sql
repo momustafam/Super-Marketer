@@ -182,7 +182,7 @@ TABLOCK
 
 -- Load Users
 BULK INSERT dbo.fact_trans
-FROM '/data/fact_trans/fact_trans_part_000010.csv'
+FROM '/data/fact_trans/fact_trans_part_00010.csv'
 WITH (
 FIRSTROW = 2,
 FIELDTERMINATOR = ',',
