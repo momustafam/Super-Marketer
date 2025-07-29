@@ -1,5 +1,7 @@
+IF DB_ID('CustomerWarehouse') IS NULL
+    CREATE DATABASE CustomerWarehouse;
+GO
 
-CREATE DATABASE CustomerWarehouse;
 
 USE CustomerWarehouse;
 
@@ -73,7 +75,7 @@ TABLOCK
 
 -- Load Users
 BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_00000.csv'
+FROM '/data/fact_trans/fact_trans_part_00000.csv'
 WITH (
 FIRSTROW = 2,
 FIELDTERMINATOR = ',',
@@ -83,7 +85,7 @@ TABLOCK
 
 -- Load Users
 BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_00001.csv'
+FROM '/data/fact_trans/fact_trans_part_00001.csv'
 WITH (
 FIRSTROW = 2,
 FIELDTERMINATOR = ',',
@@ -93,28 +95,7 @@ TABLOCK
 
 -- Load Users
 BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_00002.csv'
-WITH (
-FIRSTROW = 2,
-FIELDTERMINATOR = ',',
-ROWTERMINATOR = '\n',
-TABLOCK
-);
-
-
--- Load Users
-BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_00003.csv'
-WITH (
-FIRSTROW = 2,
-FIELDTERMINATOR = ',',
-ROWTERMINATOR = '\n',
-TABLOCK
-);
-
--- Load Users
-BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_00004.csv'
+FROM '/data/fact_trans/fact_trans_part_00002.csv'
 WITH (
 FIRSTROW = 2,
 FIELDTERMINATOR = ',',
@@ -125,7 +106,17 @@ TABLOCK
 
 -- Load Users
 BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_00005.csv'
+FROM '/data/fact_trans/fact_trans_part_00003.csv'
+WITH (
+FIRSTROW = 2,
+FIELDTERMINATOR = ',',
+ROWTERMINATOR = '\n',
+TABLOCK
+);
+
+-- Load Users
+BULK INSERT dbo.fact_trans
+FROM '/data/fact_trans/fact_trans_part_00004.csv'
 WITH (
 FIRSTROW = 2,
 FIELDTERMINATOR = ',',
@@ -136,7 +127,7 @@ TABLOCK
 
 -- Load Users
 BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_00006.csv'
+FROM '/data/fact_trans/fact_trans_part_00005.csv'
 WITH (
 FIRSTROW = 2,
 FIELDTERMINATOR = ',',
@@ -147,7 +138,7 @@ TABLOCK
 
 -- Load Users
 BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_00007.csv'
+FROM '/data/fact_trans/fact_trans_part_00006.csv'
 WITH (
 FIRSTROW = 2,
 FIELDTERMINATOR = ',',
@@ -158,7 +149,7 @@ TABLOCK
 
 -- Load Users
 BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_00008.csv'
+FROM '/data/fact_trans/fact_trans_part_00007.csv'
 WITH (
 FIRSTROW = 2,
 FIELDTERMINATOR = ',',
@@ -169,7 +160,7 @@ TABLOCK
 
 -- Load Users
 BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_00009.csv'
+FROM '/data/fact_trans/fact_trans_part_00008.csv'
 WITH (
 FIRSTROW = 2,
 FIELDTERMINATOR = ',',
@@ -180,7 +171,7 @@ TABLOCK
 
 -- Load Users
 BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_000010.csv'
+FROM '/data/fact_trans/fact_trans_part_00009.csv'
 WITH (
 FIRSTROW = 2,
 FIELDTERMINATOR = ',',
@@ -191,7 +182,7 @@ TABLOCK
 
 -- Load Users
 BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_00011.csv'
+FROM '/data/fact_trans/fact_trans_part_00010.csv'
 WITH (
 FIRSTROW = 2,
 FIELDTERMINATOR = ',',
@@ -202,7 +193,7 @@ TABLOCK
 
 -- Load Users
 BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_00012.csv'
+FROM '/data/fact_trans/fact_trans_part_00011.csv'
 WITH (
 FIRSTROW = 2,
 FIELDTERMINATOR = ',',
@@ -213,7 +204,7 @@ TABLOCK
 
 -- Load Users
 BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_00013.csv'
+FROM '/data/fact_trans/fact_trans_part_00012.csv'
 WITH (
 FIRSTROW = 2,
 FIELDTERMINATOR = ',',
@@ -224,7 +215,7 @@ TABLOCK
 
 -- Load Users
 BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_00014.csv'
+FROM '/data/fact_trans/fact_trans_part_00013.csv'
 WITH (
 FIRSTROW = 2,
 FIELDTERMINATOR = ',',
@@ -235,7 +226,7 @@ TABLOCK
 
 -- Load Users
 BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_00015.csv'
+FROM '/data/fact_trans/fact_trans_part_00014.csv'
 WITH (
 FIRSTROW = 2,
 FIELDTERMINATOR = ',',
@@ -246,7 +237,7 @@ TABLOCK
 
 -- Load Users
 BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_00016.csv'
+FROM '/data/fact_trans/fact_trans_part_00015.csv'
 WITH (
 FIRSTROW = 2,
 FIELDTERMINATOR = ',',
@@ -257,10 +248,25 @@ TABLOCK
 
 -- Load Users
 BULK INSERT dbo.fact_trans
-FROM 'data\fact_trans\fact_trans_part_00017.csv'
+FROM '/data/fact_trans/fact_trans_part_00016.csv'
 WITH (
 FIRSTROW = 2,
 FIELDTERMINATOR = ',',
 ROWTERMINATOR = '\n',
 TABLOCK
 );
+
+
+-- Load Users
+BULK INSERT dbo.fact_trans
+FROM '/data/fact_trans/fact_trans_part_00017.csv'
+WITH (
+FIRSTROW = 2,
+FIELDTERMINATOR = ',',
+ROWTERMINATOR = '\n',
+TABLOCK
+);
+
+
+
+
