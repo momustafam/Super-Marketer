@@ -2,7 +2,7 @@ import pyodbc
 import pandas as pd
 
 # Database connection parameters
-server = 'localhost,1434'  # Adjust if using different port
+server = 'sqlserver_warehouse,1433'  # Adjust if using different port
 database = 'CustomerWarehouse'
 username = 'SA'
 password = 'YourStrong!Passw0rd'

@@ -1,36 +1,40 @@
-version: "3.9"
+version: '3.9'
+
 services:
+    sqlserver_warehouse:
+        image: mcr.microsoft.com/mssql/server:2022-latest
+        container_name: datawarehouse_sqlserver
+        ports:
+            - "1433:1433"
+        environment:
+            SA_PASSWORD: "Password1234!"
+            ACCEPT_EULA: "Y"
+        volumes:
+            - sql_data:/var/opt/mssql
+            - ./init_warehouse.sql:/shared/init_warehouse.sql
 
-  sqlserver:
-    image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: sqlagain_container
-    environment:
-      ACCEPT_EULA: "Y"
-      SA_PASSWORD: "YourStrong!Passw0rd"
-    ports:
-      - "1434:1433"
-    volumes:
-      - ./data:/data                     # Mount your local project data directory
-      # - sql_data:/var/opt/mssql          # Persist SQL Server data (DB files)
-    healthcheck:
-      test: ["CMD", "/opt/mssql-tools/bin/sqlcmd", "-S", "localhost", "-U", "SA", "-P", "YourStrong!Passw0rd", "-Q", "SELECT 1"]
-      interval: 10s
-      retries: 10
-      start_period: 30s
-  
-  loader:
-    build:
-      context: .
-      dockerfile: Dockerfile
-    container_name: data_loader
-    depends_on:
-      sqlserver:
-        condition: service_healthy
-    volumes:
-      - .:/app
-    working_dir: /app
-    command: ["python", "load.py"]
+    sqltools:
+        image: mcr.microsoft.com/mssql-tools
+        depends_on:
+            - sqlserver_warehouse
+        volumes:
+            - ./init_warehouse.sql:/shared/init_warehouse.sql
+        entrypoint: >
+            /bin/bash -c "
+            echo '⏳ Waiting for SQL Server...';
+            for i in {1..30}; do
+                /opt/mssql-tools/bin/sqlcmd -S sqlserver_warehouse -U SA -P 'Password1234!' -Q 'SELECT 1' && break;
+                sleep 2;
+            done;
 
+            echo '🚀 Running init.sql...';
+            /opt/mssql-tools/bin/sqlcmd -S sqlserver_warehouse -U SA -P 'Password1234!' -i /shared/init_warehouse.sql;
 
-#volumes:
-#  sql_data:
+            echo '🔍 Checking if CustomerWarehouse was created...';
+            /opt/mssql-tools/bin/sqlcmd -S sqlserver_warehouse -U SA -P 'Password1234!' -Q \"SELECT name FROM sys.databases WHERE name = 'CustomerWarehouse';\"
+
+            echo '✅ init.sql executed and database check complete!';
+            "
+
+volumes:
+    sql_data:
