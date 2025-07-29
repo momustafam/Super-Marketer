@@ -1,15 +1,15 @@
 services:
-
-  sqlagain:
+  # Data Warehouse SQL Server (starts first)
+  dataWarehouse:
     image: mcr.microsoft.com/mssql/server:2022-latest
-    container_name: sqlagain_container
+    container_name: container_dataWarehouse
     environment:
       ACCEPT_EULA: "Y"
       SA_PASSWORD: "YourStrong!Passw0rd"
     ports:
       - "1434:1433"
     volumes:
-      - ./data:/data  # ✅ updated to match the expected path
+      - ./data:/data
     healthcheck:
       test: ["CMD", "bash", "-c", "exec 3<>/dev/tcp/localhost/1433"]
       interval: 10s
@@ -17,21 +17,74 @@ services:
       retries: 10
       start_period: 30s
 
-  runsql:
-    image: mcr.microsoft.com/mssql-tools
-    container_name: init_sql_runner
+  # Marketing Data Mart SQL Server (depends on warehouse)
+  dataMart:
+    image: mcr.microsoft.com/mssql/server:2022-latest
+    container_name: container_dataMart
     depends_on:
-      sqlagain:
+      dataWarehouse:
+        condition: service_healthy
+    ports:
+      - "1435:1433"
+    environment:
+      SA_PASSWORD: "Password1234!"
+      ACCEPT_EULA: "Y"
+    volumes:
+      - sql_data:/var/opt/mssql
+      - ./data-engineering/init_mart.sql:/shared/init_mart.sql
+    healthcheck:
+      test: ["CMD", "bash", "-c", "exec 3<>/dev/tcp/localhost/1433"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+      start_period: 30s
+
+  # SQL Tools for warehouse (runs first)
+  sqltools_dataWarehouse:
+    image: mcr.microsoft.com/mssql-tools
+    container_name: init_sql_runner_dataWarehouse
+    depends_on:
+      dataWarehouse:
         condition: service_healthy
     volumes:
-      - ./data-engineering:/data-engineering  # ✅ ensure same path as above
+      - ./data-engineering:/data-engineering
     entrypoint: >
       /bin/bash -c "
       echo '🔁 Waiting for SQL Server to be ready...' &&
       sleep 15 &&
       echo '🚀 Running init_warehouse.sql...' &&
-      /opt/mssql-tools/bin/sqlcmd -S sqlagain_container -U SA -P 'YourStrong!Passw0rd' -i /data-engineering/init_warehouse.sql 2>&1 ||
+      /opt/mssql-tools/bin/sqlcmd -S container_dataWarehouse -U SA -P 'YourStrong!Passw0rd' -i /data-engineering/init_warehouse.sql 2>&1 ||
       echo '❌ SQL script execution failed.' &&
       echo '⏳ Sleeping to allow log collection...' &&
       sleep 10
       "
+
+  # Marketing Data Mart SQL Tools (runs after warehouse)
+  sqltools_dataMart:
+    image: mcr.microsoft.com/mssql-tools
+    depends_on:
+      dataMart:
+        condition: service_healthy
+      sqltools_dataWarehouse:
+        condition: service_completed_successfully
+    volumes:
+      - ./data-engineering/init_mart.sql:/shared/init_mart.sql
+    entrypoint: >
+      /bin/bash -c "
+      echo '⏳ Waiting for SQL Server...';
+      for i in {1..30}; do
+        /opt/mssql-tools/bin/sqlcmd -S container_dataMart -U SA -P 'Password1234!' -Q 'SELECT 1' && break;
+        sleep 2;
+      done;
+
+      echo '🚀 Running init_mart.sql...';
+      /opt/mssql-tools/bin/sqlcmd -S container_dataMart -U SA -P 'Password1234!' -i /shared/init_mart.sql;
+
+      echo '🔍 Checking if MarketingDataMart was created...';
+      /opt/mssql-tools/bin/sqlcmd -S container_dataMart -U SA -P 'Password1234!' -Q \"SELECT name FROM sys.databases WHERE name = 'MarketingDataMart';\"
+
+      echo '✅ init_mart.sql executed and database check complete!';
+      "
+
+volumes:
+  sql_data:
