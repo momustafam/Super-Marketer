@@ -43,9 +43,8 @@ IF OBJECT_ID('service_count', 'U') IS NULL
 BEGIN
 CREATE TABLE service_count (
     [service] VARCHAR(100),
-    count INT,
-    cluster VARCHAR(50)
-    );
+    count INT
+);
 PRINT '✅ Created table: service_count';
 END
 GO
@@ -69,8 +68,7 @@ IF OBJECT_ID('trans_by_day', 'U') IS NULL
 BEGIN
 CREATE TABLE trans_by_day (
                               hour INT,
-                              count INT,
-                              cluster VARCHAR(50)
+                              count INT
 );
 PRINT '✅ Created table: trans_by_day';
 END
@@ -83,8 +81,7 @@ CREATE TABLE stats (
                        new_users INT,
                        returning_users INT,
                        new_transactions INT,
-                       avg_clv FLOAT,
-                       cluster VARCHAR(50)
+                       avg_clv FLOAT
 );
 PRINT '✅ Created table: stats';
 END
