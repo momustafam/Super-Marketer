@@ -5,9 +5,13 @@ import LineChart from "../../components/LineChart";
 const Line = () => {
   return (
     <Box m="20px">
-      <Header title="Age Distribution" subtitle="Age Distribution of Users by Clusters" />
+      <Header title="Line Chart" subtitle="Simple Line Chart" />
       <Box height="75vh">
-        <LineChart />
+        <LineChart
+          chartType="transactions-by-hour"
+          isDashboard={false}
+          enableFilter={false}
+        />
       </Box>
     </Box>
   );

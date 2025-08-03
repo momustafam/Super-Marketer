@@ -1,13 +1,15 @@
 import { Box, useTheme, useMediaQuery } from "@mui/material";
+import { useState } from "react";
 import Header from "../../components/Header";
 import BarChart from "../../components/BarChart";
 
 const Bar = () => {
   const theme = useTheme();
   const isMobile = useMediaQuery(theme.breakpoints.down("sm"));
+  const [selectedCluster, setSelectedCluster] = useState(null);
 
   const barChartProps = isMobile
-    ? {
+      ? {
         margin: { top: 50, right: 50, bottom: 100, left: 60 },
         legends: [
           {
@@ -34,15 +36,17 @@ const Bar = () => {
           },
         ],
       }
-    : {};
+      : {};
 
   return (
-    <Box m="20px">
-      <Header title="Services Usage" subtitle="Overview of Usage by Service" />
-      <Box height="75vh">
-        <BarChart {...barChartProps} />
+      <Box m="20px">
+        <Box display="flex" justifyContent="space-between" alignItems="center">
+          <Header title="Services Usage" subtitle="Overview of Usage by Service" />
+        </Box>
+        <Box height="75vh">
+          <BarChart {...barChartProps}  />
+        </Box>
       </Box>
-    </Box>
   );
 };
 

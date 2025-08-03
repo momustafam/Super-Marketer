@@ -94,9 +94,8 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="12,361"
-            subtitle="New Users"
-            increase="+14%"
+            apiEndpoint="/api/stats/new-users/test"
+            enableApi={true}
             icon={
               <PersonAddIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
             }
@@ -113,9 +112,8 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="431,225"
-            subtitle="Returning Users"
-            increase="+21%"
+            apiEndpoint="/api/stats/returning-users/test"
+            enableApi={true}
             icon={
               <RepeatIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
             }
@@ -132,9 +130,8 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="32,441"
-            subtitle="New Transactions"
-            increase="+5%"
+            apiEndpoint="/api/stats/transactions/test"
+            enableApi={true}
             icon={
               <PointOfSaleIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
             }
@@ -151,9 +148,8 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            title="82,300"
-            subtitle="Avg. Lifetime Value"
-            increase="-5%"
+            apiEndpoint="/api/stats/clv/test"
+            enableApi={true}
             icon={
               <AttachMoneyIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
             }
@@ -189,7 +185,7 @@ const Dashboard = () => {
             </Box> */}
           </Box>
           <Box height="250px" m="-20px 0 0 0">
-            <LineChart isDashboard={true} />
+            <LineChart isDashboard={true} chartType="age-distribution-line" />
           </Box>
         </Box>
         <Box backgroundColor={colors.primary[400]}>
@@ -206,7 +202,7 @@ const Dashboard = () => {
                 fontWeight="600"
                 color={colors.gray[100]}
               >
-                Transactions by Day
+                Transactions by Hour
               </Typography>
             </Box>
             {/* <Box>
@@ -218,7 +214,7 @@ const Dashboard = () => {
             </Box> */}
           </Box>
           <Box height="250px" m="-20px 0 0 0">
-            <LineChart isDashboard={true} />
+            <LineChart isDashboard={true} chartType="transactions-by-hour" />
           </Box>
         </Box>
         {/* ROW 3 */}

@@ -5,9 +5,13 @@ import LineChart from "../../components/LineChart";
 const TransLine = () => {
   return (
     <Box m="20px">
-      <Header title="Transactions by Day" subtitle="Transaction Volume Over Time" />
+      <Header title="Transaction Analysis" subtitle="Transaction Patterns and Trends" />
       <Box height="75vh">
-        <LineChart />
+        <LineChart
+          chartType="revenue-trends"
+          isDashboard={false}
+          enableFilter={false}
+        />
       </Box>
     </Box>
   );

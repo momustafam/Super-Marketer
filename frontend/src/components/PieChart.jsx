@@ -1,11 +1,68 @@
 import { ResponsivePie } from "@nivo/pie";
 import { tokens } from "../theme";
 import { useTheme } from "@mui/material";
-import { mockPieData as data } from "../data/mockData";
+import { useState, useEffect } from "react";
+import { Box, CircularProgress, Typography } from "@mui/material";
 
-const PieChart = () => {
+const PieChart = ({ isDashboard = false, cluster = null, enableFilter = false }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
+
+  const [data, setData] = useState([]);
+  const [isLoading, setIsLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    const fetchData = async () => {
+      try {
+        setIsLoading(true);
+
+        // Build the API URL with query parameters if needed
+        let url = "http://localhost:8000/api/charts/gender-distribution/test";
+        const params = new URLSearchParams();
+
+        if (cluster) params.append("cluster", cluster);
+        if (enableFilter) params.append("enable_filter", "true");
+
+        if (params.toString()) {
+          url += `?${params.toString()}`;
+        }
+
+        const response = await fetch(url);
+
+        if (!response.ok) {
+          throw new Error(`API error: ${response.status}`);
+        }
+
+        const jsonData = await response.json();
+        setData(jsonData);
+      } catch (err) {
+        setError(err.message || "Failed to load chart data");
+        console.error("Error fetching pie chart data:", err);
+      } finally {
+        setIsLoading(false);
+      }
+    };
+
+    fetchData();
+  }, [cluster, enableFilter]); // Re-fetch when these props change
+
+  if (isLoading) {
+    return (
+      <Box display="flex" justifyContent="center" alignItems="center" height="100%">
+        <CircularProgress />
+      </Box>
+    );
+  }
+
+  if (error) {
+    return (
+      <Box display="flex" justifyContent="center" alignItems="center" height="100%">
+        <Typography color="error">{error}</Typography>
+      </Box>
+    );
+  }
+
   return (
     <ResponsivePie
       data={data}
@@ -50,7 +107,7 @@ const PieChart = () => {
       arcLinkLabelsTextColor={colors.gray[100]}
       arcLinkLabelsThickness={2}
       arcLinkLabelsColor={{ from: "color" }}
-      enableArcLabels={true}
+      enableArcLabels={false}
       arcLabelsRadiusOffset={0.4}
       arcLabelsSkipAngle={7}
       arcLabelsTextColor={{
@@ -87,7 +144,7 @@ const PieChart = () => {
           itemsSpacing: 0,
           itemWidth: 100,
           itemHeight: 18,
-          itemTextColor: "#999",
+          itemTextColor: colors.gray[100],
           itemDirection: "left-to-right",
           itemOpacity: 1,
           symbolSize: 18,
