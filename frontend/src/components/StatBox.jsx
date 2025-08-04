@@ -11,7 +11,8 @@ const StatBox = ({
   trendline, 
   increase,
   apiEndpoint = null,
-  enableApi = false 
+  enableApi = false,
+  dataType = "number" // "number", "currency", "service"
 }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
@@ -34,8 +35,10 @@ const StatBox = ({
           const data = await response.json();
           setApiData(data);
         } catch (err) {
-          setError(err.message);
+          setError(`${err.message} - Endpoint: ${apiEndpoint}`);
           console.error("Error fetching stat data:", err);
+          console.error("Failed endpoint:", apiEndpoint);
+          console.error("Full error details:", err);
         } finally {
           setIsLoading(false);
         }
@@ -45,13 +48,47 @@ const StatBox = ({
     }
   }, [apiEndpoint, enableApi]);
 
-  // Use API data if available, otherwise use props
-  const displayData = apiData || {
-    title,
-    subtitle,
-    increase,
-    trend: increase?.startsWith('+') ? 'up' : 'down'
+  // Format data based on type and API response
+  const getFormattedData = () => {
+    if (!enableApi || !apiData) {
+      return { title, subtitle, increase };
+    }
+
+    let formattedTitle = "";
+    let formattedSubtitle = "";
+
+    switch (dataType) {
+      case "currency":
+        if (apiData.average_clv !== undefined) {
+          formattedTitle = `$${apiData.average_clv.toLocaleString()}`;
+          formattedSubtitle = "Average CLV";
+        }
+        break;
+      case "service":
+        if (apiData.most_used_service !== undefined) {
+          formattedTitle = apiData.most_used_service;
+          formattedSubtitle = "Most Used Service";
+        }
+        break;
+      default: // "number"
+        if (apiData.new_users !== undefined) {
+          formattedTitle = apiData.new_users.toLocaleString();
+          formattedSubtitle = "New Users";
+        } else if (apiData.returning_users !== undefined) {
+          formattedTitle = apiData.returning_users.toLocaleString();
+          formattedSubtitle = "Returning Users";
+        }
+        break;
+    }
+
+    return {
+      title: formattedTitle || title,
+      subtitle: formattedSubtitle || subtitle,
+      increase: increase || "+12%" // Default trend
+    };
   };
+
+  const displayData = getFormattedData();
 
   // Determine trend icon and color
   const getTrendIcon = () => {

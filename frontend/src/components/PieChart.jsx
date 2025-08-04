@@ -4,7 +4,7 @@ import { useTheme } from "@mui/material";
 import { useState, useEffect } from "react";
 import { Box, CircularProgress, Typography } from "@mui/material";
 
-const PieChart = ({ isDashboard = false, cluster = null, enableFilter = false }) => {
+const PieChart = ({ isDashboard = false, cluster = null, enableFilter = false, chartType = "gender" }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
 
@@ -17,8 +17,14 @@ const PieChart = ({ isDashboard = false, cluster = null, enableFilter = false })
       try {
         setIsLoading(true);
 
-        // Build the API URL with query parameters if needed
-        let url = "http://localhost:8000/api/charts/gender-distribution/test";
+        // Build the API URL based on chart type
+        let url;
+        if (chartType === "service-usage") {
+          url = "http://localhost:8000/api/charts/service-usage";
+        } else {
+          url = "http://localhost:8000/api/charts/gender-distribution";
+        }
+
         const params = new URLSearchParams();
 
         if (cluster) params.append("cluster", cluster);
@@ -35,7 +41,28 @@ const PieChart = ({ isDashboard = false, cluster = null, enableFilter = false })
         }
 
         const jsonData = await response.json();
-        setData(jsonData);
+
+        // Transform data for Nivo pie chart format
+        let transformedData;
+        if (chartType === "service-usage") {
+          // API returns: [{"service": "Grocery Stores, Supermarkets", "count": 2860738}]
+          // Nivo expects: [{"id": "Grocery Stores, Supermarkets", "value": 2860738}]
+          transformedData = jsonData.map((item) => ({
+            id: item.service,
+            label: item.service,
+            value: item.count,
+          }));
+        } else {
+          // API returns: [{"gender": "Female", "count": 1016}, {"gender": "Male", "count": 984}]
+          // Nivo expects: [{"id": "Female", "value": 1016}, {"id": "Male", "value": 984}]
+          transformedData = jsonData.map((item) => ({
+            id: item.gender,
+            label: item.gender,
+            value: item.count,
+          }));
+        }
+
+        setData(transformedData);
       } catch (err) {
         setError(err.message || "Failed to load chart data");
         console.error("Error fetching pie chart data:", err);
@@ -45,7 +72,7 @@ const PieChart = ({ isDashboard = false, cluster = null, enableFilter = false })
     };
 
     fetchData();
-  }, [cluster, enableFilter]); // Re-fetch when these props change
+  }, [cluster, enableFilter, chartType]); // Re-fetch when these props change
 
   if (isLoading) {
     return (
@@ -93,6 +120,15 @@ const PieChart = ({ isDashboard = false, cluster = null, enableFilter = false })
             fill: colors.gray[100],
           },
         },
+        tooltip: {
+          container: {
+            background: colors.primary[400],
+            color: colors.gray[100],
+            fontSize: 12,
+            borderRadius: 4,
+            boxShadow: '0 3px 14px rgba(0, 0, 0, 0.4)',
+          },
+        },
       }}
       margin={{ top: 40, right: 80, bottom: 80, left: 80 }}
       innerRadius={0.5}
@@ -134,31 +170,35 @@ const PieChart = ({ isDashboard = false, cluster = null, enableFilter = false })
           spacing: 10,
         },
       ]}
-      legends={[
-        {
-          anchor: "bottom",
-          direction: "row",
-          justify: false,
-          translateX: 0,
-          translateY: 56,
-          itemsSpacing: 0,
-          itemWidth: 100,
-          itemHeight: 18,
-          itemTextColor: colors.gray[100],
-          itemDirection: "left-to-right",
-          itemOpacity: 1,
-          symbolSize: 18,
-          symbolShape: "circle",
-          effects: [
-            {
-              on: "hover",
-              style: {
-                itemTextColor: "#000",
-              },
-            },
-          ],
-        },
-      ]}
+      legends={[]}
+      tooltip={({ datum }) => {
+        // Calculate percentage manually
+        const total = data.reduce((sum, item) => sum + item.value, 0);
+        const percentage = total > 0 ? ((datum.value / total) * 100).toFixed(1) : 0;
+
+        return (
+          <div
+            style={{
+              background: colors.primary[400],
+              color: colors.gray[100],
+              padding: '12px 16px',
+              borderRadius: '4px',
+              boxShadow: '0 3px 14px rgba(0, 0, 0, 0.4)',
+              border: `1px solid ${colors.primary[300]}`,
+            }}
+          >
+            <div style={{ fontWeight: 'bold', marginBottom: '4px' }}>
+              {datum.label}
+            </div>
+            <div style={{ fontSize: '14px' }}>
+              Count: <strong>{datum.value.toLocaleString()}</strong>
+            </div>
+            <div style={{ fontSize: '14px' }}>
+              Percentage: <strong>{percentage}%</strong>
+            </div>
+          </div>
+        );
+      }}
     />
   );
 };

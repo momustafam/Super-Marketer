@@ -289,12 +289,34 @@ class ETLPipeline:
         :param transactions_df: PySpark DataFrame containing the transaction data
         :return: PySpark DataFrame with service counts by cluster
         """
+        # Load MCC codes from CSV
+        mcc_df = pd.read_csv("https://raw.githubusercontent.com/greggles/mcc-codes/main/mcc_codes.csv")
+        mcc_df.drop(columns=["edited_description","combined_description","usda_description","irs_reportable"], inplace=True)
+        mcc_df.rename(columns={"irs_description":"description"}, inplace=True)
+
+        # Convert pandas DataFrame to Spark DataFrame
+        mcc_spark_df = self.spark.createDataFrame(mcc_df)
+
+        # Group transactions by service and get counts
         service_count_df = transactions_df.groupBy(["trans_service"]).agg(
             F.count("trans_id").alias("count"),
         ).withColumnRenamed("trans_service", "service")
-        
-        return service_count_df
-    
+
+        # Join with MCC codes to get descriptions
+        # Use left join to keep services that don't have MCC codes
+        service_with_descriptions = service_count_df.join(
+            mcc_spark_df,
+            service_count_df.service == mcc_spark_df.mcc,
+            "left"
+        ).select(
+            F.coalesce(F.col("description"), F.col("service")).alias("service"),  # Use description if available, otherwise use service code
+            F.col("count")
+        ).groupBy("service").agg(
+            F.sum("count").alias("count")  # Sum up counts for services with same description
+        ).orderBy(F.desc("count"))  # Order by count descending for better visualization
+
+        return service_with_descriptions
+
     def transform_user_geo(self, users_df: pyspark.sql.DataFrame) -> pyspark.sql.DataFrame:
         """
         Transforms the user data to get geographical distribution.

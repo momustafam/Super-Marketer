@@ -94,8 +94,9 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            apiEndpoint="/api/stats/new-users/test"
+            apiEndpoint="/api/info/new-users"
             enableApi={true}
+            dataType="number"
             icon={
               <PersonAddIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
             }
@@ -112,8 +113,9 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            apiEndpoint="/api/stats/returning-users/test"
+            apiEndpoint="/api/info/returning-users"
             enableApi={true}
+            dataType="number"
             icon={
               <RepeatIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
             }
@@ -130,8 +132,9 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            apiEndpoint="/api/stats/transactions/test"
+            apiEndpoint="/api/info/top-transaction-service"
             enableApi={true}
+            dataType="service"
             icon={
               <PointOfSaleIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
             }
@@ -148,8 +151,9 @@ const Dashboard = () => {
           justifyContent="center"
         >
           <StatBox
-            apiEndpoint="/api/stats/clv/test"
+            apiEndpoint="/api/info/average-clv"
             enableApi={true}
+            dataType="currency"
             icon={
               <AttachMoneyIcon sx={{ color: colors.greenAccent[600], fontSize: "26px" }} />
             }
@@ -185,7 +189,7 @@ const Dashboard = () => {
             </Box> */}
           </Box>
           <Box height="250px" m="-20px 0 0 0">
-            <LineChart isDashboard={true} chartType="age-distribution-line" />
+            <LineChart isDashboard={true} chartType="age-distribution" />
           </Box>
         </Box>
         <Box backgroundColor={colors.primary[400]}>
@@ -224,10 +228,10 @@ const Dashboard = () => {
             fontWeight="600"
             sx={{ padding: "30px 30px 0 30px" }}
           >
-            Services Usage
+            Top 7 Services Usage
           </Typography>
           <Box height="250px" mt="-20px">
-            <BarChart isDashboard={true} />
+            <PieChart isDashboard={true} chartType="service-usage" />
           </Box>
         </Box>
         <Box backgroundColor={colors.primary[400]} padding="30px">
