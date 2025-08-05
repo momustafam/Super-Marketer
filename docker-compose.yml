@@ -99,6 +99,40 @@ services:
     networks:
       - app_network
 
+
+  # ✅ FastAPI Backend
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: backend_api
+    ports:
+      - "8000:8000"
+    environment:
+      DB_SERVER: marketing_data_mart
+      DB_PORT: 1433
+      DB_NAME: MarketingDataMart
+      DB_USER: sa
+      DB_PASSWORD: Password1234!
+    depends_on:
+      marketing_data_mart:
+        condition: service_healthy
+    networks:
+      - app_network
+
+  # ✅ React Frontend
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: frontend_app
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - app_network
+
 volumes:
   sql_data_warehouse:
   sql_data_mart:
