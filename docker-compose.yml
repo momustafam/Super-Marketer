@@ -80,27 +80,94 @@ services:
       "
     networks:
       - app_network
-
-  # ETL Data Engineering Service
-  etl_pipeline:
+  # Apache Airflow Services
+  
+  # PostgreSQL for Airflow metadata
+  airflow_postgres:
+    image: postgres:13
+    container_name: airflow_postgres
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - airflow_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 5s
+      retries: 5
+    networks:
+      - app_network
+  # Airflow Webserver
+  airflow_webserver:
     build:
-      context: ./data_engineering
+      context: ./airflow
       dockerfile: Dockerfile
-    container_name: etl_pipeline
+    container_name: airflow_webserver
     depends_on:
+      airflow_postgres:
+        condition: service_healthy
       data_warehouse:
         condition: service_healthy
       marketing_data_mart:
         condition: service_healthy
-    volumes:
-      - ./data_engineering:/app/data_engineering
     environment:
-      - PYTHONUNBUFFERED=1
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow_postgres:5432/airflow
+      AIRFLOW__CORE__FERNET_KEY: 'T5-cl7KCbawwG06ESn-5znO0KnZNrAyLyv-G4T93eO0='
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+      AIRFLOW__WEBSERVER__EXPOSE_CONFIG: 'true'
+      AIRFLOW__WEBSERVER__RBAC: 'false'
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+      - ./airflow/init_airflow.sh:/opt/airflow/init_airflow.sh
+    ports:
+      - "8080:8080"
+    command: >
+      bash -c "
+      echo 'Starting Airflow initialization...' &&
+      cp /opt/airflow/init_airflow.sh /tmp/init_airflow.sh &&
+      chmod +x /tmp/init_airflow.sh &&
+      /tmp/init_airflow.sh &&
+      echo 'Initialization completed. Starting webserver...' &&
+      airflow webserver
+      "
+    healthcheck:
+      test: ["CMD", "curl", "--fail", "http://localhost:8080/health"]
+      interval: 10s
+      timeout: 10s
+      retries: 5
     networks:
       - app_network
 
+  # Airflow Scheduler
+  airflow_scheduler:
+    build:
+      context: ./airflow
+      dockerfile: Dockerfile
+    container_name: airflow_scheduler
+    depends_on:
+      airflow_webserver:
+        condition: service_healthy
+    environment:
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@airflow_postgres:5432/airflow
+      AIRFLOW__CORE__FERNET_KEY: 'T5-cl7KCbawwG06ESn-5znO0KnZNrAyLyv-G4T93eO0='
+      AIRFLOW__CORE__DAGS_ARE_PAUSED_AT_CREATION: 'true'
+      AIRFLOW__CORE__LOAD_EXAMPLES: 'false'
+    volumes:
+      - ./airflow/dags:/opt/airflow/dags
+      - ./airflow/logs:/opt/airflow/logs
+      - ./airflow/plugins:/opt/airflow/plugins
+      - ./airflow/init_airflow.sh:/opt/airflow/init_airflow.sh
+    command: scheduler
+    networks:
+      - app_network
 
-  # ✅ FastAPI Backend
+  # FastAPI Backend
   backend:
     build:
       context: ./backend
@@ -120,7 +187,7 @@ services:
     networks:
       - app_network
 
-  # ✅ React Frontend
+  # React Frontend
   frontend:
     build:
       context: ./frontend
@@ -136,6 +203,7 @@ services:
 volumes:
   sql_data_warehouse:
   sql_data_mart:
+  airflow_postgres_data:
 
 networks:
   app_network:
