@@ -1,0 +1,106 @@
+.chatPage {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 20px;
+    min-height: 0;
+    overflow-y: auto;
+}
+
+.chatHeader {
+    padding: 20px 0;
+    border-bottom: 1px solid #444;
+    margin-bottom: 20px;
+
+    h2 {
+        color: #ececec;
+        margin: 0;
+        font-size: 24px;
+        font-weight: 600;
+    }
+}
+
+.wrapper {
+    flex: 1;
+    overflow-y: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+
+    .chat {
+        width: 100%;
+        max-width: 800px;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        padding: 20px 0;
+
+        .message {
+            padding: 15px 20px;
+            border-radius: 12px;
+            max-width: 80%;
+            line-height: 1.5;
+            color: #ececec;
+
+            .messageContent {
+                margin-bottom: 10px;
+
+                &:last-child {
+                    margin-bottom: 0;
+                }
+            }
+
+            .messageImages {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 10px;
+                margin-top: 10px;
+
+                .imageContainer {
+                    border-radius: 8px;
+                    overflow: hidden;
+                    border: 1px solid #555;
+                    max-width: 300px;
+                    cursor: pointer;
+                    transition: all 0.3s ease;
+
+                    &:hover {
+                        transform: scale(1.02);
+                        border-color: #217bfe;
+                        box-shadow: 0 4px 12px rgba(33, 123, 254, 0.3);
+                    }
+
+                    .chatImage {
+                        width: 100%;
+                        height: auto;
+                        max-height: 200px;
+                        object-fit: cover;
+                        display: block;
+                    }
+                }
+            }
+
+            &.user {
+                background-color: #217bfe;
+                align-self: flex-end;
+                margin-left: auto;
+            }
+
+            &:not(.user) {
+                background-color: #2c2937;
+                align-self: flex-start;
+                margin-right: auto;
+            }
+        }
+    }
+}
+
+.formContainer {
+    margin-top: auto;
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

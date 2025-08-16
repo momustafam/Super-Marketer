@@ -6,8 +6,8 @@ import {
   useTheme,
 } from "@mui/material";
 import { tokens } from "../../theme";
-import RepeatIcon  from "@mui/icons-material/Repeat";
-import AttachMoneyIcon  from "@mui/icons-material/AttachMoney";
+import RepeatIcon from "@mui/icons-material/Repeat";
+import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
 import PersonAddIcon from "@mui/icons-material/PersonAdd";
 import PointOfSaleIcon from "@mui/icons-material/PointOfSale";
 import TrendingUpIcon from "@mui/icons-material/TrendingUp";
@@ -57,13 +57,13 @@ const Dashboard = () => {
             gridColumn: "span 12",
           },
           "& > div:nth-of-type(1), & > div:nth-of-type(2), & > div:nth-of-type(3), & > div:nth-of-type(4)":
-            {
-              gridColumn: {
-                xs: "span 12",
-                sm: "span 6",
-                md: "span 3",
-              },
+          {
+            gridColumn: {
+              xs: "span 12",
+              sm: "span 6",
+              md: "span 3",
             },
+          },
           "& > div:nth-of-type(5), & > div:nth-of-type(6)": {
             gridColumn: {
               xs: "span 12",
@@ -88,7 +88,7 @@ const Dashboard = () => {
       >
         {/* ROW 1 */}
         <Box
-          backgroundColor={colors.primary[400]}
+          backgroundColor="#1a1a2e"
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -107,7 +107,7 @@ const Dashboard = () => {
         </Box>
 
         <Box
-          backgroundColor={colors.primary[400]}
+          backgroundColor="#1a1a2e"
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -126,7 +126,7 @@ const Dashboard = () => {
         </Box>
 
         <Box
-          backgroundColor={colors.primary[400]}
+          backgroundColor="#1a1a2e"
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -145,7 +145,7 @@ const Dashboard = () => {
         </Box>
 
         <Box
-          backgroundColor={colors.primary[400]}
+          backgroundColor="#1a1a2e"
           display="flex"
           alignItems="center"
           justifyContent="center"
@@ -163,7 +163,7 @@ const Dashboard = () => {
           />
         </Box>
         {/* ROW 2 */}
-        <Box backgroundColor={colors.primary[400]}>
+        <Box backgroundColor="#1a1a2e">
           <Box
             mt="25px"
             p="0 30px"
@@ -175,7 +175,12 @@ const Dashboard = () => {
               <Typography
                 variant="h4"
                 fontWeight="600"
-                color={colors.gray[100]}
+                sx={{
+                  background: "linear-gradient(to right, #217bfe, #e55571)",
+                  backgroundClip: "text",
+                  WebkitBackgroundClip: "text",
+                  color: "transparent"
+                }}
               >
                 Age Distribution
               </Typography>
@@ -192,7 +197,7 @@ const Dashboard = () => {
             <LineChart isDashboard={true} chartType="age-distribution" />
           </Box>
         </Box>
-        <Box backgroundColor={colors.primary[400]}>
+        <Box backgroundColor="#1a1a2e">
           <Box
             mt="25px"
             p="0 30px"
@@ -204,7 +209,12 @@ const Dashboard = () => {
               <Typography
                 variant="h4"
                 fontWeight="600"
-                color={colors.gray[100]}
+                sx={{
+                  background: "linear-gradient(to right, #217bfe, #e55571)",
+                  backgroundClip: "text",
+                  WebkitBackgroundClip: "text",
+                  color: "transparent"
+                }}
               >
                 Transactions by Hour
               </Typography>
@@ -222,11 +232,17 @@ const Dashboard = () => {
           </Box>
         </Box>
         {/* ROW 3 */}
-        <Box backgroundColor={colors.primary[400]}>
+        <Box backgroundColor="#1a1a2e">
           <Typography
             variant="h5"
             fontWeight="600"
-            sx={{ padding: "30px 30px 0 30px" }}
+            sx={{
+              padding: "30px 30px 0 30px",
+              background: "linear-gradient(to right, #217bfe, #e55571)",
+              backgroundClip: "text",
+              WebkitBackgroundClip: "text",
+              color: "transparent"
+            }}
           >
             Top 7 Services Usage
           </Typography>
@@ -234,11 +250,17 @@ const Dashboard = () => {
             <PieChart isDashboard={true} chartType="service-usage" />
           </Box>
         </Box>
-        <Box backgroundColor={colors.primary[400]} padding="30px">
+        <Box backgroundColor="#1a1a2e" padding="30px">
           <Typography
             variant="h5"
             fontWeight="600"
-            sx={{ marginBottom: "15px" }}
+            sx={{
+              marginBottom: "15px",
+              background: "linear-gradient(to right, #217bfe, #e55571)",
+              backgroundClip: "text",
+              WebkitBackgroundClip: "text",
+              color: "transparent"
+            }}
           >
             Users Gender
           </Typography>
@@ -246,11 +268,17 @@ const Dashboard = () => {
             <PieChart isDashboard={true} />
           </Box>
         </Box>
-        <Box backgroundColor={colors.primary[400]} padding="30px">
+        <Box backgroundColor="#1a1a2e" padding="30px">
           <Typography
             variant="h5"
             fontWeight="600"
-            sx={{ marginBottom: "15px" }}
+            sx={{
+              marginBottom: "15px",
+              background: "linear-gradient(to right, #217bfe, #e55571)",
+              backgroundClip: "text",
+              WebkitBackgroundClip: "text",
+              color: "transparent"
+            }}
           >
             Geography Based Traffic
           </Typography>

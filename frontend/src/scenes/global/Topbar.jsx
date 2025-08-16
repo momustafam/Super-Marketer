@@ -12,7 +12,7 @@ const Topbar = () => {
     const colorMode = useContext(ColorModeContext);
 
     return (
-       <Box display="flex" justifyContent="space-between" alignItems="center" p={2} pb={0}>
+        <Box display="flex" justifyContent="space-between" alignItems="center" p={2} pb={0}>
             {/* LEFT SIDE */}
             <Typography variant="h3" fontWeight="bold" sx={{ mb: 0 }}>
                 Super Marketer
@@ -21,20 +21,20 @@ const Topbar = () => {
             {/* RIGHT SIDE ICONS */}
             <Box display="flex" alignItems="center">
                 <IconButton onClick={colorMode.toggleColorMode}>
-                {theme.palette.mode === "light" ? (
-                    <DarkModeOutlinedIcon />
-                ) : (
-                    <LightModeOutlinedIcon />
-                )}
+                    {theme.palette.mode === "light" ? (
+                        <DarkModeOutlinedIcon />
+                    ) : (
+                        <LightModeOutlinedIcon />
+                    )}
                 </IconButton>
                 <IconButton>
-                <NotificationsOutlinedIcon />
+                    <NotificationsOutlinedIcon />
                 </IconButton>
                 <IconButton>
-                <SettingsOutlinedIcon />
+                    <SettingsOutlinedIcon />
                 </IconButton>
                 <IconButton>
-                <PersonOutlinedIcon />
+                    <PersonOutlinedIcon />
                 </IconButton>
             </Box>
         </Box>

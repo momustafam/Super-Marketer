@@ -197,6 +197,37 @@ services:
       - "3000:3000"
     depends_on:
       - backend
+      - chatbot_backend
+    networks:
+      - app_network
+
+  # Chatbot Backend (separate from main backend)
+  chatbot_backend:
+    build:
+      context: ./chatbot_backend
+      dockerfile: Dockerfile
+    container_name: chatbot_backend
+    ports:
+      - "8001:8001"
+    volumes:
+      - chatbot_db:/data  # Mount the SQLite database volume
+    environment:
+      - DATABASE_PATH=/data/chatbot.db
+    depends_on:
+      - chatbot_database
+    networks:
+      - app_network
+
+  # Chatbot SQLite database (initializes DB from SQL file and keeps container running)
+  chatbot_database:
+    image: alpine:latest
+    container_name: chatbot_database
+    volumes:
+      - chatbot_db:/data
+      - ./data_engineering/init_chatbot.sql:/scripts/init_chatbot.sql:ro
+    # Initialize the sqlite DB on first start and keep the container alive so the DB file persists
+    command: >
+      /bin/sh -c "apk add --no-cache sqlite && mkdir -p /data && if [ ! -f /data/chatbot.db ]; then echo 'Initializing chatbot.db from SQL...' && sqlite3 /data/chatbot.db < /scripts/init_chatbot.sql; fi && echo 'Initialization check - tables:' && sqlite3 /data/chatbot.db \"SELECT name FROM sqlite_master WHERE type='table';\" || true && echo 'Initialization check - .tables output:' && sqlite3 /data/chatbot.db '.tables' || true && tail -f /dev/null"
     networks:
       - app_network
 
@@ -204,6 +235,7 @@ volumes:
   sql_data_warehouse:
   sql_data_mart:
   airflow_postgres_data:
+  chatbot_db:
 
 networks:
   app_network:

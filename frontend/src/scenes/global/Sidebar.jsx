@@ -55,7 +55,7 @@ const Sidebar = ({ isSidebar, isCollapsed, setIsCollapsed }) => {
           height: "100%",
         },
         "& .ps-sidebar-container": {
-          background: `${colors.primary[400]} !important`,
+          background: "#1a1a2e !important",
           height: "100%",
         },
         "& .ps-menu-button": {
@@ -82,54 +82,75 @@ const Sidebar = ({ isSidebar, isCollapsed, setIsCollapsed }) => {
             }}
           >
             {!isCollapsed && (
-                <Box
+              <Box
                 sx={{
-                    display: "flex",
-                    justifyContent: "space-between",
-                    alignItems: "center",
-                    ml: "15px"
+                  display: "flex",
+                  justifyContent: "space-between",
+                  alignItems: "center",
+                  ml: "15px"
                 }}
+              >
+                <Typography
+                  variant="h4"
+                  sx={{
+                    background: "linear-gradient(to right, #217bfe, #e55571)",
+                    backgroundClip: "text",
+                    WebkitBackgroundClip: "text",
+                    color: "transparent"
+                  }}
                 >
-                    <Typography variant="h4" color={colors.gray[100]}>
-                        Control Panel
-                    </Typography>
-                    <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
-                        <MenuOutlinedIcon />
-                    </IconButton>
-                </Box>
+                  Control Panel
+                </Typography>
+                <IconButton onClick={() => setIsCollapsed(!isCollapsed)}>
+                  <MenuOutlinedIcon />
+                </IconButton>
+              </Box>
             )}
           </MenuItem>
 
           {/* USER PROFILE */}
           {!isCollapsed && (
-            <Box sx={{mb: "25px"}}>
-                <Box
+            <Box sx={{ mb: "25px" }}>
+              <Box
                 sx={{
-                    display: "flex",
-                    justifyContent: "center",
-                    alignItems:"center"
+                  display: "flex",
+                  justifyContent: "center",
+                  alignItems: "center"
                 }}>
                 <img
-                src="../../assets/user.png"
-                alt="profile-user"
-                style={{
+                  src="/assets/user.png"
+                  alt="profile-user"
+                  style={{
                     width: "100px",
                     height: "100px",
                     cursor: "pointer",
                     borderRadius: "50%",
-                }}
+                  }}
                 />
               </Box>
-              <Box sx={{textAlign: "center"}}>
+              <Box sx={{ textAlign: "center" }}>
                 <Typography
                   variant="h4"
-                  color={colors.gray[100]}
                   fontWeight="bold"
-                  sx={{ m: "10px 0 0 0" }}
+                  sx={{
+                    m: "10px 0 0 0",
+                    background: "linear-gradient(to right, #217bfe, #e55571)",
+                    backgroundClip: "text",
+                    WebkitBackgroundClip: "text",
+                    color: "transparent"
+                  }}
                 >
                   Mahmoud Afify
                 </Typography>
-                <Typography variant="h5" color={colors.greenAccent[500]}>
+                <Typography
+                  variant="h5"
+                  sx={{
+                    background: "linear-gradient(to right, #217bfe, #e55571)",
+                    backgroundClip: "text",
+                    WebkitBackgroundClip: "text",
+                    color: "transparent"
+                  }}
+                >
                   Chief Technology Officer
                 </Typography>
               </Box>
@@ -147,13 +168,16 @@ const Sidebar = ({ isSidebar, isCollapsed, setIsCollapsed }) => {
             />
             <Typography
               variant="h6"
-              color={colors.gray[300]}
               noWrap={false}
               sx={{
                 m: "15px 0 5px 20px",
                 whiteSpace: "normal", // Allow text to wrap
                 overflowWrap: "break-word", // Break long words
                 wordBreak: "break-word",    // Optional: helps with long words/URLs
+                background: "linear-gradient(to right, #217bfe, #e55571)",
+                backgroundClip: "text",
+                WebkitBackgroundClip: "text",
+                color: "transparent"
               }}
             >
               Team
@@ -166,88 +190,94 @@ const Sidebar = ({ isSidebar, isCollapsed, setIsCollapsed }) => {
               setSelected={setSelected}
             />
             <Item
-                title="Add Team Member"
-                to="/auth/add-team-member"
-                icon={<PersonOutlinedIcon />}
-                selected={selected}
-                setSelected={setSelected}
+              title="Add Team Member"
+              to="/auth/add-team-member"
+              icon={<PersonOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
             />
             <Typography
               variant="h6"
-              color={colors.gray[300]}
               noWrap={false}
               sx={{
                 m: "15px 0 5px 20px",
                 whiteSpace: "normal", // Allow text to wrap
                 overflowWrap: "break-word", // Break long words
                 wordBreak: "break-word",    // Optional: helps with long words/URLs
+                background: "linear-gradient(to right, #217bfe, #e55571)",
+                backgroundClip: "text",
+                WebkitBackgroundClip: "text",
+                color: "transparent"
               }}
             >
               Tools
             </Typography>
             <Item
-                title="Reviews Scrapper"
-                to="/tools/reviews"
-                icon={<RateReviewOutlinedIcon />}
-                selected={selected}
-                setSelected={setSelected}
+              title="Reviews Scrapper"
+              to="/tools/reviews"
+              icon={<RateReviewOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
             />
             <Item
-                title="AI Assistant"
-                to="/tools/ai_assistant"
-                icon={<SmartToyOutlinedIcon />}
-                selected={selected}
-                setSelected={setSelected}
+              title="AI Assistant"
+              to="/tools/ai-assistant"
+              icon={<SmartToyOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
             />
             <Typography
               variant="h6"
-              color={colors.gray[300]}
               noWrap={false}
               sx={{
                 m: "15px 0 5px 20px",
                 whiteSpace: "normal", // Allow text to wrap
                 overflowWrap: "break-word", // Break long words
                 wordBreak: "break-word",    // Optional: helps with long words/URLs
+                background: "linear-gradient(to right, #217bfe, #e55571)",
+                backgroundClip: "text",
+                WebkitBackgroundClip: "text",
+                color: "transparent"
               }}
             >
               Charts
             </Typography>
             <Item
-                title="Age Distribution"
-                to="/insights/age"
-                icon={<AreaChartIcon />}
-                selected={selected}
-                setSelected={setSelected}
+              title="Age Distribution"
+              to="/insights/age"
+              icon={<AreaChartIcon />}
+              selected={selected}
+              setSelected={setSelected}
             />
             <Item
-                title="Transactions by Day"
-                to="/insights/transactions"
-                icon={<TimelineOutlinedIcon />}
-                selected={selected}
-                setSelected={setSelected}
+              title="Transactions by Day"
+              to="/insights/transactions"
+              icon={<TimelineOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
             />
             <Item
-                title="Services Usage"
-                to="/insights/services"
-                icon={<BarChartOutlinedIcon />}
-                selected={selected}
-                setSelected={setSelected}
+              title="Services Usage"
+              to="/insights/services"
+              icon={<BarChartOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
             />
             <Item
-                title="Density Map"
-                to="/insights/map"
-                icon={<PublicOutlinedIcon />}
-                selected={selected}
-                setSelected={setSelected}
+              title="Density Map"
+              to="/insights/map"
+              icon={<PublicOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
             />
             <Item
-                title="Users Gender"
-                to="/insights/gender"
-                icon={<DonutLargeOutlinedIcon />}
-                selected={selected}
-                setSelected={setSelected}
+              title="Users Gender"
+              to="/insights/gender"
+              icon={<DonutLargeOutlinedIcon />}
+              selected={selected}
+              setSelected={setSelected}
             />
-        </Box>
+          </Box>
         </Menu>
       </ProSidebar>
     </Box>

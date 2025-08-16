@@ -1,0 +1,230 @@
+.aiAssistantContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.mainLayout {
+  display: flex;
+  flex: 1;
+  height: 100vh;
+}
+
+.sidebarContainer {
+  width: 280px;
+  min-width: 280px;
+  height: 100vh;
+  position: relative;
+  transition: width 0.3s ease;
+}
+
+.sidebarContainer.collapsed {
+  width: 80px;
+  min-width: 80px;
+}
+
+.sidebarContainer .MuiBox-root {
+  position: relative !important;
+  top: auto !important;
+  left: auto !important;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: auto !important;
+}
+
+.centerSection {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #242444; /* Main background color */
+}
+
+.dashboardPage {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+  min-height: 0;
+  overflow-y: auto;
+
+  .texts {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 100%;
+    gap: 30px;
+
+    .logo {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      opacity: 0.2;
+
+      img {
+        width: 64px;
+        height: 64px;
+      }
+
+      h1 {
+        font-size: 64px;
+        background: linear-gradient(to right, #217bfe, #e55571);
+        background-clip: text;
+        -webkit-background-clip: text;
+        color: transparent;
+      }
+    }
+
+    .options {
+      width: 100%;
+      display: flex;
+      align-items: stretch;
+      justify-content: center;
+      gap: 10px;
+      flex-wrap: wrap;
+
+      .option {
+        flex: 0 0 auto;
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 8px;
+        font-weight: 300;
+        font-size: 13px;
+        padding: 15px 12px;
+        border: 1px solid #555;
+        border-radius: 15px;
+        text-align: center;
+        transition: all 0.3s ease;
+        cursor: pointer;
+
+        &:hover {
+          border-color: #217bfe;
+          background-color: rgba(33, 123, 254, 0.1);
+        }
+
+        img {
+          width: 32px;
+          height: 32px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+  .formContainer {
+    margin-top: auto;
+    margin-bottom: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.chatListContainer {
+  width: 300px;
+  min-width: 300px;
+  height: 100vh;
+  background-color: #1a1a2e;
+  border-left: 1px solid #333;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+/* Mobile and tablet responsive styles */
+@media (max-width: 1200px) {
+  .mainLayout {
+    flex-direction: column;
+  }
+  
+  .chatListContainer {
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    max-height: 300px;
+    border-left: none;
+    border-top: 1px solid #333;
+    order: 3;
+  }
+}
+
+@media (max-width: 768px) {
+  .dashboardPage .texts {
+    width: 90%;
+    gap: 25px;
+  }
+  
+  .dashboardPage .texts .options {
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .dashboardPage .texts .options .option {
+    min-width: 100%;
+    max-width: 100%;
+    padding: 12px;
+    font-size: 12px;
+  }
+  
+  .dashboardPage .formContainer {
+    width: 90%;
+  }
+  
+  .sidebarContainer {
+    width: 100%;
+    min-width: 100%;
+    height: auto;
+    position: relative;
+  }
+  
+  .sidebarContainer.collapsed {
+    width: 100%;
+    min-width: 100%;
+  }
+  
+  .mainLayout {
+    flex-direction: column;
+    height: auto;
+  }
+  
+  .centerSection {
+    order: 2;
+  }
+  
+  .chatListContainer {
+    order: 3;
+    height: 250px;
+    max-height: 250px;
+  }
+}
+
+@media (max-width: 480px) {
+  .dashboardPage {
+    padding: 0 10px;
+  }
+  
+  .dashboardPage .texts {
+    width: 95%;
+    gap: 20px;
+  }
+  
+  .dashboardPage .texts .logo h1 {
+    font-size: 48px;
+  }
+  
+  .dashboardPage .formContainer {
+    width: 95%;
+    margin-bottom: 20px;
+  }
+  
+  .chatListContainer {
+    padding: 15px;
+    height: 200px;
+    max-height: 200px;
+  }
+}

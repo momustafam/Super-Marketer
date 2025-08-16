@@ -4,11 +4,11 @@ import TrendingUpIcon from "@mui/icons-material/TrendingUp";
 import TrendingDownIcon from "@mui/icons-material/TrendingDown";
 import { useState, useEffect } from "react";
 
-const StatBox = ({ 
-  title, 
-  subtitle, 
-  icon, 
-  trendline, 
+const StatBox = ({
+  title,
+  subtitle,
+  icon,
+  trendline,
   increase,
   apiEndpoint = null,
   enableApi = false,
@@ -16,7 +16,7 @@ const StatBox = ({
 }) => {
   const theme = useTheme();
   const colors = tokens(theme.palette.mode);
-  
+
   const [apiData, setApiData] = useState(null);
   const [isLoading, setIsLoading] = useState(false);
   const [error, setError] = useState(null);
@@ -27,11 +27,11 @@ const StatBox = ({
         try {
           setIsLoading(true);
           const response = await fetch(`http://localhost:8000${apiEndpoint}`);
-          
+
           if (!response.ok) {
             throw new Error(`API error: ${response.status}`);
           }
-          
+
           const data = await response.json();
           setApiData(data);
         } catch (err) {

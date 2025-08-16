@@ -13,7 +13,7 @@ const TeamMembers = () => {
     const colors = tokens(theme.palette.mode)
     const columns = [
         {
-            field: "id", 
+            field: "id",
             headerName: "ID",
             headerAlign: "center",
             align: "center",
@@ -53,7 +53,7 @@ const TeamMembers = () => {
             flex: 1,
             headerAlign: "center",
             align: "center",
-            renderCell: ({ row: { access }}) => {
+            renderCell: ({ row: { access } }) => {
                 return (
                     <Box
                         width="60%"
@@ -63,11 +63,11 @@ const TeamMembers = () => {
                         display="flex"
                         justifyContent="center"
                         backgroundColor={
-                        access === "admin"
-                            ? colors.greenAccent[600]
-                            : access === "manager"
-                            ? colors.greenAccent[700]
-                            : colors.greenAccent[700]
+                            access === "admin"
+                                ? colors.greenAccent[600]
+                                : access === "manager"
+                                    ? colors.greenAccent[700]
+                                    : colors.greenAccent[700]
                         }
                         borderRadius="4px"
                     >

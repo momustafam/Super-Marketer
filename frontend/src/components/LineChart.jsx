@@ -44,15 +44,15 @@ const transformDataForNivo = (apiData, chartType) => {
 
     // Group data by cluster and age bins
     const groupedByCluster = {};
-    
+
     apiData.forEach(item => {
       const clusterKey = item.cluster || "No Cluster";
       const ageBin = getAgeBin(item.age);
-      
+
       if (!groupedByCluster[clusterKey]) {
         groupedByCluster[clusterKey] = {};
       }
-      
+
       // Sum counts for the same age bin and cluster
       if (groupedByCluster[clusterKey][ageBin]) {
         groupedByCluster[clusterKey][ageBin] += item.count;
@@ -95,7 +95,7 @@ const transformDataForNivo = (apiData, chartType) => {
 };
 
 const LineChart = ({
-  isDashboard = false, 
+  isDashboard = false,
   isCustomLineColors = false,
   cluster = null,
   enableFilter = false,
