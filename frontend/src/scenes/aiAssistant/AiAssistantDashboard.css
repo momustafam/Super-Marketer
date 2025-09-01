@@ -141,7 +141,7 @@
   .mainLayout {
     flex-direction: column;
   }
-  
+
   .chatListContainer {
     width: 100%;
     min-width: 100%;
@@ -158,44 +158,44 @@
     width: 90%;
     gap: 25px;
   }
-  
+
   .dashboardPage .texts .options {
     flex-direction: column;
     gap: 12px;
   }
-  
+
   .dashboardPage .texts .options .option {
     min-width: 100%;
     max-width: 100%;
     padding: 12px;
     font-size: 12px;
   }
-  
+
   .dashboardPage .formContainer {
     width: 90%;
   }
-  
+
   .sidebarContainer {
     width: 100%;
     min-width: 100%;
     height: auto;
     position: relative;
   }
-  
+
   .sidebarContainer.collapsed {
     width: 100%;
     min-width: 100%;
   }
-  
+
   .mainLayout {
     flex-direction: column;
     height: auto;
   }
-  
+
   .centerSection {
     order: 2;
   }
-  
+
   .chatListContainer {
     order: 3;
     height: 250px;
@@ -207,21 +207,21 @@
   .dashboardPage {
     padding: 0 10px;
   }
-  
+
   .dashboardPage .texts {
     width: 95%;
     gap: 20px;
   }
-  
+
   .dashboardPage .texts .logo h1 {
     font-size: 48px;
   }
-  
+
   .dashboardPage .formContainer {
     width: 95%;
     margin-bottom: 20px;
   }
-  
+
   .chatListContainer {
     padding: 15px;
     height: 200px;

@@ -1,0 +1,196 @@
+/* Base styles for formatted messages */
+.messageContent.formatted {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', sans-serif;
+    line-height: 1.6;
+    color: #ececec;
+}
+
+/* Headings */
+.markdown-h1 {
+    font-size: 1.8em;
+    font-weight: 700;
+    color: #ffffff;
+    margin: 1.2em 0 0.8em 0;
+    padding-bottom: 0.3em;
+    border-bottom: 2px solid #217bfe;
+}
+
+.markdown-h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 1em 0 0.6em 0;
+    padding-bottom: 0.2em;
+    border-bottom: 1px solid #444;
+}
+
+.markdown-h3 {
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0.8em 0 0.5em 0;
+}
+
+.markdown-h4 {
+    font-size: 1.1em;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0.7em 0 0.4em 0;
+}
+
+.markdown-h5, .markdown-h6 {
+    font-size: 1em;
+    font-weight: 600;
+    color: #ffffff;
+    margin: 0.6em 0 0.3em 0;
+}
+
+/* Paragraphs */
+.markdown-p {
+    margin: 0.8em 0;
+    text-align: justify;
+    line-height: 1.7;
+}
+
+/* Text formatting */
+.markdown-strong {
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.markdown-em {
+    font-style: italic;
+    color: #c7c7c7;
+}
+
+/* Lists */
+.markdown-ul, .markdown-ol {
+    margin: 0.8em 0;
+    padding-left: 1.5em;
+}
+
+.markdown-ul {
+    list-style-type: disc;
+}
+
+.markdown-ol {
+    list-style-type: decimal;
+}
+
+.markdown-li {
+    margin: 0.4em 0;
+    line-height: 1.6;
+}
+
+.markdown-li::marker {
+    color: #217bfe;
+}
+
+/* Nested lists */
+.markdown-ul .markdown-ul, .markdown-ol .markdown-ol {
+    margin: 0.2em 0;
+}
+
+/* Blockquotes */
+.markdown-blockquote {
+    margin: 1em 0;
+    padding: 0.8em 1.2em;
+    border-left: 4px solid #217bfe;
+    background-color: rgba(33, 123, 254, 0.1);
+    border-radius: 0 6px 6px 0;
+    font-style: italic;
+    color: #c7c7c7;
+}
+
+/* Code */
+.markdown-code-inline {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #ffd700;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    font-size: 0.9em;
+}
+
+.markdown-pre {
+    background-color: #1e1e1e;
+    border: 1px solid #444;
+    border-radius: 6px;
+    padding: 1em;
+    overflow-x: auto;
+    margin: 1em 0;
+}
+
+.markdown-code-block {
+    color: #f8f8f2;
+    font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+    font-size: 0.9em;
+    line-height: 1.4;
+}
+
+/* Links */
+.markdown-link {
+    color: #217bfe;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.markdown-link:hover {
+    border-bottom-color: #217bfe;
+    background-color: rgba(33, 123, 254, 0.1);
+    padding: 0.1em 0.2em;
+    border-radius: 3px;
+}
+
+/* Horizontal rule */
+.markdown-hr {
+    border: none;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, #444, transparent);
+    margin: 1.5em 0;
+}
+
+/* Special styling for sections */
+.messageContent.formatted > *:first-child {
+    margin-top: 0;
+}
+
+.messageContent.formatted > *:last-child {
+    margin-bottom: 0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .markdown-h1 {
+        font-size: 1.6em;
+    }
+    
+    .markdown-h2 {
+        font-size: 1.3em;
+    }
+    
+    .markdown-h3 {
+        font-size: 1.1em;
+    }
+    
+    .markdown-ul, .markdown-ol {
+        padding-left: 1.2em;
+    }
+}
+
+/* Animation for new content */
+.messageContent.formatted {
+    animation: fadeIn 0.3s ease-in;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

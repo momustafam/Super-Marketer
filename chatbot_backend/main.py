@@ -1,7 +1,7 @@
-from fastapi import FastAPI, File, UploadFile, HTTPException, Depends
+from fastapi import FastAPI, File, UploadFile, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
-from pydantic import BaseModel, Field
+from pydantic import BaseModel
 import os
 from dotenv import load_dotenv
 from imagekitio import ImageKit
@@ -9,10 +9,11 @@ import base64
 import uuid
 import uvicorn
 import sqlite3
-import json
-from typing import List, Optional, Dict, Any
-from datetime import datetime
+from typing import List, Optional
 from contextlib import contextmanager
+import httpx
+from tenacity import retry, wait_exponential, stop_after_attempt
+from rag import RAGSystem
 
 # Load environment variables
 load_dotenv()
@@ -98,6 +99,28 @@ imagekit = ImageKit(
     public_key=IMAGEKIT_PUBLIC_KEY,
     url_endpoint=IMAGEKIT_URL_ENDPOINT
 )
+
+# LLM / Groq configuration (renamed from Grok)
+GROQ_API_KEY = os.getenv("GROQ_API_KEY") or os.getenv("GROK_API_KEY")  # backward compat
+GROQ_MODEL = os.getenv("GROQ_MODEL", "llama3-70b-8192")
+GROQ_API_BASE = os.getenv("GROQ_API_BASE", "https://api.groq.com/openai/v1")
+GROQ_SYSTEM_PROMPT = os.getenv(
+    "GROQ_SYSTEM_PROMPT",
+    os.getenv("GROK_SYSTEM_PROMPT", "You are Super Marketer AI, a senior marketing & growth strategist. Provide clear, actionable, data-driven guidance. If images are provided, incorporate them. Be concise and professional.")
+)
+
+if not GROQ_API_KEY:
+    print("[WARN] GROQ_API_KEY not set – AI responses will use fallback template.")
+
+# Initialize RAG System
+rag_system = None
+if GROQ_API_KEY:
+    try:
+        rag_system = RAGSystem(GROQ_API_KEY, GROQ_MODEL)
+        print("[INFO] RAG System initialized successfully")
+    except Exception as e:
+        print(f"[WARN] RAG System initialization failed: {e}")
+        rag_system = None
 
 @app.get("/")
 async def root():
@@ -248,15 +271,21 @@ async def create_chat(chat_data: MessageCreate):
                     image.file_id, image.fileName, image.width, image.height
                 ))
             
-            # Generate AI response
+            # Generate AI response (now async LLM)
             ai_message_uuid = str(uuid.uuid4())
-            ai_response = generate_ai_response(chat_data.text, chat_data.images)
-            
+            ai_response = await generate_ai_response(conn, chat_session_id, chat_data.text, chat_data.images)
+
             conn.execute("""
                 INSERT INTO messages (uuid, chat_session_id, sender_type, content, content_type, created_at)
                 VALUES (?, ?, 'assistant', ?, 'text', CURRENT_TIMESTAMP)
             """, (ai_message_uuid, chat_session_id, ai_response))
-            
+            # Update chat session counters
+            conn.execute("""
+                UPDATE chat_sessions
+                SET message_count = message_count + 2, last_message_at = CURRENT_TIMESTAMP, updated_at = CURRENT_TIMESTAMP
+                WHERE id = ?
+            """, (chat_session_id,))
+
             conn.commit()
             
             return JSONResponse(
@@ -274,12 +303,125 @@ async def create_chat(chat_data: MessageCreate):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error creating chat: {str(e)}")
 
-def generate_ai_response(text: str, images: List[ImageData]) -> str:
-    """Generate a simple AI response - replace with actual AI integration"""
-    if images:
-        return f"I can see {len(images)} image(s) you've shared. Based on your message '{text}', I'd be happy to help you analyze this content for your marketing strategy."
-    else:
-        return f"Thank you for your message: '{text}'. I'm here to help you with your marketing and business analysis needs. How can I assist you further?"
+# Replace simple placeholder with full LLM integration
+async def generate_ai_response(conn, chat_session_id: int, user_text: str, images: List[ImageData]) -> str:
+    """Generate an AI response using RAG System or fallback to simple LLM.
+    
+    Args:
+        conn: Active sqlite3 connection (for reading prior messages)
+        chat_session_id: Internal chat session numeric id
+        user_text: Current user message text
+        images: List of ImageData objects
+    Returns:
+        AI assistant response string
+    """
+    
+    # If RAG system is available, use it
+    if rag_system and GROQ_API_KEY:
+        try:
+            # Build conversation history for context
+            conversation_history = []
+            try:
+                cursor = conn.execute("""
+                    SELECT sender_type, content FROM messages
+                    WHERE chat_session_id = ?
+                    ORDER BY created_at ASC, id ASC
+                """, (chat_session_id,))
+                history_rows = cursor.fetchall()
+                
+                # Convert to conversation format
+                for row in history_rows[-10:]:  # Keep last 10 for context
+                    role = "user" if row[0] == "user" else "assistant"
+                    content = row[1] or ""
+                    if content.strip():
+                        conversation_history.append({"role": role, "content": content})
+            except Exception as e:
+                print(f"[WARN] Could not retrieve conversation history: {e}")
+                conversation_history = []
+            
+            # Prepare user message with image references
+            current_message = user_text or ""
+            if images:
+                img_section = "\nAttached images:\n" + "\n".join([f"Image {i+1}: {img.url}" for i, img in enumerate(images)])
+                current_message += img_section
+            
+            # Use RAG system to process the query
+            response = await rag_system.process_query(current_message, conversation_history)
+            return response
+            
+        except Exception as e:
+            print(f"[ERROR] RAG system failed: {e}")
+            # Fall through to simple LLM fallback
+    
+    # Original fallback implementation
+    # Build conversation history (limit last ~20 messages + current)
+    try:
+        cursor = conn.execute("""
+            SELECT sender_type, content FROM messages
+            WHERE chat_session_id = ?
+            ORDER BY created_at ASC, id ASC
+        """, (chat_session_id,))
+        history_rows = cursor.fetchall()
+    except Exception:
+        history_rows = []
+
+    messages_payload = []
+
+    # System prompt
+    messages_payload.append({"role": "system", "content": GROQ_SYSTEM_PROMPT})
+
+    # Convert existing history
+    for row in history_rows[-20:]:  # keep last 20 for brevity
+        role = "user" if row[0] == "user" else "assistant"
+        content = row[1] or ""
+        if content.strip():
+            messages_payload.append({"role": role, "content": content})
+
+    # Add current user message with inline image references (if not already in history)
+    if user_text or images:
+        img_section = ""
+        if images:
+            img_lines = [f"Image {i+1}: {img.url}" for i, img in enumerate(images)]
+            img_section = "\nAttached images:\n" + "\n".join(img_lines)
+        messages_payload.append({"role": "user", "content": (user_text or "(no text)") + img_section})
+
+    # If no API key, fallback
+    if not GROQ_API_KEY:
+        if images:
+            return f"(Fallback) {len(images)} image(s) noted. You said: '{user_text}'. Provide more details so I can assist with marketing insights."
+        return f"(Fallback) Thanks for your message: '{user_text}'. Add more context (goals, audience, channel) for targeted marketing recommendations."
+
+    @retry(wait=wait_exponential(multiplier=1, min=1, max=8), stop=stop_after_attempt(3))
+    async def call_groq():
+        url = f"{GROQ_API_BASE.rstrip('/')}/chat/completions"
+        headers = {
+            "Authorization": f"Bearer {GROQ_API_KEY}",
+            "Content-Type": "application/json"
+        }
+        payload = {
+            "model": GROQ_MODEL,
+            "messages": messages_payload,
+            "temperature": 0.7,
+        }
+        async with httpx.AsyncClient(timeout=60) as client:
+            resp = await client.post(url, headers=headers, json=payload)
+            if resp.status_code >= 400:
+                raise HTTPException(status_code=500, detail=f"Groq API error {resp.status_code}: {resp.text[:200]}")
+            data = resp.json()
+            content = data.get("choices", [{}])[0].get("message", {}).get("content")
+            if not content:
+                content = "I'm unable to generate a response right now. Please try again."
+            return content.strip()
+
+    try:
+        return await call_groq()
+    except HTTPException:
+        raise
+    except Exception as e:
+        print(f"[ERROR] Groq call failed: {e}")
+        if images:
+            return f"I noted {len(images)} image(s). Based on your input, could you provide any KPIs, target audience details, or campaign objectives so I can craft a stronger strategy?"
+        return "Could you provide a bit more strategic context (objective, audience, channel)? I'll tailor a marketing plan once I have that."
 
 @app.get("/api/chats/{chat_id}")
 async def get_chat(chat_id: str):
@@ -437,15 +579,21 @@ async def add_message_to_chat(chat_id: str, message_data: MessageCreate):
                     image.file_id, image.fileName, image.width, image.height
                 ))
             
-            # Generate AI response
+            # Generate AI response (now async LLM)
             ai_message_uuid = str(uuid.uuid4())
-            ai_response = generate_ai_response(message_data.text, message_data.images)
-            
+            ai_response = await generate_ai_response(conn, chat_session_id, message_data.text, message_data.images)
+
             conn.execute("""
                 INSERT INTO messages (uuid, chat_session_id, sender_type, content, content_type, created_at)
                 VALUES (?, ?, 'assistant', ?, 'text', CURRENT_TIMESTAMP)
             """, (ai_message_uuid, chat_session_id, ai_response))
-            
+            # Update chat session counters
+            conn.execute("""
+                UPDATE chat_sessions
+                SET message_count = message_count + 2, last_message_at = CURRENT_TIMESTAMP, updated_at = CURRENT_TIMESTAMP
+                WHERE id = ?
+            """, (chat_session_id,))
+
             conn.commit()
             
             return JSONResponse(
@@ -531,5 +679,25 @@ async def upload_image(file: UploadFile = File(...)):
     except Exception as e:
         raise HTTPException(status_code=500, detail=f"Error uploading image: {str(e)}")
 
+
+# Helper to initialize DB from SQL file
+def initialize_db_from_sql(sql_path):
+    if not os.path.exists(sql_path):
+        print(f"[WARN] SQL file not found: {sql_path}")
+        return
+    with open(sql_path, "r", encoding="utf-8") as f:
+        sql_script = f.read()
+    with get_db() as conn:
+        try:
+            conn.executescript(sql_script)
+            conn.commit()
+            print(f"[INFO] Ran SQL init from {sql_path}")
+        except Exception as e:
+            print(f"[ERROR] Failed to run SQL init: {e}")
+
+
 if __name__ == "__main__":
+    # Run DB initialization from SQL file before starting server
+    sql_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data_engineering", "init_chatbot.sql")
+    initialize_db_from_sql(sql_path)
     uvicorn.run(app, host="0.0.0.0", port=8001)

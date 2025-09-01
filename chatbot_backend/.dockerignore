@@ -1,0 +1,66 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Git
+.git/
+.gitignore
+
+# Documentation and setup files
+*.md
+setup.sh
+setup.ps1
+test_rag.py
+
+# Environment files (should be mounted or passed as env vars)
+.env
+.env.local
+.env.example
+
+# Logs
+*.log
+logs/
+
+# SQLite database files (should be mounted as volume)
+*.db
+*.sqlite
+*.sqlite3

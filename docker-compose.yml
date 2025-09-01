@@ -64,14 +64,14 @@ services:
       /opt/mssql-tools/bin/sqlcmd -S sql_data_warehouse -U SA -P 'YourStrong!Passw0rd' -i /scripts/init_warehouse.sql 2>&1 ||
       echo 'init_warehouse.sql execution failed.' &&
       
-      echo 'Waiting for Marketing Data Mart SQL Server...' &&
-      for i in {1..30}; do
-        /opt/mssql-tools/bin/sqlcmd -S sql_marketing_data_mart -U SA -P 'Password1234!' -Q 'SELECT 1' && break;
-        sleep 2;
-      done &&
+      # echo 'Waiting for Marketing Data Mart SQL Server...' &&
+      # for i in {1..30}; do
+      #   /opt/mssql-tools/bin/sqlcmd -S sql_marketing_data_mart -U SA -P 'Password1234!' -Q 'SELECT 1' && break;
+      #   sleep 2;
+      # done &&
       
-      echo 'Running init_mart.sql...' &&
-      /opt/mssql-tools/bin/sqlcmd -S sql_marketing_data_mart -U SA -P 'Password1234!' -i /scripts/init_mart.sql &&
+      # echo 'Running init_mart.sql...' &&
+      # /opt/mssql-tools/bin/sqlcmd -S sql_marketing_data_mart -U SA -P 'Password1234!' -i /scripts/init_mart.sql &&
       
       echo 'Checking if MarketingDataMart was created...' &&
       /opt/mssql-tools/bin/sqlcmd -S sql_marketing_data_mart -U SA -P 'Password1234!' -Q \"SELECT name FROM sys.databases WHERE name = 'MarketingDataMart';\" &&
@@ -213,8 +213,45 @@ services:
       - chatbot_db:/data  # Mount the SQLite database volume
     environment:
       - DATABASE_PATH=/data/chatbot.db
+      # RAG System Configuration
+      - GROQ_API_KEY=${GROQ_API_KEY:-}
+      - GROQ_MODEL=${GROQ_MODEL:-llama3-70b-8192}
+      - GROQ_API_BASE=${GROQ_API_BASE:-https://api.groq.com/openai/v1}
+      # ImageKit Configuration
+      - REACT_APP_IMAGEKIT_PRIVATE_KEY=${REACT_APP_IMAGEKIT_PRIVATE_KEY:-}
+      - REACT_APP_IMAGEKIT_PUBLIC_KEY=${REACT_APP_IMAGEKIT_PUBLIC_KEY:-}
+      - REACT_APP_IMAGEKIT_ENDPOINT=${REACT_APP_IMAGEKIT_ENDPOINT:-}
+      # Database Connections (Internal Docker Network)
+      - DW_SERVER=sql_data_warehouse
+      - DW_PORT=1433
+      - DW_DATABASE=CustomerWarehouse
+      - DW_USERNAME=sa
+      - DW_PASSWORD=YourStrong!Passw0rd
+      - MART_SERVER=sql_marketing_data_mart
+      - MART_PORT=1433
+      - MART_DATABASE=MarketingDataMart
+      - MART_USERNAME=sa
+      - MART_PASSWORD=Password1234!
+      # RAG Performance Settings
+      - METADATA_CACHE_TTL=${METADATA_CACHE_TTL:-3600}
+      - QUERY_TIMEOUT=${QUERY_TIMEOUT:-30}
+      - MAX_QUERY_RESULTS=${MAX_QUERY_RESULTS:-100}
+      - ROUTING_TEMPERATURE=${ROUTING_TEMPERATURE:-0.1}
+      - SQL_GENERATION_TEMPERATURE=${SQL_GENERATION_TEMPERATURE:-0.1}
+      - RESPONSE_TEMPERATURE=${RESPONSE_TEMPERATURE:-0.3}
     depends_on:
-      - chatbot_database
+      chatbot_database:
+        condition: service_started
+      data_warehouse:
+        condition: service_healthy
+      marketing_data_mart:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8001/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
     networks:
       - app_network
 

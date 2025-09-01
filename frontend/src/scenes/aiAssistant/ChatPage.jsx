@@ -6,6 +6,7 @@ import Topbar from "../global/Topbar";
 import Sidebar from "../global/Sidebar";
 import ChatList from "../../components/ChatList";
 import ChatInput from "../../components/ChatInput";
+import FormattedMessage from "../../components/FormattedMessage";
 import { Box } from "@mui/material";
 
 const ChatPage = () => {
@@ -149,9 +150,10 @@ const ChatPage = () => {
                                         key={message.id || index}
                                         className={`message ${message.role === 'user' ? 'user' : ''}`}
                                     >
-                                        <div className="messageContent">
-                                            {message.content}
-                                        </div>
+                                        <FormattedMessage
+                                            content={message.content}
+                                            isUser={message.role === 'user'}
+                                        />
                                         {message.images && message.images.length > 0 && (
                                             <div className="messageImages">
                                                 {message.images.map((image, imgIndex) => (

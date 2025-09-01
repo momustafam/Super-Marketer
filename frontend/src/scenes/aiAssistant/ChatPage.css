@@ -42,6 +42,8 @@
             max-width: 80%;
             line-height: 1.5;
             color: #ececec;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
 
             .messageContent {
                 margin-bottom: 10px;
@@ -49,6 +51,16 @@
                 &:last-child {
                     margin-bottom: 0;
                 }
+            }
+
+            /* Enhanced styling for AI responses */
+            &:not(.user) .messageContent.formatted {
+                padding: 5px 0;
+            }
+
+            /* User messages should be smaller */
+            &.user {
+                max-width: 70%;
             }
 
             .messageImages {
